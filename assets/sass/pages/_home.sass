@@ -1,0 +1,132 @@
+//---a placer--
+h1,h2
+  margin: 0
+
+//---
+#header
+  .elementor-container
+    max-width: none!important
+
+//header
+#header
+  .img-header
+    margin-bottom: 0px
+    .elementor-widget-container
+    img
+      width: 100%
+      height: calc(100vh - 90px)
+      object-fit: cover
+  .title-header, .img-title-header, .btn-header
+    position: absolute!important
+  .title-header
+    top: 35%
+    h1
+      text-align: center
+  .img-title-header
+    width: 250px
+    top: 45%
+    left: 50vw
+    transform: translate(-50%, -50%)
+  .btn-header
+    top: 55%
+    width: 250px
+    left: 50vw
+    transform: translate(-50%, -50%)
+    a
+      display: block
+      background-color: red!important
+
+//----fin elementor page accueil
+
+//--partie présentation
+
+.container-presentation
+  display: flex
+  .container-img-presentation
+    position: relative
+    flex-basis: 40%
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    .trace-presentation
+      position: absolute
+      top: 0
+      left: 0
+    .img-presentation
+      transform: translateX(48%)
+      height: 441px
+  .container-content-presentation
+    flex-basis: 60%
+    height: 752px
+    background-color: $bgopacity
+    padding-left: 19%
+    display: flex
+    align-items: center
+    .container-txt-presentation
+      width: 70%
+
+
+//-- partie cabinet
+
+.container-cabinet
+  background-color: $cSecond
+  height: 536px
+  display: flex
+  justify-content: center
+  align-items: center
+  .trace-cabinet
+    position: absolute
+    right: 0
+  .container-content-cabinet
+    display: flex
+    justify-content: center
+    height: 69%
+    max-width: 80%
+    .container-txt-cabinet
+      display: flex
+      padding: 0 9% 0 10%
+      flex-direction: column
+      width: 100%
+      justify-content: center
+      button
+        width: 250px
+    .container-img-cabinet
+      height: 100%
+      display: flex
+      align-items: center
+      .img-cabinet
+        position: relative
+        max-height: 80%
+        z-index: 2
+
+//--partie prestation
+
+.container-prestations
+  position: relative
+  .bg-prestations
+    background-color: $bgopacity
+    position: absolute
+    top: 25%
+    bottom: 25%
+    width: 100%
+    height: 500px
+  h2
+    z-index: 2
+    text-align: center
+    text-transform: uppercase
+  .container-grid-prestations
+    z-index: 2
+    margin: auto
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    row-gap: 80px
+    max-width: 1400px
+    .card-prestation
+      text-align: center
+      z-index: 2
+      .content-card
+        z-index: 2
+        width: 351px
+        margin: auto
+        border-bottom: solid 1px $cPrinc
+        padding-bottom: 50px
