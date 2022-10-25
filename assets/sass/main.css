@@ -137,6 +137,16 @@ h1, h2 {
   text-align: center;
   text-transform: uppercase;
 }
+.container-prestations .flower-top-right, .container-prestations .flower-bottom-left {
+  position: absolute;
+}
+.container-prestations .flower-top-right {
+  right: 0;
+}
+.container-prestations .flower-bottom-left {
+  left: 0;
+  bottom: 0;
+}
 .container-prestations .container-grid-prestations {
   z-index: 2;
   margin: auto;
@@ -155,6 +165,58 @@ h1, h2 {
   margin: auto;
   border-bottom: solid 1px #D18F91;
   padding-bottom: 50px;
+}
+
+.container-gift-card {
+  margin-top: 130px;
+  background-color: #D18F91;
+  color: #FFFF;
+  display: flex;
+  justify-content: center;
+  padding: 70px 0 70px 0;
+}
+.container-gift-card .container-content-gift-card {
+  display: flex;
+  max-width: 1400px;
+  justify-content: center;
+}
+.container-gift-card .container-content-gift-card .container-txt-gift-card {
+  padding: 0 0 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-gift-card .container-content-gift-card .container-txt-gift-card h3 {
+  text-transform: uppercase;
+}
+.container-gift-card .container-content-gift-card .container-txt-gift-card button {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-instagram {
+  padding-top: 70px;
+}
+.container-instagram .container-title {
+  width: auto;
+  position: relative;
+  height: 250px;
+}
+.container-instagram .container-title h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 33px;
+}
+.container-instagram .container-title img {
+  width: 50%;
+  display: block;
+  max-width: 250px;
+  margin: auto;
+}
+.container-instagram .swiper {
+  width: 80vw;
+  height: 300px;
 }
 
 /*# sourceMappingURL=main.css.map */

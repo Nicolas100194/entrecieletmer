@@ -41,6 +41,7 @@
         </div>
     </section>
     <section class="container-prestations">
+        <img class="flower-top-right" src="wp-content/themes/entrecieletmer/assets/img/toprightflower.png">
         <div class="bg-prestations"></div>
         <h2>mes prestations</h2>
         <div class="container-grid-prestations">
@@ -93,6 +94,43 @@
                 </div>
             </div>
         </div>
+        <img class="flower-bottom-left" src="wp-content/themes/entrecieletmer/assets/img/bottomleftflower.png">
+    </section>
+    <section class="container-gift-card">
+        <div class="container-content-gift-card">
+            <img class="img-gift-card" src="wp-content/themes/entrecieletmer/assets/img/mereenfant.png">
+            <div class="container-txt-gift-card">
+               <h3>offrez de l'amour et du bien être</h3>
+                <p>
+                    Offrir un carte cadeau, c'est offrir un temps pour prendre soin de soi et de son bébé, offrir de l'écoute,
+                    de la bienveillance, et du bien-être.
+
+                    Pour cela, il vous suffit de remplir le formulaire qui suit, une réponse vous sera apporté sous 48 heures.
+                </p>
+                <button>Commander une carte cadeau</button>
+            </div>
+        </div>
+    </section>
+    <section class="container-instagram">
+            <!--<div class="container-header-instagram">-->
+                <!--<div class="container-trace-instagram">
+                    <img class="trace-instagram" src="wp-content/themes/entrecieletmer/assets/img/trace_instagram.png">
+                </div>-->
+                <div class="container-title">
+                    <h3>ça se passe sur instagram !</h3>
+                    <img class="flower-instagram" src="wp-content/themes/entrecieletmer/assets/img/flowerinsta.png">
+                </div>
+            <!--</div>-->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
     </section>
 
 
