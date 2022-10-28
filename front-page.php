@@ -7,8 +7,8 @@
         </div>
         <div class="container-content-presentation">
             <div class="container-txt-presentation">
-                <h2 class="title-presentation">Un lieu dédié au bien être des femmes</h2>
-                <p>Je suis Adeline, infirmière diplômée en Hypnose thérapeutique et praticienne
+                <h2 class="title-presentation title-section">Un lieu dédié au bien être <span class="bg-element-title">des femmes</span></h2>
+                <p class="txt-presentation">Je suis Adeline, infirmière diplômée en Hypnose thérapeutique et praticienne
                     périnatale à Troyes.
                     Spécialisée en suivi de Parcours PMA et FIV, Grossesse et Périnatalité, Ménopause,
                     Gestion du stress et des émotions, ma vocation est
@@ -21,7 +21,7 @@
 
                     J’ai fait le choix d’intervenir dans les étapes clefs de la vie d’une femme,
                     afin que vous puissiez vivre ces profonds changements avec sérénité.</p>
-                <button>me découvrir</button>
+                <button class="btn-gray">me découvrir</button>
             </div>
         </div>
     </section>
@@ -29,11 +29,11 @@
         <img class="trace-cabinet" src="wp-content/themes/entrecieletmer/assets/img/trace_cabinet.png">
         <div class="container-content-cabinet">
             <div class="container-txt-cabinet">
-                <h2 class="title-cabinet">le cabinet chaleureux</h2>
-                <p>Je vous reçois, sur rendez-vous, à mon cabinet situé à Sainte-Savine, dans un cadre cosy et sécurisant.
+                <h2 class="title-cabinet title-section">le cabinet <span class="bg-element-title">chaleureux</span></h2>
+                <p class="txt-presentation">Je vous reçois, sur rendez-vous, à mon cabinet situé à Sainte-Savine, dans un cadre cosy et sécurisant.
                     Naître&Bien’être est un lieu qui allie le soin au bien-être.
                     Un espace chaleureux, douillet et vivant qui met en avant l’Humai</p>
-                <button>prendre rendez vous</button>
+                <button class="btn-princ">prendre rendez vous</button>
             </div>
             <div class="container-img-cabinet">
                 <img class="img-cabinet" src="wp-content/themes/entrecieletmer/assets/img/cabinet_massage.jpg">
@@ -43,54 +43,54 @@
     <section class="container-prestations">
         <img class="flower-top-right" src="wp-content/themes/entrecieletmer/assets/img/toprightflower.png">
         <div class="bg-prestations"></div>
-        <h2>mes prestations</h2>
+        <h2 class="title-section">mes prestations</h2>
         <div class="container-grid-prestations">
             <div class="card-prestation">
                 <div class="content-card">
                     <img class="img-prestation" src="wp-content/themes/entrecieletmer/assets/img/la_femme.png">
-                    <h3>titre prestation</h3>
+                    <h3 class="title-prestation">titre prestation</h3>
                     <p>description</p>
-                    <button>découvrir</button>
+                    <button class="btn-prestation">Découvrir</button>
                 </div>
             </div>
             <div class="card-prestation">
                 <div class="content-card">
                     <img class="img-prestation" src="wp-content/themes/entrecieletmer/assets/img/la_future_maman.png">
-                    <h3>titre prestation</h3>
+                    <h3 class="title-prestation">titre prestation</h3>
                     <p>description</p>
-                    <button>découvrir</button>
+                    <button class="btn-prestation">Découvrir</button>
                 </div>
             </div>
             <div class="card-prestation">
                 <div class="content-card">
                     <img class="img-prestation" src="wp-content/themes/entrecieletmer/assets/img/la_mere.png">
-                    <h3>titre prestation</h3>
+                    <h3 class="title-prestation">titre prestation</h3>
                     <p>description</p>
-                    <button>découvrir</button>
+                    <button class="btn-prestation">Découvrir</button>
                 </div>
             </div>
             <div class="card-prestation">
                 <div class="content-card">
                     <img class="img-prestation" src="wp-content/themes/entrecieletmer/assets/img/les_bebes.png">
-                    <h3>titre prestation</h3>
+                    <h3 class="title-prestation">titre prestation</h3>
                     <p>description</p>
-                    <button>découvrir</button>
+                    <button class="btn-prestation">Découvrir</button>
                 </div>
             </div>
             <div class="card-prestation">
                 <div class="content-card">
                     <img class="img-prestation" src="wp-content/themes/entrecieletmer/assets/img/les_forfaits.png">
-                    <h3>titre prestation</h3>
+                    <h3 class="title-prestation">titre prestation</h3>
                     <p>description</p>
-                    <button>découvrir</button>
+                    <button class="btn-prestation">Découvrir</button>
                 </div>
             </div>
             <div class="card-prestation">
                 <div class="content-card">
                     <img class="img-prestation" src="wp-content/themes/entrecieletmer/assets/img/les_ateliers_de_groupe.png">
-                    <h3>titre prestation</h3>
+                    <h3 class="title-prestation">titre prestation</h3>
                     <p>description</p>
-                    <button>découvrir</button>
+                    <button class="btn-prestation">Découvrir</button>
                 </div>
             </div>
         </div>
@@ -100,14 +100,14 @@
         <div class="container-content-gift-card">
             <img class="img-gift-card" src="wp-content/themes/entrecieletmer/assets/img/mereenfant.png">
             <div class="container-txt-gift-card">
-               <h3>offrez de l'amour et du bien être</h3>
+               <h3 class="title-gift-card">offrez de l'amour et du bien être</h3>
                 <p>
                     Offrir un carte cadeau, c'est offrir un temps pour prendre soin de soi et de son bébé, offrir de l'écoute,
                     de la bienveillance, et du bien-être.
 
                     Pour cela, il vous suffit de remplir le formulaire qui suit, une réponse vous sera apporté sous 48 heures.
                 </p>
-                <button>Commander une carte cadeau</button>
+                <button class="btn-gift-card">Commander une carte cadeau</button>
             </div>
         </div>
     </section>
@@ -127,6 +127,7 @@
                     <div class="swiper-slide">Slide 1</div>
                     <div class="swiper-slide">Slide 2</div>
                     <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
                 </div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
