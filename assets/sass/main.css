@@ -1,5 +1,462 @@
 /*------------------------------------------
  *  Responsive
  * -----------------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.elementor-element-populated {
+  padding: 0 !important;
+}
+
+p {
+  font-family: "Raleway";
+  color: #555555;
+  line-height: 1.5rem;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 400;
+  src: url("../font/Raleway-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../font/PlayfairDisplay-MediumItalic.ttf");
+}
+/*------------------------------------------
+ *  Responsive
+ * -----------------------------------------*/
+/*------------------------------------------
+ *  Responsive
+ * -----------------------------------------*/
+button {
+  cursor: pointer;
+}
+
+.btn-header {
+  background-color: #D18F91;
+  text-transform: uppercase;
+  border-radius: 25px;
+}
+.btn-header a {
+  font-size: 25px;
+}
+
+.btn-gray {
+  background: none;
+  border: solid 1px #555555;
+  color: #555555;
+  text-transform: uppercase;
+  padding: 15px 35px;
+  font-size: 16px;
+}
+.btn-gray:hover {
+  background-color: #555555;
+  color: white;
+  transition-duration: 0.3s;
+}
+
+.btn-princ {
+  background-color: #D18F91;
+  border: none;
+  text-transform: uppercase;
+  color: #FFFF;
+  padding: 15px 35px;
+  font-size: 16px;
+}
+.btn-princ:hover {
+  opacity: 0.8;
+  transition-duration: 0.3s;
+}
+
+.btn-prestation {
+  background-color: #D18F91;
+  border: none;
+  color: #FFFF;
+  padding: 15px 35px;
+  font-size: 16px;
+}
+.btn-prestation:hover {
+  opacity: 0.8;
+  transition-duration: 0.3s;
+}
+
+.btn-gift-card {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background: none;
+  border: solid 1px #FFFF;
+  color: #FFFF;
+  padding: 15px 35px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.btn-gift-card:hover {
+  background-color: #FFFF;
+  color: #555555;
+  opacity: 0.8;
+  transition-duration: 0.3s;
+}
+
+/*------------------------------------------
+ *  Responsive
+ * -----------------------------------------*/
+.title-section {
+  text-transform: uppercase;
+  color: #D18F91;
+  font-weight: bold;
+  font-size: 33px;
+}
+
+/*------------------------------------------
+ *  Responsive
+ * -----------------------------------------*/
+header .menu {
+  display: flex;
+  line-height: 75px;
+  justify-content: center;
+}
+header .menu li {
+  list-style-type: none;
+  margin-right: 50px;
+}
+header .menu li a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 16px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.txt-presentation {
+  margin: 50px 0 50px 0;
+}
+
+#header .elementor-container {
+  max-width: none !important;
+}
+
+#header .img-header {
+  margin-bottom: 0px;
+}
+#header .img-header img {
+  width: 100%;
+  height: calc(100vh - 90px);
+  object-fit: cover;
+}
+#header .title-header, #header .img-title-header, #header .btn-header {
+  position: absolute !important;
+}
+#header .title-header {
+  top: 25%;
+}
+#header .title-header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFF;
+  font-weight: bold;
+  font-size: 48px;
+  margin: auto;
+  max-width: 930px;
+}
+#header .img-title-header {
+  width: 250px;
+  top: 45%;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+#header .img-title-header .elementor-widget-container:before {
+  content: "";
+  background-color: #FFFF;
+  height: 2px;
+  width: 250px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-250px);
+}
+#header .img-title-header .elementor-widget-container:after {
+  content: "";
+  background-color: #FFFF;
+  height: 2px;
+  width: 250px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateX(250px);
+}
+#header .btn-header {
+  top: 55%;
+  max-width: 350px;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+#header .btn-header a {
+  display: block;
+  padding: 15px 25px;
+}
+
+.container-presentation {
+  display: flex;
+}
+.container-presentation .container-img-presentation {
+  position: relative;
+  flex-basis: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container-presentation .container-img-presentation .trace-presentation {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container-presentation .container-img-presentation .img-presentation {
+  transform: translateX(48%);
+  height: 441px;
+}
+.container-presentation .container-content-presentation {
+  flex-basis: 60%;
+  height: 650px;
+  background-color: rgba(241, 231, 229, 0.28);
+  padding-left: 19%;
+  display: flex;
+  align-items: center;
+}
+.container-presentation .container-content-presentation .container-txt-presentation {
+  max-width: 80%;
+}
+.container-presentation .container-content-presentation .container-txt-presentation .bg-element-title {
+  display: inline-block;
+  position: relative;
+  color: #FFFF;
+}
+.container-presentation .container-content-presentation .container-txt-presentation .bg-element-title:before {
+  position: absolute;
+  content: "";
+  background-color: #D18F91;
+  height: 120%;
+  width: 103%;
+  transform: rotate(-2deg);
+  z-index: -1;
+  top: -8%;
+  left: -1%;
+  z-index: -1;
+}
+.container-presentation .container-content-presentation .container-txt-presentation .bg-element-title:after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/deco_femmes.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 61%;
+  height: 238%;
+  top: -35%;
+  left: 101%;
+}
+
+.container-cabinet {
+  background-color: #F1E7E5;
+  height: 536px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-cabinet .trace-cabinet {
+  position: absolute;
+  right: 0;
+}
+.container-cabinet .container-content-cabinet {
+  display: flex;
+  justify-content: center;
+  height: 69%;
+  max-width: 80%;
+}
+.container-cabinet .container-content-cabinet .container-txt-cabinet {
+  display: flex;
+  padding: 0 9% 0 10%;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.container-cabinet .container-content-cabinet .container-txt-cabinet .bg-element-title {
+  display: inline-block;
+  position: relative;
+  color: #FFFF;
+  z-index: 2;
+}
+.container-cabinet .container-content-cabinet .container-txt-cabinet .bg-element-title:before {
+  position: absolute;
+  content: "";
+  background-color: #D18F91;
+  height: 120%;
+  width: 103%;
+  transform: rotate(-2deg);
+  z-index: -1;
+  top: -8%;
+  left: -1%;
+  z-index: -1;
+}
+.container-cabinet .container-content-cabinet .container-txt-cabinet .bg-element-title:after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/deco_cabinet.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 84%;
+  height: 225%;
+  top: -59%;
+  left: 101%;
+}
+.container-cabinet .container-content-cabinet .container-txt-cabinet button {
+  width: 250px;
+}
+.container-cabinet .container-content-cabinet .container-img-cabinet {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.container-cabinet .container-content-cabinet .container-img-cabinet .img-cabinet {
+  position: relative;
+  max-height: 80%;
+  z-index: 2;
+}
+
+.container-prestations {
+  position: relative;
+  padding-top: 100px;
+}
+.container-prestations .bg-prestations {
+  background-color: rgba(241, 231, 229, 0.28);
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  width: 100%;
+  height: 50%;
+}
+.container-prestations h2 {
+  z-index: 2;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.container-prestations .flower-top-right, .container-prestations .flower-bottom-left {
+  position: absolute;
+}
+.container-prestations .flower-top-right {
+  right: 0;
+}
+.container-prestations .flower-bottom-left {
+  left: 0;
+  bottom: 0;
+}
+.container-prestations .container-grid-prestations {
+  z-index: 2;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 80px;
+  max-width: 1400px;
+}
+.container-prestations .container-grid-prestations .card-prestation {
+  text-align: center;
+  z-index: 2;
+}
+.container-prestations .container-grid-prestations .card-prestation .content-card {
+  z-index: 2;
+  width: 351px;
+  margin: auto;
+  border-bottom: solid 1px #D18F91;
+  padding-bottom: 50px;
+}
+.container-prestations .container-grid-prestations .card-prestation .content-card .title-prestation {
+  text-transform: uppercase;
+  color: #D18F91;
+  font-weight: bold;
+  font-size: 24px;
+}
+.container-prestations .container-grid-prestations .card-prestation .content-card p {
+  color: #555555;
+  font-size: 14px;
+  margin-bottom: 55px;
+}
+
+.container-gift-card {
+  margin-top: 130px;
+  background-color: #D18F91;
+  color: #FFFF;
+  display: flex;
+  justify-content: center;
+  padding: 70px 0 70px 0;
+}
+.container-gift-card .container-content-gift-card {
+  display: flex;
+  max-width: 1400px;
+  justify-content: center;
+}
+.container-gift-card .container-content-gift-card .container-txt-gift-card {
+  padding: 0 0 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-gift-card .container-content-gift-card .container-txt-gift-card p {
+  color: #FFFF;
+}
+.container-gift-card .container-content-gift-card .container-txt-gift-card .title-gift-card {
+  font-size: 33px;
+  text-transform: uppercase;
+}
+
+.container-instagram {
+  padding-top: 30px;
+}
+.container-instagram .container-title {
+  width: auto;
+  position: relative;
+  height: 250px;
+  font-family: "Playfair Display";
+}
+.container-instagram .container-title h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 33px;
+  color: #D18F91;
+  margin-bottom: 10px;
+}
+.container-instagram .container-title img {
+  width: 50%;
+  display: block;
+  max-width: 200px;
+  margin: auto;
+}
+.container-instagram .swiper {
+  max-width: 1400px;
+  height: 375px;
+  margin-bottom: 50px;
+}
+.container-instagram .swiper .swiper-slide {
+  background-color: #D18F91;
+}
+.container-instagram .swiper .swiper-button-prev {
+  background-image: url("../img/prev.png");
+}
+.container-instagram .swiper .swiper-button-next {
+  background-image: url("../img/next.png");
+}
+.container-instagram .swiper .swiper-button-next, .container-instagram .swiper .swiper-button-prev {
+  background-size: contain;
+  width: 42px;
+}
+.container-instagram .swiper .swiper-button-next:after, .container-instagram .swiper .swiper-button-prev:after {
+  content: "";
+}
 
 /*# sourceMappingURL=main.css.map */
