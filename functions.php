@@ -8,6 +8,7 @@ function themeentrecieletmere_supports(){
     add_theme_support('title-tag');
     add_theme_support('menus');
     add_theme_support('title-tag');
+    add_theme_support('woocommerce');
     register_nav_menu('primary', 'Menu principal');
 }
 
@@ -22,6 +23,11 @@ function themeentrecieletmere_register_assets(){
     wp_enqueue_style('swiperjs', 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css');
 }
 
+
+
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+
 add_action('after_setup_theme','themeentrecieletmere_supports');
 add_action('wp_enqueue_scripts', 'themeentrecieletmere_register_assets');
+
 add_filter("use_block_editor_for_post_type", "disable_gutenberg_editor");
