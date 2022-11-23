@@ -107,7 +107,7 @@
 
                     Pour cela, il vous suffit de remplir le formulaire qui suit, une réponse vous sera apporté sous 48 heures.
                 </p>
-                <button class="btn-gift-card">Commander une carte cadeau</button>
+                <a href="http://localhost/entrecieletmere/offrir-une-carte-cadeau-2/"><button class="btn-gift-card">Commander une carte cadeau</button></a>
             </div>
         </div>
     </section>

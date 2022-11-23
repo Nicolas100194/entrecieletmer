@@ -23,10 +23,26 @@ function themeentrecieletmere_register_assets(){
     wp_enqueue_style('swiperjs', 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css');
 }
 
+function themeentrecieletmere_menu_link_class($attrs){
 
+    $attrs['class'] = 'item-menu';
+    return $attrs;
+}
+
+function woo_remove_product_tabs( $tabs ) {
+
+    unset( $tabs['description'] );
+    unset( $tabs['reviews'] );
+    unset( $tabs['additional_information'] );
+    return $tabs;
+}
 
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
+add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
 
+register_nav_menu('footer', 'footer menu');
+add_filter('nav_menu_link_attributes', 'themeentrecieletmere_menu_link_class');
 add_action('after_setup_theme','themeentrecieletmere_supports');
 add_action('wp_enqueue_scripts', 'themeentrecieletmere_register_assets');
 

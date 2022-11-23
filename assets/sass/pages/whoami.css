@@ -1,0 +1,84 @@
+/*------------------------------------------
+ *  Responsive
+ * -----------------------------------------*/
+.txt-bold {
+  font-weight: bold;
+}
+
+.section-qui-suis-je {
+  padding-top: 145px;
+  padding-bottom: 145px;
+}
+.section-qui-suis-je .elementor-container {
+  max-width: 1500px !important;
+}
+.section-qui-suis-je .col-qui-suis-je {
+  align-items: center;
+}
+.section-qui-suis-je .col-qui-suis-je .title-qui-suis-je {
+  margin-bottom: 50px;
+}
+.section-qui-suis-je .text-qui-suis-je:before {
+  content: "";
+  background-image: url("../img/left-quotes-sign.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  left: -18px;
+  top: -15px;
+}
+.section-qui-suis-je:before {
+  position: absolute;
+  content: "";
+  display: block;
+  background-image: url("../img/icon.png");
+  width: 241px;
+  height: 376px;
+  transform: translateY(-200px);
+}
+
+.section-child {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #F1E7E5;
+}
+.section-child .elementor-container {
+  max-width: 1500px !important;
+}
+.section-child .col-child {
+  align-items: center;
+  margin-right: 50px;
+}
+.section-child .col-img-child .img-child {
+  transform: translateY(180px);
+}
+
+.icon-flowers {
+  margin: 150px 0 50px 0;
+}
+
+.section-child-2 {
+  margin-bottom: 150px;
+}
+.section-child-2 .elementor-container {
+  max-width: 1500px !important;
+}
+
+.section-diploma {
+  background-color: #F1E7E5;
+  padding-top: 50px;
+}
+.section-diploma h2 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.section-diploma .elementor-container {
+  max-width: 1500px !important;
+}
+
+/*# sourceMappingURL=whoami.css.map */

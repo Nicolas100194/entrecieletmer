@@ -1,0 +1,68 @@
+@import "../../../../entrecieletmer/assets/sass/utils/variables"
+@import "../../../../entrecieletmer/assets/sass/utils/mixins"
+
+
+.txt-bold
+  font-weight: bold
+
+.section-qui-suis-je
+  padding-top: 145px
+  padding-bottom: 145px
+  .elementor-container
+    max-width: 1500px!important
+  .col-qui-suis-je
+    align-items: center
+    .title-qui-suis-je
+      margin-bottom: 50px
+  .text-qui-suis-je
+    &:before
+      content: ''
+      background-image: url("../img/left-quotes-sign.png")
+      background-position: center
+      background-size: contain
+      background-repeat: no-repeat
+      width: 50px
+      height: 50px
+      display: block
+      z-index: -1
+      position: absolute
+      left: -18px
+      top: -15px
+  &:before
+    position: absolute
+    content: ''
+    display: block
+    background-image: url("../img/icon.png")
+    width: 241px
+    height: 376px
+    transform: translateY(-200px)
+
+.section-child
+  padding-top: 75px
+  padding-bottom: 75px
+  background-color: $cSecond
+  .elementor-container
+    max-width: 1500px!important
+  .col-child
+    align-items: center
+    margin-right: 50px
+  .col-img-child
+    .img-child
+      transform: translateY(180px)
+
+.icon-flowers
+  margin: 150px 0 50px 0
+
+.section-child-2
+  margin-bottom: 150px
+  .elementor-container
+    max-width: 1500px!important
+
+.section-diploma
+  background-color: $cSecond
+  padding-top: 50px
+  h2
+    text-align: center
+    margin-bottom: 100px
+  .elementor-container
+    max-width: 1500px!important
