@@ -1,3 +1,6 @@
+@import "../../../../entrecieletmer/assets/sass/utils/variables"
+@import "../../../../entrecieletmer/assets/sass/utils/mixins"
+
 //partie top
 .section-top-giftcard
   height: 365px
@@ -76,3 +79,17 @@
               height: 30px
             .elementor-button-text
               margin-left: 10px
+
+@include max1390
+  .container-section-content-giftcard
+    padding-top: 30px
+    max-width: 90vw
+    .elementor-container
+      flex-direction: column
+      align-items: center
+      .section-content-giftcard
+        margin-top: 50px
+        padding-left: 0px
+        width: 100% !important
+        .elementor-button-wrapper
+          margin-bottom: 15px

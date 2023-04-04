@@ -48,49 +48,55 @@
             <div class="card-prestation">
                 <div class="content-card">
                     <img class="img-prestation" src="wp-content/themes/entrecieletmer/assets/img/la_femme.png">
-                    <h3 class="title-prestation">titre prestation</h3>
-                    <p>description</p>
+                    <h3 class="title-prestation">drainage lymphatique</h3>
+                    <p>Drainage lymphatique méthode Renata França</p>
                     <button class="btn-prestation">Découvrir</button>
+                    <hr>
                 </div>
             </div>
             <div class="card-prestation">
                 <div class="content-card">
                     <img class="img-prestation" src="wp-content/themes/entrecieletmer/assets/img/la_future_maman.png">
-                    <h3 class="title-prestation">titre prestation</h3>
-                    <p>description</p>
+                    <h3 class="title-prestation">le massage prénatal</h3>
+                    <p>Soutien émotionnel, diminution de la fatigue ...</p>
                     <button class="btn-prestation">Découvrir</button>
+                    <hr>
                 </div>
             </div>
             <div class="card-prestation">
                 <div class="content-card">
                     <img class="img-prestation" src="wp-content/themes/entrecieletmer/assets/img/la_mere.png">
-                    <h3 class="title-prestation">titre prestation</h3>
-                    <p>description</p>
+                    <h3 class="title-prestation">le massage postnatal</h3>
+                    <p>Evacuer le stress, renouer avec sa féminité, partager un temps de parole ...</p>
                     <button class="btn-prestation">Découvrir</button>
+                    <hr>
                 </div>
             </div>
             <div class="card-prestation">
                 <div class="content-card">
                     <img class="img-prestation" src="wp-content/themes/entrecieletmer/assets/img/les_bebes.png">
-                    <h3 class="title-prestation">titre prestation</h3>
-                    <p>description</p>
+                    <h3 class="title-prestation">thalasso & massage bébé</h3>
+                    <p>Thalasso bain bébé et massage bébé</p>
                     <button class="btn-prestation">Découvrir</button>
+                    <hr>
                 </div>
             </div>
             <div class="card-prestation">
                 <div class="content-card">
                     <img class="img-prestation" src="wp-content/themes/entrecieletmer/assets/img/les_forfaits.png">
-                    <h3 class="title-prestation">titre prestation</h3>
-                    <p>description</p>
+                    <h3 class="title-prestation">Les forfaits</h3>
+                    <p>Massages, Thalasso bain bébé...</p>
                     <button class="btn-prestation">Découvrir</button>
+                    <hr>
                 </div>
             </div>
             <div class="card-prestation">
                 <div class="content-card">
                     <img class="img-prestation" src="wp-content/themes/entrecieletmer/assets/img/les_ateliers_de_groupe.png">
-                    <h3 class="title-prestation">titre prestation</h3>
-                    <p>description</p>
+                    <h3 class="title-prestation">Les ateliers de groupe</h3>
+                    <p>Hypnose, groupe de parole, prévention des accidents domestiques</p>
                     <button class="btn-prestation">Découvrir</button>
+                    <hr>
                 </div>
             </div>
         </div>

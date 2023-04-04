@@ -117,10 +117,10 @@ h1,h2
           position: absolute
           background-image: url("../img/deco_femmes.svg")
           background-position: center
-          background-size: cover
+          background-size: contain
           background-repeat: no-repeat
-          width: 61%
-          height: 238%
+          width: 49%
+          height: 260%
           top: -35%
           left: 101%
 
@@ -168,10 +168,10 @@ h1,h2
           position: absolute
           background-image: url("../img/deco_cabinet.svg")
           background-position: center
-          background-size: cover
+          background-size: contain
           background-repeat: no-repeat
-          width: 84%
-          height: 225%
+          width: 58%
+          height: 266%
           top: -59%
           left: 101%
 
@@ -202,9 +202,11 @@ h1,h2
     z-index: 2
     text-align: center
     text-transform: uppercase
-    margin-bottom: 50px
+    margin-bottom: 100px
+    font-size: 55px
   .flower-top-right, .flower-bottom-left
     position: absolute
+    display: none
   .flower-top-right
     right: 0
   .flower-bottom-left
@@ -224,18 +226,24 @@ h1,h2
         z-index: 2
         width: 351px
         margin: auto
-        border-bottom: solid 1px $cPrinc
+        //border-bottom: solid 1px $cPrinc
         padding-bottom: 50px
         .title-prestation
           text-transform: uppercase
           color: $cPrinc
           font-weight: bold
           font-size: 24px
+          height: 60px
+          margin-bottom: 0
         p
           color: $cGray
           font-size: 14px
-          margin-bottom: 55px
-
+          height: 50px
+        hr
+          height: 1px
+          border: none
+          background-color: $cPrinc
+          margin-top: 50px
 
 //-- partie carte cadeau
 
@@ -248,7 +256,7 @@ h1,h2
   padding: 70px 0 70px 0
   .container-content-gift-card
     display: flex
-    max-width: 1400px
+    max-width: 80%
     justify-content: center
     .container-txt-gift-card
       padding: 0 0 0 10%
@@ -300,3 +308,117 @@ h1,h2
       &:after
         content: ''
 
+//--RESPONSIVE
+
+@include max1215
+  #header
+    .title-header
+      top: 23%
+
+  .container-presentation
+    flex-direction: column
+    .container-img-presentation
+      justify-content: center
+      background-color: $bgopacity
+      .img-presentation
+        margin: 20px 0 20px 0
+        transform: translateX(0%)
+    .container-content-presentation
+      padding-left: 0%
+      text-align: center
+      padding-bottom: 50px
+      .container-txt-presentation
+        margin: auto
+        .txt-presentation
+          margin: 30px 0 30px 0
+
+  .container-cabinet
+    padding: 50px 0 50px 0
+    height: auto
+    .trace-cabinet
+      display: none
+    .container-content-cabinet
+      flex-direction: column
+      .container-txt-cabinet
+        padding: 0
+        text-align: center
+        .btn-princ
+          margin: 0 auto 30px auto
+      .container-img-cabinet
+        justify-content: center
+        .img-cabinet
+          max-width: 90%
+
+  .container-prestations
+    .container-grid-prestations
+      grid-template-columns: 1fr 1fr
+      max-width: 90%
+    .bg-prestations
+      top: auto
+      bottom: auto
+      width: auto
+      height: auto
+
+  .container-gift-card
+    margin-top: 70px
+    padding: 30px 0 30px 0
+    .container-content-gift-card
+      flex-direction: column
+      .img-gift-card
+        max-width: 30%
+        margin: auto
+      .container-txt-gift-card
+        padding: 0
+        text-align: center
+
+@include max900
+  .container-prestations
+    .container-grid-prestations
+      grid-template-columns: 1fr
+      .card-prestation
+        max-width: 90%
+        margin: auto
+        .content-card
+          width: 100%
+          margin: auto
+          .img-prestation
+            width: 100%
+
+
+
+@include max640
+  #header
+    .title-header
+      top: 20%
+      h1
+        font-size: 40px
+    .btn-header
+      a
+        font-size: 16px
+
+  .container-presentation
+    .container-img-presentation
+      .img-presentation
+        height: 320px
+
+  .container-prestations
+    padding-top: 50px
+    h2
+      font-size: 35px
+      margin-bottom: 50px
+
+@include max480
+  #header
+    .title-header
+      top: 15%
+    .img-title-header
+      display: none
+  .container-presentation
+    .container-content-presentation
+      .container-txt-presentation
+        .title-presentation
+          .bg-element-title
+            &:after
+              display: none
+  .container-cabinet .container-content-cabinet .container-txt-cabinet .bg-element-title::after
+    display: none

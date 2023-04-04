@@ -1,3 +1,4 @@
+</div>
 <div class="site-cache" id="site-cache"></div>
 </div>
 </div>
@@ -18,7 +19,7 @@
             <a class="item-menu">contact</a>
             <ul class="sub-menu">
                 <li class="menu-item">
-                    <a class="item-menu">telephone</a>
+                    <a class="item-menu">téléphone : 06 28 64 39 57</a>
                 </li>
             </ul>
         </div>

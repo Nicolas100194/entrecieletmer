@@ -1,0 +1,276 @@
+/*------------------------------------------
+ *  Responsive
+ * -----------------------------------------*/
+span, p {
+  font-family: "Raleway";
+}
+
+.section-desc-prenatal {
+  margin-bottom: 80px;
+}
+.section-desc-prenatal .elementor-container {
+  max-width: 1500px !important;
+}
+.section-desc-prenatal .img-prenatal {
+  text-align: left;
+}
+.section-desc-prenatal .elementor-element-82be305 {
+  background-color: rgba(241, 231, 229, 0.15);
+  padding: 0 50px 0 50px;
+}
+.section-desc-prenatal .elementor-element-82be305 .title-desc-prenatal, .section-desc-prenatal .elementor-element-82be305 .subtitle-desc-prenatal, .section-desc-prenatal .elementor-element-82be305 .txt-desc-prenatal, .section-desc-prenatal .elementor-element-82be305 .txt-info {
+  text-align: center;
+  font-family: "Raleway";
+}
+.section-desc-prenatal .elementor-element-82be305 .title-desc-prenatal {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #555555;
+  font-size: 32px;
+  text-transform: none !important;
+}
+.section-desc-prenatal .elementor-element-82be305 .title-desc-prenatal:after {
+  content: "";
+  display: block;
+  background-color: #F1E7E5;
+  height: 1px;
+  width: 70px;
+  margin: 20px auto 0 auto;
+}
+.section-desc-prenatal .elementor-element-82be305 .subtitle-desc-prenatal {
+  font-style: italic;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.section-desc-prenatal .elementor-element-82be305 .txt-desc-prenatal {
+  margin: 50px 0 50px 0;
+  line-height: 32px;
+}
+.section-desc-prenatal .elementor-element-82be305 .txt-info {
+  background-color: #D18F91;
+  padding: 20px 20px;
+  color: #FFFF;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.section-title-bienfaits {
+  font-family: "Raleway";
+  font-size: 32px;
+  color: #555555;
+}
+.section-title-bienfaits .title-bienfaits {
+  text-align: center;
+  margin: 70px 0 70px 0;
+}
+.section-title-bienfaits .bg-element-title {
+  display: inline-block;
+  position: relative;
+  color: #FFFF;
+  font-family: "MarketPro";
+  font-size: 32px;
+  letter-spacing: 3px;
+  margin-right: 15px;
+}
+.section-title-bienfaits .bg-element-title:before {
+  position: absolute;
+  content: "";
+  background-color: #D18F91;
+  height: 52px;
+  width: 200px;
+  transform: rotate(-2deg);
+  z-index: -1;
+  top: -24%;
+  left: -8%;
+}
+.section-title-bienfaits .bg-element-title:first-letter {
+  text-transform: uppercase;
+}
+
+.section-content-bienfaits .elementor-container {
+  max-width: 1500px !important;
+}
+.section-content-bienfaits .elementor-container .list-benefice {
+  color: #D18F91;
+}
+.section-content-bienfaits .elementor-container .list-benefice li {
+  margin-bottom: 20px;
+}
+.section-content-bienfaits .elementor-container .list-benefice li svg {
+  height: 59px;
+  width: 59px;
+}
+.section-content-bienfaits .elementor-container .list-benefice li .elementor-icon-list-text {
+  color: #555555;
+  margin-left: 20px;
+}
+.section-content-bienfaits .elementor-container .list-benefice li .elementor-icon-list-text .txt-part {
+  font-weight: 600;
+}
+.section-content-bienfaits .elementor-widget-wrap {
+  justify-content: center;
+  flex-direction: column;
+}
+.section-content-bienfaits .elementor-widget-wrap .img-bienfaits {
+  text-align: right;
+}
+
+.section-title-seance .title-seance {
+  text-align: center;
+  margin: 70px 0 70px 0;
+  transform: translateY(100px);
+  z-index: 99;
+}
+.section-title-seance .title-seance h2 {
+  font-size: 45px;
+  font-family: "MarketPro";
+  letter-spacing: 5px;
+  color: #FFFF;
+}
+.section-title-seance .title-seance h2:before {
+  position: absolute;
+  content: "";
+  background-color: #D18F91;
+  height: 52px;
+  width: 620px;
+  transform: rotate(-1deg);
+  z-index: -1;
+  top: -12%;
+  left: 22%;
+}
+
+.section-seance {
+  background-color: rgba(241, 231, 229, 0.15);
+}
+.section-seance .elementor-container {
+  max-width: 1500px !important;
+  padding: 30px 0 30px 0;
+}
+.section-seance .elementor-container .section-content-seance:nth-child(2) {
+  margin: 30px 0 30px 0;
+}
+.section-seance .elementor-container .section-content-seance .elementor-widget-wrap {
+  flex-direction: column;
+  justify-content: center;
+}
+.section-seance .elementor-container .section-content-seance .elementor-widget-wrap .title-stage {
+  font-family: "MarketPro";
+  color: #D18F91;
+  display: flex;
+}
+.section-seance .elementor-container .section-content-seance .elementor-widget-wrap .title-stage:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  display: block;
+  height: 140px;
+  width: 140px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("../img/ellipse.svg");
+}
+.section-seance .elementor-container .section-content-seance .elementor-widget-wrap .title-stage:after {
+  content: "";
+  display: block;
+  background-position: center;
+  background-size: contain;
+  height: 70px;
+  width: 70px;
+  margin-top: 70px;
+  background-repeat: no-repeat;
+  background-image: url("../img/arrow.svg");
+}
+.section-seance .elementor-container .section-content-seance .elementor-widget-wrap .title-stage h2 {
+  font-size: 45px;
+  padding-left: 70px;
+  letter-spacing: 5px;
+  line-height: 140px;
+}
+.section-seance .elementor-container .section-content-seance .elementor-widget-wrap .txt-stage {
+  padding-left: 70px;
+  font-family: "Raleway";
+  font-size: 25px;
+}
+.section-seance .elementor-container .section-content-seance .elementor-widget-wrap .txt-stage .part-txt-seance {
+  background-color: #F1E7E5;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.section-content-tarif .elementor-container:first-of-type {
+  max-width: 1500px !important;
+  background-color: rgba(241, 231, 229, 0.15);
+  padding: 50px;
+}
+.section-content-tarif .elementor-container:first-of-type .img-content-tarif {
+  text-align: left;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad {
+  flex-direction: column;
+  justify-content: center;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li {
+  background-color: #F4EEED;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li:last-child, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li:last-child {
+  margin-bottom: 0;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li span, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li span {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 5px 0 10px;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li span .container-btn-price, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li span .container-btn-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li span .container-btn-price .btn-price-presta, .section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li span .container-btn-price .btn-gift-card-presta, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li span .container-btn-price .btn-price-presta, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li span .container-btn-price .btn-gift-card-presta {
+  height: 85%;
+  padding: 0 35px 0 35px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Raleway";
+  font-size: 16px;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li span .container-btn-price .btn-price-presta, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li span .container-btn-price .btn-price-presta {
+  background-color: #F1E7E5;
+  margin-right: 5px;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li span .container-btn-price .btn-gift-card-presta, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li span .container-btn-price .btn-gift-card-presta {
+  background-color: #D18F91;
+  color: #FFFF;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+  .section-desc-prenatal .img-prenatal {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .title-bienfaits .title-part {
+    font-size: 32px;
+  }
+}
+@media (max-width: 480px) {
+  .section-desc-prenatal .elementor-element-82be305 .title-desc-prenatal {
+    font-size: 28px;
+  }
+  .section-desc-prenatal .elementor-element-82be305 .subtitle-desc-prenatal {
+    font-size: 22px;
+  }
+}
+@media (max-width: 480px) {
+  .section-firsttitle .firsttitle-future-mom h2 {
+    line-height: 90px;
+  }
+}
+
+/*# sourceMappingURL=prenatal.css.map */

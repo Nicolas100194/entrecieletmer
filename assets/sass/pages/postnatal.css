@@ -1,0 +1,57 @@
+/*------------------------------------------
+ *  Responsive
+ * -----------------------------------------*/
+.section-desc-postnatal {
+  margin-bottom: 80px;
+}
+.section-desc-postnatal .elementor-container {
+  max-width: 1500px !important;
+}
+.section-desc-postnatal .img-postnatal {
+  text-align: left;
+}
+.section-desc-postnatal .elementor-element-2ed9f7b, .section-desc-postnatal .elementor-element-760a3c4 {
+  background-color: rgba(241, 231, 229, 0.15);
+  padding: 0 50px 0 50px;
+}
+.section-desc-postnatal .elementor-element-2ed9f7b .title-desc-postnatal, .section-desc-postnatal .elementor-element-2ed9f7b .subtitle-desc-postnatal, .section-desc-postnatal .elementor-element-2ed9f7b .txt-desc-postnatal, .section-desc-postnatal .elementor-element-2ed9f7b .txt-info, .section-desc-postnatal .elementor-element-760a3c4 .title-desc-postnatal, .section-desc-postnatal .elementor-element-760a3c4 .subtitle-desc-postnatal, .section-desc-postnatal .elementor-element-760a3c4 .txt-desc-postnatal, .section-desc-postnatal .elementor-element-760a3c4 .txt-info {
+  text-align: center;
+  font-family: "Raleway";
+}
+.section-desc-postnatal .elementor-element-2ed9f7b .title-desc-postnatal, .section-desc-postnatal .elementor-element-760a3c4 .title-desc-postnatal {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #555555;
+  font-size: 32px;
+  text-transform: none !important;
+}
+.section-desc-postnatal .elementor-element-2ed9f7b .title-desc-postnatal:after, .section-desc-postnatal .elementor-element-760a3c4 .title-desc-postnatal:after {
+  content: "";
+  display: block;
+  background-color: #F1E7E5;
+  height: 1px;
+  width: 70px;
+  margin: 20px auto 0 auto;
+}
+.section-desc-postnatal .elementor-element-2ed9f7b .subtitle-desc-postnatal, .section-desc-postnatal .elementor-element-760a3c4 .subtitle-desc-postnatal {
+  font-style: italic;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.section-desc-postnatal .elementor-element-2ed9f7b .txt-desc-postnatal, .section-desc-postnatal .elementor-element-760a3c4 .txt-desc-postnatal {
+  margin: 50px 0 50px 0;
+  line-height: 32px;
+}
+.section-desc-postnatal .elementor-element-2ed9f7b .txt-info, .section-desc-postnatal .elementor-element-760a3c4 .txt-info {
+  background-color: #D18F91;
+  padding: 20px 20px;
+  color: #FFFF;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.elementor-element-b2f4edf .img-stage, .elementor-element-1099e72 .img-stage, .elementor-element-94b67f4 .img-stage {
+  text-align: right;
+}
+
+/*# sourceMappingURL=postnatal.css.map */

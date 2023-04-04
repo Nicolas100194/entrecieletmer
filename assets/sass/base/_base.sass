@@ -1,8 +1,6 @@
 @import "../../../../entrecieletmer/assets/sass/utils/variables"
 @import "../../../../entrecieletmer/assets/sass/utils/mixins"
 
-.site-container
-  margin-bottom: 250px
 
 html
   position: relative
@@ -24,9 +22,12 @@ a, label, th, bdi
   font-family: 'Montserrat'
 
 ul, li
+  font-family: 'Montserrat'
   list-style-type: none
   padding: 0
   margin: 0
 
-h2
-  text-transform: uppercase
+
+@include max1390
+  .site-container
+    //margin-bottom: 600px

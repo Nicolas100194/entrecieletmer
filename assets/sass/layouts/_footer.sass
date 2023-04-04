@@ -2,17 +2,14 @@
   background-color: $cSecond
   display: flex
   justify-content: center
-  position: absolute
-  bottom: 0
-  right: 0
-  left: 0
+  padding-top: 30px
+  padding-bottom: 30px
   #menu-menu-footer
     flex: 2
     justify-content: flex-end
   .footer-menu
     display: flex
     flex: 2
-    padding-top: 50px
     .menu-item
       padding-right: 50px
     .item-menu
@@ -32,3 +29,16 @@
       width: 150px
       display: block
       margin: auto
+
+
+@include max1390
+  .footer-container
+    flex-direction: column
+    .container-logo-footer
+      margin-bottom: 35px
+    .footer-menu
+      display: block
+      margin: auto
+      text-align: center
+      li, .menu-item
+        padding-right: 0px

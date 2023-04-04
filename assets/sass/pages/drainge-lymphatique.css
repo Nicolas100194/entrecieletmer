@@ -1,0 +1,511 @@
+/*------------------------------------------
+ *  Responsive
+ * -----------------------------------------*/
+span, p {
+  font-family: "Raleway";
+}
+
+.section-firsttitle {
+  background-color: rgba(241, 231, 229, 0.15);
+}
+.section-firsttitle .firsttitle-prestation h2 {
+  line-height: 160px;
+  text-align: center;
+  font-family: "NewYork";
+  font-size: 45px;
+  color: #D18F91;
+  text-transform: uppercase;
+}
+
+.section-secondtitle {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.section-secondtitle .secondtitle {
+  text-align: center;
+  margin: 70px 0 70px 0;
+  font-family: "NewYork";
+  width: auto !important;
+  margin: auto;
+}
+.section-secondtitle .secondtitle span {
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #FFFF;
+}
+.section-secondtitle .secondtitle span:before {
+  content: "";
+  position: absolute;
+  background-color: #D18F91;
+  height: 150%;
+  width: 107%;
+  top: -27%;
+  left: -4%;
+  z-index: -1;
+}
+.section-secondtitle .secondtitle span:after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/deco_femmes.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 28%;
+  height: 284%;
+  top: -52%;
+  left: 102.5%;
+}
+
+.section-desc-prestation {
+  margin-bottom: 80px;
+  padding: 0 20px 0 20px;
+}
+.section-desc-prestation .elementor-container {
+  max-width: 1500px !important;
+}
+.section-desc-prestation .img-drainage {
+  text-align: left;
+}
+.section-desc-prestation .elementor-element-7a7c76a {
+  background-color: rgba(241, 231, 229, 0.15);
+  padding: 0 50px 0 50px;
+}
+.section-desc-prestation .elementor-element-7a7c76a .section-title-desc-drainage .title-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-title-desc-drainage .subtitle-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-title-desc-drainage .txt-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-title-desc-drainage .txt-info, .section-desc-prestation .elementor-element-7a7c76a .section-subtitle-desc-drainage .title-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-subtitle-desc-drainage .subtitle-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-subtitle-desc-drainage .txt-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-subtitle-desc-drainage .txt-info, .section-desc-prestation .elementor-element-7a7c76a .section-txt-desc-drainage .title-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-txt-desc-drainage .subtitle-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-txt-desc-drainage .txt-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-txt-desc-drainage .txt-info, .section-desc-prestation .elementor-element-7a7c76a .section-msg-info .title-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-msg-info .subtitle-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-msg-info .txt-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-msg-info .txt-info {
+  text-align: center;
+  font-family: "Raleway";
+}
+.section-desc-prestation .elementor-element-7a7c76a .section-title-desc-drainage .title-desc-drainage {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #555555;
+  font-size: 32px;
+  text-transform: none !important;
+}
+.section-desc-prestation .elementor-element-7a7c76a .section-title-desc-drainage .title-desc-drainage:after {
+  content: "";
+  display: block;
+  background-color: #F1E7E5;
+  height: 1px;
+  width: 70px;
+  margin: 20px auto 0 auto;
+}
+.section-desc-prestation .elementor-element-7a7c76a .section-subtitle-desc-drainage .subtitle-desc-drainage {
+  font-style: italic;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.section-desc-prestation .elementor-element-7a7c76a .section-txt-desc-drainage .txt-desc-drainage {
+  margin: 50px 0 50px 0;
+  line-height: 32px;
+}
+.section-desc-prestation .elementor-element-7a7c76a .section-msg-info .txt-info {
+  background-color: #D18F91;
+  padding: 20px 20px;
+  color: #FFFF;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.section-title-objectif {
+  font-family: "Raleway";
+  font-size: 32px;
+  color: #555555;
+}
+.section-title-objectif .title-objectif {
+  text-align: center;
+  width: auto !important;
+  margin: 50px auto 50px auto;
+}
+.section-title-objectif .bg-element-title {
+  display: inline-block;
+  position: relative;
+  color: #FFFF;
+  font-family: "MarketPro";
+  font-size: 32px;
+  letter-spacing: 3px;
+  margin-right: 15px;
+}
+.section-title-objectif .bg-element-title:before {
+  position: absolute;
+  content: "";
+  background-color: #D18F91;
+  height: 52px;
+  width: 200px;
+  transform: rotate(-2deg);
+  z-index: -1;
+  top: -24%;
+  left: -8%;
+}
+.section-title-objectif .bg-element-title:first-letter {
+  text-transform: uppercase;
+}
+.section-title-objectif .title-part {
+  font-size: 35px;
+}
+
+.section-content-objectif .elementor-container {
+  max-width: 1500px !important;
+}
+.section-content-objectif .elementor-container .list-objectif {
+  color: #D18F91;
+}
+.section-content-objectif .elementor-container .list-objectif li {
+  margin-bottom: 20px;
+}
+.section-content-objectif .elementor-container .list-objectif li svg {
+  height: 59px;
+  width: 59px;
+}
+.section-content-objectif .elementor-container .list-objectif li .elementor-icon-list-text {
+  font-weight: 600;
+  margin-left: 20px;
+}
+.section-content-objectif .elementor-container .img-objectif {
+  text-align: right;
+}
+
+.section-info-partum {
+  margin: 50px 0 50px 0;
+  background-color: #D18F91;
+  padding: 50px 0 50px 0;
+  color: #FFFF;
+  font-family: "Raleway";
+  line-height: 25px;
+}
+.section-info-partum .elementor-container {
+  max-width: 1500px !important;
+}
+.section-info-partum .elementor-container .section-content-info h2 {
+  font-weight: 600;
+}
+
+.title-benefice {
+  text-align: center;
+  margin: 50px 0 50px 0;
+  font-family: "Raleway";
+  font-family: "Raleway";
+  font-size: 32px;
+  color: #555555;
+}
+.title-benefice .title-part {
+  font-size: 32px;
+  width: auto;
+  margin: auto;
+}
+.title-benefice .bg-element-title {
+  display: inline-block;
+  position: relative;
+  color: #FFFF;
+  font-family: "MarketPro";
+  font-size: 32px;
+  letter-spacing: 3px;
+  margin-right: 15px;
+}
+.title-benefice .bg-element-title:before {
+  position: absolute;
+  content: "";
+  background-color: #D18F91;
+  height: 52px;
+  width: 200px;
+  transform: rotate(-2deg);
+  z-index: -1;
+  top: -24%;
+  left: -8%;
+}
+.title-benefice .bg-element-title:first-letter {
+  text-transform: uppercase;
+}
+
+.section-content-benefice .elementor-container {
+  max-width: 1500px !important;
+}
+.section-content-benefice .elementor-container .elementor-element-19f59c4 .elementor-widget-wrap {
+  align-content: center;
+}
+.section-content-benefice .elementor-container .list-benefice {
+  color: #D18F91;
+}
+.section-content-benefice .elementor-container .list-benefice li {
+  margin-bottom: 20px;
+}
+.section-content-benefice .elementor-container .list-benefice li svg {
+  height: 59px;
+  width: 59px;
+}
+.section-content-benefice .elementor-container .list-benefice li .elementor-icon-list-text {
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.section-info-massage .elementor-container {
+  margin: 50px 0 50px 0;
+  max-width: 1500px !important;
+  background-color: #D18F91;
+  color: #FFFF;
+  padding: 50px;
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.section-title-tarifs .title-tarifs {
+  width: auto !important;
+  text-align: center;
+  margin: 70px auto 70px auto;
+  font-family: "NewYork";
+}
+.section-title-tarifs .title-tarifs span {
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #FFFF;
+}
+.section-title-tarifs .title-tarifs span:before {
+  content: "";
+  position: absolute;
+  background-color: #D18F91;
+  height: 50px;
+  width: 107%;
+  top: -27%;
+  left: -4%;
+  z-index: -1;
+}
+.section-title-tarifs .title-tarifs span:after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/deco_femmes.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 28%;
+  height: 284%;
+  top: -52%;
+  left: 102.5%;
+}
+
+.section-content-tarif .elementor-container:first-of-type {
+  max-width: 1500px !important;
+  background-color: rgba(241, 231, 229, 0.15);
+  padding: 50px;
+}
+.section-content-tarif .elementor-container:first-of-type .img-content-tarif {
+  text-align: left;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de {
+  flex-direction: column;
+  justify-content: center;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li {
+  background-color: #F4EEED;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li:last-child {
+  margin-bottom: 0;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 5px 0 10px;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span .container-btn-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span .container-btn-price .btn-price-presta, .section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span .container-btn-price .btn-gift-card-presta {
+  height: 85%;
+  padding: 0 35px 0 35px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Raleway";
+  font-size: 16px;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span .container-btn-price .btn-price-presta {
+  background-color: #F1E7E5;
+  margin-right: 5px;
+}
+.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span .container-btn-price .btn-gift-card-presta {
+  background-color: #D18F91;
+  color: #FFFF;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1215px) {
+  .section-desc-prestation .elementor-element-af475c5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section-desc-prestation .elementor-element-af475c5 .img-drainage {
+    margin-right: 20px;
+  }
+
+  .section-info-partum {
+    padding: 50px;
+  }
+  .section-info-partum .elementor-container .elementor-element-b68a1f7 {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .elementor-container .list-benefice li {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1053px) {
+  .section-content-tarif .elementor-container {
+    flex-direction: column;
+  }
+  .section-content-tarif .elementor-container .elementor-col-50 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .section-content-tarif .elementor-container .elementor-col-50 .elementor-widget-wrap .elementor-element {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .section-desc-prestation {
+    margin-bottom: 20px;
+  }
+  .section-desc-prestation .elementor-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-desc-prestation .elementor-container .img-drainage {
+    margin-bottom: 20px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .section-desc-prestation .elementor-container .elementor-element-7a7c76a {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .section-title-objectif .bg-element-title:before {
+    left: -9%;
+  }
+
+  .section-content-objectif {
+    padding: 0 20px 0 20px;
+  }
+
+  .elementor-container .elementor-element-f621b69 {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .elementor-container .elementor-element-f621b69 .img-objectif {
+    text-align: center;
+  }
+
+  .section-content-benefice .elementor-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-content-benefice .elementor-container .elementor-element-19f59c4, .section-content-benefice .elementor-container .elementor-element-db5ae97 {
+    width: 100%;
+  }
+  .section-content-benefice .elementor-container .elementor-element-19f59c4 .list-benefice, .section-content-benefice .elementor-container .elementor-element-db5ae97 .list-benefice {
+    margin: 30px auto 0 auto;
+    width: 80%;
+  }
+  .section-content-benefice .elementor-container .elementor-element-19f59c4 .list-benefice li, .section-content-benefice .elementor-container .elementor-element-db5ae97 .list-benefice li {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+@media (max-width: 800px) {
+  .section-firsttitle {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-secondtitle {
+    margin: 50px auto 50px auto;
+    display: flex;
+  }
+  .section-secondtitle .secondtitle {
+    margin: auto;
+    width: auto !important;
+  }
+
+  .section-desc-drainage .elementor-container .img-drainage {
+    margin: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .section-info-partum {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .section-info-partum img {
+    margin-bottom: 20px;
+  }
+
+  .title-benefice {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  .title-benefice .title-part {
+    font-size: 32px;
+  }
+}
+@media (max-width: 550px) {
+  .section-secondtitle .secondtitle span:after {
+    display: none;
+  }
+
+  .section-title-objectif .bg-element-title, .title-benefice .bg-element-title {
+    font-size: 28px;
+  }
+  .section-title-objectif .bg-element-title:before, .title-benefice .bg-element-title:before {
+    width: 186px;
+  }
+  .section-title-objectif .title-part, .title-benefice .title-part {
+    font-size: 28px;
+  }
+
+  .img-benefice {
+    padding: 0 20px 0 20px;
+  }
+
+  .section-title-tarifs .title-tarifs span:after {
+    display: none;
+  }
+
+  .section-content-tarif .elementor-container:first-of-type {
+    padding: 20px !important;
+  }
+  .section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li {
+    height: 65px;
+    border-radius: 0px;
+  }
+  .section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span {
+    flex-direction: column;
+  }
+  .section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span p {
+    margin: 0;
+  }
+  .section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span p .container-btn-price .btn-gift-card-presta {
+    padding: 0 25px 0 25px;
+    border-radius: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .section-desc-prestation h2 {
+    font-size: 28px;
+  }
+  .section-desc-prestation .elementor-element-7a7c76a {
+    padding: 0 20px 0 20px;
+  }
+  .section-desc-prestation .elementor-element-7a7c76a .section-subtitle-desc-drainage .subtitle-desc-drainage {
+    font-size: 22px;
+  }
+}
+
+/*# sourceMappingURL=drainge-lymphatique.css.map */
