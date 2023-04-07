@@ -150,7 +150,6 @@ button {
  *  Responsive
  * -----------------------------------------*/
 header {
-  box-shadow: 0 5px 6px #e1e1e1;
   padding-top: 5px;
   z-index: 99;
   position: relative;
@@ -170,6 +169,9 @@ header .menu {
   line-height: 75px;
   margin-top: 15px;
   justify-content: center;
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: apparition 0.4s 1.4s ease-out forwards;
 }
 header .menu li {
   list-style-type: none;
@@ -190,7 +192,7 @@ header .menu li .sous-menu {
   display: none;
   position: absolute;
   background-color: #FFFF;
-  transform: translateX(-20%);
+  transform: translateX(-29%);
   text-align: center;
   box-shadow: 0 5px 6px #e1e1e1;
 }
@@ -242,10 +244,6 @@ header .menu li .sous-menu li a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-
-  .site-content {
-    overflow-y: scroll;
   }
 
   .header-icon {
@@ -365,66 +363,204 @@ h1, h2 {
   max-width: none !important;
 }
 
-#header .img-header {
+#header {
+  overflow: hidden;
+  height: calc(100vh - 270px);
+}
+#header .elementor-container {
+  height: calc(100vh - 270px);
+  position: unset;
+}
+#header .elementor-container .content-header .elementor-widget-wrap {
+  flex-direction: column;
+  align-content: center;
+  position: unset;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .video-header {
+  height: calc(100vh - 270px);
   margin-bottom: 0px;
 }
-#header .img-header img {
-  width: 100%;
-  height: calc(100vh - 212px);
+#header .elementor-container .content-header .elementor-widget-wrap .video-header .e-hosted-video {
+  height: calc(100vh - 270px);
+}
+#header .elementor-container .content-header .elementor-widget-wrap .video-header .e-hosted-video video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
   object-fit: cover;
-  opacity: 0.7;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: calc(100vh - 270.4px);
 }
-#header .title-header, #header .img-title-header, #header .btn-header {
-  position: absolute !important;
-}
-#header .title-header {
-  top: 25%;
-}
-#header .title-header h1 {
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80vw;
+  transform: translate(-50%, -50%);
   text-align: center;
-  text-transform: uppercase;
-  color: #FFFF;
-  font-weight: bold;
-  font-size: 48px;
-  margin: auto;
-  max-width: 930px;
+  height: 50%;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .title-content-header, #header .elementor-container .content-header .elementor-widget-wrap .container-content-header .btn-content-header {
+  margin-bottom: 0;
+  z-index: 99;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .title-content-header {
   font-family: "NewYork";
+  text-transform: uppercase;
+  font-size: 48px;
+  margin: 0 auto 0 auto;
+  color: #FFFF;
+  max-width: 1090px;
+  letter-spacing: 12px;
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: apparition 0.8s 0.2s ease-out forwards;
 }
-#header .img-title-header {
-  width: 250px;
-  top: 45%;
-  left: 50vw;
-  transform: translate(-50%, -50%);
-}
-#header .img-title-header .elementor-widget-container:before {
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .title-content-header:after {
   content: "";
-  background-color: #FFFF;
-  height: 2px;
-  width: 250px;
   display: block;
-  position: absolute;
-  top: 50%;
-  transform: translateX(-250px);
+  transform: translateY(30px);
+  width: 800px;
+  height: 2px;
+  margin: auto;
+  background-color: #FFFF;
 }
-#header .img-title-header .elementor-widget-container:after {
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .title-content-header h1 {
+  line-height: 80px;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .container-list-header {
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: center;
+  transform: translateY(50px);
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .container-list-header ul {
+  display: flex;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .container-list-header ul li {
+  color: #FFFF;
+  text-transform: uppercase;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .container-list-header ul li svg {
+  width: 4px;
+  height: 4px;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .container-list-header ul li:nth-child(2), #header .elementor-container .content-header .elementor-widget-wrap .container-content-header .container-list-header ul li:nth-child(3), #header .elementor-container .content-header .elementor-widget-wrap .container-content-header .container-list-header ul li:nth-child(4) {
+  margin-left: 25px;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .container-list-header ul li:nth-child(1) {
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: apparition 0.8s 0.8s ease-out forwards;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .container-list-header ul li:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: apparition 0.8s 1s ease-out forwards;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .container-list-header ul li:nth-child(3) {
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: apparition 0.8s 1.2s ease-out forwards;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .container-list-header ul li:nth-child(4) {
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: apparition 0.8s 1.4s ease-out forwards;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .btn-content-header {
+  margin: 10% auto 0 auto;
+  width: auto;
+  padding: 10px 0 10px 0;
+  background-color: #D18F91;
+  border-radius: 50px;
+  transition: 0.2s;
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: apparition 0.8s 2.5s ease-out forwards;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .btn-content-header:hover {
+  padding-right: 5px;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .btn-content-header:hover .elementor-button-text:after {
   content: "";
-  background-color: #FFFF;
-  height: 2px;
-  width: 250px;
   display: block;
+  margin-left: 15px;
+  height: 25px;
+  width: 25px;
+  background-image: url("../img/arrow.png");
+  background-repeat: no-repeat;
+  transform: translateX(5px);
+  background-size: contain;
+  animation-name: arrowMoveH;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.3s;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .btn-content-header a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-content-header .btn-content-header a .elementor-button-text {
+  display: flex;
+  line-height: 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+@keyframes apparition {
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes arrowMoveH {
+  0% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
+}
+@keyframes arrowMove {
+  0% {
+    transform: translateY(-7px);
+  }
+  100% {
+    transform: translateY(12px);
+  }
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-down-arrow {
   position: absolute;
-  top: 50%;
-  transform: translateX(250px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 4%;
+  left: 49.5%;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: solid 3px #FFFF;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: apparition 0.8s 2.5s ease-out forwards;
 }
-#header .btn-header {
-  top: 55%;
-  max-width: 350px;
-  left: 50vw;
-  transform: translate(-50%, -50%);
+#header .elementor-container .content-header .elementor-widget-wrap .container-down-arrow .elementor-container {
+  height: auto;
 }
-#header .btn-header a {
-  display: block;
-  padding: 15px 25px;
+#header .elementor-container .content-header .elementor-widget-wrap .container-down-arrow .elementor-container .elementor-widget-wrap {
+  justify-content: center;
+  align-content: center;
+}
+#header .elementor-container .content-header .elementor-widget-wrap .container-down-arrow .elementor-container .elementor-widget-wrap .down-arrow {
+  width: 40px;
+  margin: auto;
+  animation-name: arrowMove;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 .container-presentation {
@@ -772,6 +908,13 @@ h1, h2 {
   .container-gift-card .container-content-gift-card .container-txt-gift-card {
     padding: 0;
     text-align: center;
+  }
+}
+@media (max-height: 930px) {
+  #header .elementor-container .content-header .elementor-widget-wrap .container-down-arrow {
+    right: -1%;
+    bottom: 5%;
+    left: unset;
   }
 }
 @media (max-width: 900px) {

@@ -2,7 +2,7 @@
 @import "../../../../entrecieletmer/assets/sass/utils/mixins"
 
 header
-  box-shadow: 0 5px 6px #e1e1e1
+  //box-shadow: 0 5px 6px #e1e1e1
   padding-top: 5px
   z-index: 99
   position: relative
@@ -19,6 +19,9 @@ header
     line-height: 75px
     margin-top: 15px
     justify-content: center
+    opacity: 0
+    transform: translateY(-30px)
+    animation: apparition 0.4s 1.4s ease-out forwards
     li
       list-style-type: none
       margin-right: 50px
@@ -35,7 +38,7 @@ header
         display: none
         position: absolute
         background-color: $cWhite
-        transform: translateX(-20%)
+        transform: translateX(-29%)
         text-align: center
         box-shadow: $Shadow
         li
@@ -80,7 +83,7 @@ header
       left: 50%
       transform: translate(-50%, -50%)
   .site-content
-    overflow-y: scroll
+    //overflow-y: scroll
   .header-icon
     display: block
     float: left
