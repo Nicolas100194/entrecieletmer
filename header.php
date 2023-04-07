@@ -11,5 +11,8 @@
     <div class="site-container">
         <div class="site-pusher">
             <header>
+                <a href="#" class="header-icon" id="header-icon"></a>
+                <a href="#"><img class="logo-header" src="/entrecieletmere/wp-content/themes/entrecieletmer/assets/img/entrecieletmere_logo.png"></a>
                 <?php wp_nav_menu(['theme_location' => 'primary' ])?>
             </header>
+            <div class="site-content">

@@ -12,60 +12,176 @@ h1,h2
 
 //header
 #header
-  .img-header
-    margin-bottom: 0px
-    .elementor-widget-container
-    img
-      width: 100%
-      height: calc(100vh - 90px)
-      object-fit: cover
-  .title-header, .img-title-header, .btn-header
-    position: absolute!important
-  .title-header
-    top: 25%
-    h1
-      text-align: center
-      text-transform: uppercase
-      color: $cWhite
-      font-weight: bold
-      font-size: 48px
-      margin: auto
-      max-width: 930px
+  overflow: hidden
+  height: calc(100vh - 270px)
+  .elementor-container
+    height: calc(100vh - 270px)
+    position: unset
+    .content-header
+      .elementor-widget-wrap
+        flex-direction: column
+        align-content: center
+        position: unset
+        .video-header
+          height: calc(100vh - 270px)
+          margin-bottom: 0px
+          .e-hosted-video
+            height: calc(100vh - 270px)
+            video
+              position: fixed
+              right: 0
+              bottom: 0
+              object-fit: cover
+              left: 0
+              top: 0
+              width: 100%
+              height: calc(100vh - 270.4px)
+        .container-content-header
+          position: absolute
+          top: 50%
+          left: 50%
+          width: 80vw
+          transform: translate(-50%, -50%)
+          text-align: center
+          height: 50%
+          .title-content-header, .btn-content-header
+            margin-bottom: 0
+            z-index: 99
+          .title-content-header
+            font-family: 'NewYork'
+            text-transform: uppercase
+            font-size: 48px
+            margin: 0 auto 0 auto
+            color: $cWhite
+            max-width: 1090px
+            letter-spacing: 12px
+            opacity: 0
+            transform: translateY(-30px)
+            animation: apparition 0.8s 0.2s ease-out forwards
+            &:after
+              content: ''
+              display: block
+              transform: translateY(30px)
+              width: 800px
+              height: 2px
+              margin: auto
+              background-color: $cWhite
+          .title-content-header
+            h1
+              line-height: 80px
+          .container-list-header
+            margin: 0 auto 0 auto
+            display: flex
+            justify-content: center
+            transform: translateY(50px)
+            ul
+              display: flex
+              li
+                color: $cWhite
+                text-transform: uppercase
+                svg
+                  width: 4px
+                  height: 4px
+              li:nth-child(2), li:nth-child(3), li:nth-child(4)
+                margin-left: 25px
+              li:nth-child(1)
+                opacity: 0
+                transform: translateX(-30px)
+                animation: apparition 0.8s 0.8s ease-out forwards
+              li:nth-child(2)
+                opacity: 0
+                transform: translateX(-30px)
+                animation: apparition 0.8s 1s ease-out forwards
+              li:nth-child(3)
+                opacity: 0
+                transform: translateX(-30px)
+                animation: apparition 0.8s 1.2s ease-out forwards
+              li:nth-child(4)
+                opacity: 0
+                transform: translateX(-30px)
+                animation: apparition 0.8s 1.4s ease-out forwards
+          .btn-content-header
+            margin: 10% auto 0 auto
+            width: auto
+            padding: 10px 0 10px 0
+            background-color: $cPrinc
+            border-radius: 50px
+            transition: .2s
+            opacity: 0
+            transform: translateY(-30px)
+            animation: apparition 0.8s 2.5s ease-out forwards
+            &:hover
+              padding-right: 5px
+              .elementor-button-text:after
+                content: ''
+                display: block
+                margin-left: 15px
+                height: 25px
+                width: 25px
+                background-image: url("../img/arrow.png")
+                background-repeat: no-repeat
+                transform: translateX(5px)
+                background-size: contain
+                animation-name: arrowMoveH
+                animation-timing-function: ease-in-out
+                animation-duration: .3s
+            a
+              padding-top: 5px
+              padding-bottom: 5px
+              .elementor-button-text
+                display: flex
+                line-height: 25px
+                font-size: 16px
+                text-transform: uppercase
 
-  .img-title-header
-    width: 250px
-    top: 45%
-    left: 50vw
-    transform: translate(-50%, -50%)
-    .elementor-widget-container
-      img
-      &:before
-        content: ''
-        background-color: $cWhite
-        height: 2px
-        width: 250px
-        display: block
-        position: absolute
-        top: 50%
-        transform: translateX(-250px)
+        @keyframes apparition
+          100%
+            transform: none
+            opacity: 1
+        @keyframes arrowMoveH
+          0%
+            transform: translateX(-5px)
+          100%
+            transform: translateX(5px)
 
-      &:after
-        content: ''
-        background-color: $cWhite
-        height: 2px
-        width: 250px
-        display: block
-        position: absolute
-        top: 50%
-        transform: translateX(250px)
-  .btn-header
-    top: 55%
-    max-width: 350px
-    left: 50vw
-    transform: translate(-50%, -50%)
-    a
-      display: block
-      padding: 15px 25px
+        @keyframes arrowMove
+          0%
+            transform: translateY(-7px)
+          100%
+            transform: translateY(12px)
+        .container-down-arrow
+          position: absolute
+          display: flex
+          justify-content: center
+          align-items: center
+          bottom: 4%
+          left: 49.5%
+          width: 50px
+          height: 50px
+          background-color: rgba(255,255,255, .5)
+          border: solid 3px $cWhite
+          border-radius: 50%
+          //transform: translateX(-50%)
+          opacity: 0
+          transform: translateY(-30px)
+          animation: apparition 0.8s 2.5s ease-out forwards
+          .elementor-container
+            height: auto
+            .elementor-widget-wrap
+              justify-content: center
+              align-content: center
+              .down-arrow
+                width: 40px
+                margin: auto
+                animation-name: arrowMove
+                animation-duration: 1s
+                animation-iteration-count: infinite
+                animation-timing-function: ease-in-out
+                animation-direction: alternate
+
+
+
+
 
 //----fin elementor page accueil
 
@@ -115,10 +231,10 @@ h1,h2
           position: absolute
           background-image: url("../img/deco_femmes.svg")
           background-position: center
-          background-size: cover
+          background-size: contain
           background-repeat: no-repeat
-          width: 61%
-          height: 238%
+          width: 49%
+          height: 260%
           top: -35%
           left: 101%
 
@@ -166,10 +282,10 @@ h1,h2
           position: absolute
           background-image: url("../img/deco_cabinet.svg")
           background-position: center
-          background-size: cover
+          background-size: contain
           background-repeat: no-repeat
-          width: 84%
-          height: 225%
+          width: 58%
+          height: 266%
           top: -59%
           left: 101%
 
@@ -200,9 +316,11 @@ h1,h2
     z-index: 2
     text-align: center
     text-transform: uppercase
-    margin-bottom: 50px
+    margin-bottom: 100px
+    font-size: 55px
   .flower-top-right, .flower-bottom-left
     position: absolute
+    display: none
   .flower-top-right
     right: 0
   .flower-bottom-left
@@ -222,18 +340,24 @@ h1,h2
         z-index: 2
         width: 351px
         margin: auto
-        border-bottom: solid 1px $cPrinc
+        //border-bottom: solid 1px $cPrinc
         padding-bottom: 50px
         .title-prestation
           text-transform: uppercase
           color: $cPrinc
           font-weight: bold
           font-size: 24px
+          height: 60px
+          margin-bottom: 0
         p
           color: $cGray
           font-size: 14px
-          margin-bottom: 55px
-
+          height: 50px
+        hr
+          height: 1px
+          border: none
+          background-color: $cPrinc
+          margin-top: 50px
 
 //-- partie carte cadeau
 
@@ -246,7 +370,7 @@ h1,h2
   padding: 70px 0 70px 0
   .container-content-gift-card
     display: flex
-    max-width: 1400px
+    max-width: 80%
     justify-content: center
     .container-txt-gift-card
       padding: 0 0 0 10%
@@ -264,6 +388,7 @@ h1,h2
 
 .container-instagram
   padding-top: 30px
+  margin-bottom: 250px //a modifier
   .container-title
     width: auto
     position: relative
@@ -297,3 +422,128 @@ h1,h2
       &:after
         content: ''
 
+//--RESPONSIVE
+
+@include max1215
+  #header
+    .title-header
+      top: 23%
+
+  .container-presentation
+    flex-direction: column
+    .container-img-presentation
+      justify-content: center
+      background-color: $bgopacity
+      .img-presentation
+        margin: 20px 0 20px 0
+        transform: translateX(0%)
+    .container-content-presentation
+      padding-left: 0%
+      text-align: center
+      padding-bottom: 50px
+      .container-txt-presentation
+        margin: auto
+        .txt-presentation
+          margin: 30px 0 30px 0
+
+  .container-cabinet
+    padding: 50px 0 50px 0
+    height: auto
+    .trace-cabinet
+      display: none
+    .container-content-cabinet
+      flex-direction: column
+      .container-txt-cabinet
+        padding: 0
+        text-align: center
+        .btn-princ
+          margin: 0 auto 30px auto
+      .container-img-cabinet
+        justify-content: center
+        .img-cabinet
+          max-width: 90%
+
+  .container-prestations
+    .container-grid-prestations
+      grid-template-columns: 1fr 1fr
+      max-width: 90%
+    .bg-prestations
+      top: auto
+      bottom: auto
+      width: auto
+      height: auto
+
+  .container-gift-card
+    margin-top: 70px
+    padding: 30px 0 30px 0
+    .container-content-gift-card
+      flex-direction: column
+      .img-gift-card
+        max-width: 30%
+        margin: auto
+      .container-txt-gift-card
+        padding: 0
+        text-align: center
+
+@include Hmax930
+  #header
+    .elementor-container
+      .content-header
+        .elementor-widget-wrap
+          .container-down-arrow
+            right: -1%
+            bottom: 5%
+            left: unset
+
+
+@include max900
+  .container-prestations
+    .container-grid-prestations
+      grid-template-columns: 1fr
+      .card-prestation
+        max-width: 90%
+        margin: auto
+        .content-card
+          width: 100%
+          margin: auto
+          .img-prestation
+            width: 100%
+
+
+
+@include max640
+  #header
+    .title-header
+      top: 20%
+      h1
+        font-size: 40px
+    .btn-header
+      a
+        font-size: 16px
+
+  .container-presentation
+    .container-img-presentation
+      .img-presentation
+        height: 320px
+
+  .container-prestations
+    padding-top: 50px
+    h2
+      font-size: 35px
+      margin-bottom: 50px
+
+@include max480
+  #header
+    .title-header
+      top: 15%
+    .img-title-header
+      display: none
+  .container-presentation
+    .container-content-presentation
+      .container-txt-presentation
+        .title-presentation
+          .bg-element-title
+            &:after
+              display: none
+  .container-cabinet .container-content-cabinet .container-txt-cabinet .bg-element-title::after
+    display: none

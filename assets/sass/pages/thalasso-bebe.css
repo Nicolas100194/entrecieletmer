@@ -1,0 +1,75 @@
+/*------------------------------------------
+ *  Responsive
+ * -----------------------------------------*/
+.elementor-element-62ec47d .img-stage, .elementor-element-0806d16 .img-stage, .elementor-element-af64dd1 .img-stage, .elementor-element-bccc0b6 .img-stage {
+  text-align: right;
+}
+
+.section-info-plus {
+  background-color: #F1E7E5;
+  margin: 50px 0 50px 0;
+}
+.section-info-plus .title-info-plus {
+  text-align: center;
+  font-family: "MarketPro";
+  letter-spacing: 5px;
+  color: #D18F91;
+  font-size: 45px;
+}
+.section-info-plus .txt-info-plus {
+  font-family: "Raleway";
+  font-size: 21px;
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.section-picture-moment {
+  background-color: #D18F91;
+  padding: 20px 0 20px 0;
+  color: #FFFF;
+}
+.section-picture-moment .elementor-container {
+  max-width: 1500px !important;
+}
+.section-picture-moment .elementor-container .img-picture-moment {
+  text-align: left;
+}
+.section-picture-moment .elementor-container .content-picture-moment .elementor-widget-wrap {
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+.section-picture-moment .elementor-container .content-picture-moment .title-picture-moment {
+  font-family: "NewYork";
+  font-size: 35px;
+  text-align: center;
+}
+.section-picture-moment .elementor-container .content-picture-moment .txt-picture-moment {
+  font-size: 17px;
+  font-family: "Raleway";
+  margin: 50px 0 50px 0;
+}
+.section-picture-moment .elementor-container .content-picture-moment .btn-picture-moment {
+  width: 300px;
+  background: none;
+  border: solid 1px #FFFF;
+  margin: 0 auto 0 auto;
+  font-size: 16px;
+}
+.section-picture-moment .elementor-container .content-picture-moment .btn-picture-moment:hover {
+  background-color: #FFFF;
+  opacity: 0.8;
+  transition-duration: 0.3s;
+}
+.section-picture-moment .elementor-container .content-picture-moment .btn-picture-moment a {
+  display: block;
+  margin: auto;
+  padding: 25px 35px;
+}
+.section-picture-moment .elementor-container .content-picture-moment .btn-picture-moment a:hover {
+  color: #555555;
+  transition-duration: 0.3s;
+}
+
+/*# sourceMappingURL=thalasso-bebe.css.map */

@@ -1,6 +1,10 @@
 @import "../../../../entrecieletmer/assets/sass/utils/variables"
 @import "../../../../entrecieletmer/assets/sass/utils/mixins"
 
+
+html
+  position: relative
+  min-height: 100vh
 body
   margin: 0
   padding: 0
@@ -9,6 +13,21 @@ body
   padding: 0!important
 
 p
-  font-family: 'Raleway'
+  font-family: 'Montserrat'
   color: $cGray
   line-height: 1.5rem
+
+a, label, th, bdi
+  text-decoration: none
+  font-family: 'Montserrat'
+
+ul, li
+  font-family: 'Montserrat'
+  list-style-type: none
+  padding: 0
+  margin: 0
+
+
+@include max1390
+  .site-container
+    //margin-bottom: 600px

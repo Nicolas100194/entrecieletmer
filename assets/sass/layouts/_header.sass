@@ -2,15 +2,128 @@
 @import "../../../../entrecieletmer/assets/sass/utils/mixins"
 
 header
+  //box-shadow: 0 5px 6px #e1e1e1
+  padding-top: 5px
+  z-index: 99
+  position: relative
+  background-color: $cWhite
+  a
+    cursor: auto
+  .logo-header
+    width: 150px
+    cursor: pointer
+    margin: auto
+    display: block
   .menu
     display: flex
     line-height: 75px
+    margin-top: 15px
     justify-content: center
+    opacity: 0
+    transform: translateY(-30px)
+    animation: apparition 0.4s 1.4s ease-out forwards
     li
       list-style-type: none
       margin-right: 50px
+      cursor: pointer
       a
         text-decoration: none
         color: $cGray
         font-size: 16px
+        cursor: pointer
+        &:hover
+          color: $cPrinc
+          transition-duration: .3s
+      .sous-menu
+        display: none
+        position: absolute
+        background-color: $cWhite
+        transform: translateX(-29%)
+        text-align: center
+        box-shadow: $Shadow
+        li
+          margin-right: 0
+          cursor: pointer
+          &:hover
+            background-color: #F1E7E5
+            transition-duration: .3s
+          a
+            color: $cGray
+            display: block
+            line-height: 65px
+            padding: 0 40px 0 40px
+
+// RESPONSIVE
+
+@include max992
+  .site-container
+    //overflow-y: hidden
+    height: 100%
+  .site-pusher
+    height: 100%
+    transform: translateX(0px)
+  .with-sidebar
+    .site-pusher
+      transform: translateX(250px)
+      transition-duration: .5s
+    .site-cache
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      background-color: rgba(0,0,0,0.6)
+  header
+    position: relative
+    height: 178px
+    .logo-header
+      width: 115px
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+  .site-content
+    //overflow-y: scroll
+  .header-icon
+    display: block
+    float: left
+    position: relative
+    width: 100px
+    height: 172px
+    cursor: pointer
+    &:after
+      content: ''
+      position: absolute
+      top: 38%
+      left: 25%
+      transform: translateY(-50%)
+      display: block
+      width: 50px
+      height: 0px
+      box-shadow: 0 10px 0 1px $cPrinc, 0 20px 0 1px $cPrinc, 0 30px 0 1px $cPrinc
+  .menu-menu-principal-container
+    position: absolute
+    left: 0
+    top: 0
+    bottom: 0
+    z-index: 99
+    width: 250px
+    transform: translateX(-250px)
+    .menu
+      display: block
+      text-align: center
+      li
+        margin-right: 0
+        .sous-menu
+          position: relative
+          transform: translateX(0)
+          box-shadow: none
+          background-color: $cSecond
+          .menu-item
+
+            a
+              line-height: 45px
+              padding: 0
+
+
 

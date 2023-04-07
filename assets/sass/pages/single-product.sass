@@ -1,0 +1,85 @@
+@import "../../../../entrecieletmer/assets/sass/utils/variables"
+@import "../../../../entrecieletmer/assets/sass/utils/mixins"
+
+.product
+  display: flex
+  justify-content: center
+  margin-top: 100px
+  .woocommerce-product-gallery
+    margin-right: 80px
+    display: flex
+    align-items: center
+    opacity: 1!important
+  .product_title
+    text-transform: uppercase
+    color: $cPrinc
+  .variations
+    tbody
+      tr
+        display: flex
+        flex-direction: column
+        .label
+          text-align: left
+          font-weight: normal
+          color: $cGray
+          font-size: 20px
+        .value
+          select
+            background: none
+            border: solid 1px $cGray2
+            height: 50px
+            width: 150%
+          .reset_variations
+            color: $cPrinc
+            font-weight: bold
+  .single_variation_wrap
+    .woocommerce-variation-add-to-cart
+      .wcpa_form_outer
+        .wcpa_form_item
+          label
+            color: $cGray
+            font-size: 20px
+          .form-control
+            width: 91%
+            height: 50px
+            border: solid 1px $cGray2
+        .wcpa_type_textarea
+
+          textarea
+            height: 150px!important
+      .quantity
+        input
+          height: 50px
+          border: solid 1px $cGray2
+      button
+        background-color: $cPrinc
+        height: 50px
+        margin-top: 35px
+        color: $cWhite
+        border: none
+        font-size: 16px
+        text-transform: uppercase
+        padding: 0 35px 0 35px
+        &:hover
+          background-color: $cGray
+          color: $cWhite
+          transition-duration: .8
+
+@include max1390
+  .product
+    flex-direction: column
+    align-items: center
+    .woocommerce-product-gallery
+      margin-right: 0px
+      opacity: 1!important
+      img
+        max-width: 90vw
+        display: block
+        margin: auto
+        object-fit: cover
+    .single_variation_wrap
+      .woocommerce-variation-add-to-cart
+        button
+          display: block
+          margin: 35px auto 0 auto
+

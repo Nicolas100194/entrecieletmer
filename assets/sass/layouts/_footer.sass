@@ -1,0 +1,44 @@
+.footer-container
+  background-color: $cSecond
+  display: flex
+  justify-content: center
+  padding-top: 30px
+  padding-bottom: 30px
+  #menu-menu-footer
+    flex: 2
+    justify-content: flex-end
+  .footer-menu
+    display: flex
+    flex: 2
+    .menu-item
+      padding-right: 50px
+    .item-menu
+      color: $cPrinc
+      text-transform: uppercase
+      font-size: 25px
+    .sub-menu
+      margin-top: 30px
+      .menu-item
+        margin-bottom: 15px
+        .item-menu
+          color: $cGray
+          font-size: 14px
+  .container-logo-footer
+    flex: 3
+    .logo-footer
+      width: 150px
+      display: block
+      margin: auto
+
+
+@include max1390
+  .footer-container
+    flex-direction: column
+    .container-logo-footer
+      margin-bottom: 35px
+    .footer-menu
+      display: block
+      margin: auto
+      text-align: center
+      li, .menu-item
+        padding-right: 0px

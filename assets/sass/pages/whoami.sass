@@ -1,0 +1,159 @@
+@import "../../../../entrecieletmer/assets/sass/utils/variables"
+@import "../../../../entrecieletmer/assets/sass/utils/mixins"
+
+
+.txt-bold
+  font-weight: bold
+
+.section-qui-suis-je
+  padding-top: 145px
+  padding-bottom: 145px
+  .elementor-container
+    max-width: 1500px!important
+  .col-qui-suis-je
+    align-items: center
+    .title-qui-suis-je
+      margin-bottom: 50px
+  .text-qui-suis-je
+    &:before
+      content: ''
+      background-image: url("../img/left-quotes-sign.png")
+      background-position: center
+      background-size: contain
+      background-repeat: no-repeat
+      width: 50px
+      height: 50px
+      display: block
+      z-index: -1
+      position: absolute
+      left: -18px
+      top: -15px
+  &:before
+    position: absolute
+    content: ''
+    display: block
+    background-image: url("../img/icon.png")
+    width: 241px
+    height: 376px
+    transform: translateY(-200px)
+
+.section-child
+  padding-top: 75px
+  padding-bottom: 75px
+  background-color: $cSecond
+  .elementor-container
+    max-width: 1500px!important
+  .col-child
+    align-items: center
+    margin-right: 50px
+  .col-img-child
+    .img-child
+      transform: translateY(180px)
+
+.icon-flowers
+  margin: 150px 0 50px 0
+
+.section-child-2
+  margin-bottom: 150px
+  .elementor-container
+    max-width: 1500px!important
+
+.section-diploma
+  background-color: $cSecond
+  padding-top: 50px
+  padding-bottom: 50px
+  h2
+    text-align: center
+    margin-bottom: 50px
+  .elementor-container
+    max-width: 1500px!important
+  li
+    margin-bottom: 15px!important
+    border: solid 1px black
+    border-radius: 50px
+    padding: 15px 50px 15px 30px!important
+    .content-list
+      text-align: right
+    &:nth-child(2n+1)
+      background-color: $cPrinc
+      border: none
+      color: $cWhite
+    &:nth-child(even)
+      color: $cGray
+      .date-diplome
+        font-weight: bold
+    .elementor-icon-list-text
+      display: flex
+      justify-content: space-between
+      width: 100%
+    .title-diploma
+      font-weight: bold
+  .container-img-diploma
+    display: flex
+    align-items: center
+    justify-content: center
+
+
+.section-diploma-2
+  padding-top: 50px
+  .elementor-container
+    max-width: 1500px!important
+    justify-content: space-between
+  li
+    margin-bottom: 15px!important
+    border: solid 1px black
+    border-radius: 50px
+    padding: 15px 50px 15px 30px!important
+    .content-list
+      text-align: right
+    &:nth-child(2n+1)
+      background-color: $cPrinc
+      border: none
+      color: $cWhite
+    &:nth-child(even)
+      color: $cGray
+      .date-diplome
+        font-weight: bold
+    .elementor-icon-list-text
+      display: flex
+      justify-content: space-between
+      width: 100%
+    .title-diploma
+      font-weight: bold
+  .container-diploma-2
+    display: flex
+    align-items: center
+    justify-content: center
+
+
+
+//Responsive
+
+@include max767
+  .section-child-2
+    margin-bottom: 30px
+
+@include max900
+  .elementor-element-c9f204f
+    padding: 50px 0 50px 0
+
+  .elementor-element-71744bc
+    text-align: center
+    .title-qui-suis-je
+      margin-top: 50px
+
+@include max1024
+  .elementor-element-dfca8ba
+    .icon-flowers
+      margin: 30px 0 30px 0
+
+
+@include max1215
+  .section-child
+    .col-child
+      margin-right: 0
+      text-align: center
+    .col-img-child
+      .img-child
+        transform: translateY(0px)
+

@@ -1,0 +1,92 @@
+/*------------------------------------------
+ *  Responsive
+ * -----------------------------------------*/
+.product {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.product .woocommerce-product-gallery {
+  margin-right: 80px;
+  display: flex;
+  align-items: center;
+  opacity: 1 !important;
+}
+.product .product_title {
+  text-transform: uppercase;
+  color: #D18F91;
+}
+.product .variations tbody tr {
+  display: flex;
+  flex-direction: column;
+}
+.product .variations tbody tr .label {
+  text-align: left;
+  font-weight: normal;
+  color: #555555;
+  font-size: 20px;
+}
+.product .variations tbody tr .value select {
+  background: none;
+  border: solid 1px #c8c8c8;
+  height: 50px;
+  width: 150%;
+}
+.product .variations tbody tr .value .reset_variations {
+  color: #D18F91;
+  font-weight: bold;
+}
+.product .single_variation_wrap .woocommerce-variation-add-to-cart .wcpa_form_outer .wcpa_form_item label {
+  color: #555555;
+  font-size: 20px;
+}
+.product .single_variation_wrap .woocommerce-variation-add-to-cart .wcpa_form_outer .wcpa_form_item .form-control {
+  width: 91%;
+  height: 50px;
+  border: solid 1px #c8c8c8;
+}
+.product .single_variation_wrap .woocommerce-variation-add-to-cart .wcpa_form_outer .wcpa_type_textarea textarea {
+  height: 150px !important;
+}
+.product .single_variation_wrap .woocommerce-variation-add-to-cart .quantity input {
+  height: 50px;
+  border: solid 1px #c8c8c8;
+}
+.product .single_variation_wrap .woocommerce-variation-add-to-cart button {
+  background-color: #D18F91;
+  height: 50px;
+  margin-top: 35px;
+  color: #FFFF;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 0 35px 0 35px;
+}
+.product .single_variation_wrap .woocommerce-variation-add-to-cart button:hover {
+  background-color: #555555;
+  color: #FFFF;
+  transition-duration: 0.8;
+}
+
+@media (max-width: 1390px) {
+  .product {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product .woocommerce-product-gallery {
+    margin-right: 0px;
+    opacity: 1 !important;
+  }
+  .product .woocommerce-product-gallery img {
+    max-width: 90vw;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+  }
+  .product .single_variation_wrap .woocommerce-variation-add-to-cart button {
+    display: block;
+    margin: 35px auto 0 auto;
+  }
+}
+
+/*# sourceMappingURL=single-product.css.map */
