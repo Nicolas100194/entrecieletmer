@@ -9,6 +9,10 @@
   @media (min-width: 768px)
     @content
 
+@mixin max1700
+  @media (max-width: 1700px)
+    @content
+
 @mixin max1600
   @media (max-width: 1600px)
     @content
@@ -53,12 +57,28 @@
   @media (max-width: 800px)
     @content
 
+@mixin max768
+  @media (max-width: 768px)
+    @content
+
 @mixin max767
   @media (max-width: 767px)
     @content
 
+@mixin max766
+  @media (max-width: 766px)
+    @content
+
 @mixin max700
   @media (max-width: 700px)
+    @content
+
+@mixin max670
+  @media (max-width: 670px)
+    @content
+
+@mixin max648
+  @media (max-width: 648px)
     @content
 
 @mixin max640
@@ -86,8 +106,16 @@
     @content
 
 // HAUTEUR ECRAN
-@mixin Hmax930
-  @media (max-height: 930px)
+@mixin Hmax990
+  @media (max-height: 990px)
+    @content
+
+@mixin Hmax850
+  @media (max-height: 850px)
+    @content
+
+@mixin Hmax600
+  @media (max-height: 600px)
     @content
 
 // ORIENTATION ECRAN
