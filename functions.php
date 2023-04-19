@@ -10,7 +10,6 @@ function themeentrecieletmere_supports(){
     add_theme_support( 'wc-product-gallery-zoom' );
     add_theme_support( 'wc-product-gallery-lightbox' );
     add_theme_support( 'wc-product-gallery-slider' );
-    register_nav_menu('primary', 'Menu principal');
 }
 
 
@@ -65,9 +64,9 @@ function mytheme_add_woocommerce_support() {
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
 remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
 add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 ); //informations complémentaires -> non
-
 register_nav_menu('footer', 'footer menu');
-
+register_nav_menu('primary', 'Menu principal');
+register_nav_menu('header', 'Menu secondaire');
 add_filter('nav_menu_link_attributes', 'themeentrecieletmere_menu_link_class');
 add_action('after_setup_theme','themeentrecieletmere_supports');
 add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );

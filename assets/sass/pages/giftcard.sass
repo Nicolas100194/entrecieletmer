@@ -1,95 +1,105 @@
 @import "../../../../entrecieletmer/assets/sass/utils/variables"
 @import "../../../../entrecieletmer/assets/sass/utils/mixins"
 
-//partie top
-.section-top-giftcard
-  height: 365px
-  background-position: center
+.section-background-header
+  background-image: url("../img/background-giftcard.png")
   background-size: cover
-  display: flex
-  justify-content: center
-  .section-content-top-giftcard
-    background-color: $cWhite
-    margin-top: auto
-    margin-bottom: auto
-    box-shadow: inset 0 0 0 10px $cWhite, inset 0 0 0 12px $cPrinc
-    .title-giftcard, .subtitle-giftcard
-      text-align: center
-    .title-giftcard
-      text-transform: uppercase
-      padding: 30px 0 30px 0
-      margin-bottom: 0px
-      color: $cPrinc
-      font-size: 33px
-    .subtitle-giftcard
-      color: $cGray
-      font-size: 18px
-      padding-bottom: 30px
-
-//contenu page
-.container-section-content-giftcard
-  margin: auto
-  padding-top: 100px
+  background-repeat: no-repeat
+  background-position: center
   .elementor-container
-    max-width: 1400px!important
-  .section-content-giftcard
-    padding-left: 50px
-    text-align: center
-    width: 80%!important
-    .title-section-giftcard
-      position: relative
-      color: $cGray
-      font-size: 33px
-      font-style: italic
+    max-width: 100%!important
+    .col-title-header
       text-align: center
-      &:before
-        content: ''
-        background-image: url("../img/left-quotes-sign.png")
-        background-position: center
-        background-size: contain
-        background-repeat: no-repeat
-        width: 50px
-        height: 50px
-        display: block
-        z-index: -1
-        position: absolute
-        left: 50px
-        top: -15px
-    .section-btn-giftcard
-      width: 80%
-      margin: auto
-      .btn-giftcard-prestation, .btn-giftcard-montant
-        a
-          padding: 10px 5px
-          color: $cGray
-          border: solid 1px $cGray
-          text-transform: uppercase
-          font-size: 18px
-          border-radius: 0
-          width: 90%
-          .elementor-button-content-wrapper
-            align-items: center
-            &:before
-              content: ''
-              background-image: url("../img/icon-giftcard.png")
-              background-size: contain
-              background-repeat: no-repeat
-              background-position: center
-              width: 30px
-              height: 30px
-            .elementor-button-text
-              margin-left: 10px
-
-@include max1390
-  .container-section-content-giftcard
-    padding-top: 30px
-    max-width: 90vw
-    .elementor-container
+      margin: 110px auto 340px auto
+      font-family: 'Montserrat'!important
+      font-size: 40px
+      font-weight: 600!important
+      color: $cWhite
+      text-transform: uppercase
+      position: unset
+      .elementor-widget-wrap
+        position: unset
+        .section-filter-bg
+          position: absolute
+          left: 0
+          right: 0
+          bottom: 0
+          top: 0
+          background-color: rgba(82,82,82,0.48)
+.section-content-present
+  transform: translateY(-50%)
+  .col-content-present
+    box-shadow: $Shadow
+    margin: auto
+    width: 90%!important
+    padding: 50px 50px
+    background-color: $cWhite
+    .elementor-widget-wrap
       flex-direction: column
       align-items: center
-      .section-content-giftcard
-        margin-top: 50px
-        padding-left: 0px
-        width: 100% !important
+      .title-content-present
+        color: $cPrinc
+        font-family: 'NewYork'
+        text-align: center
+        letter-spacing: 3px
+        font-size: 30px
+        margin-bottom: 80px
+      .btn-content-present
+        border: solid 1px
+        width: 380px
+        padding: 10px 20px
+        text-transform: uppercase
         .elementor-button-wrapper
-          margin-bottom: 15px
+          height: 45px
+          a
+            width: 100%
+            padding: 0
+            span
+              font-size: 20px
+              .elementor-button-text
+                display: flex
+                align-items: center
+                &:before
+                  content: ''
+                  display: inline-block
+                  height: 45px
+                  width: 45px
+                  background-size: contain
+                  background-position: center
+                  background-repeat: no-repeat
+      .btn-present-prestation
+        border-color: $cPrinc
+        a
+          color: $cPrinc
+          span
+            .elementor-button-text
+              &:before
+                margin-right: 7%
+                background-image: url("../img/carte-cadeau-rose.svg")
+      .btn-present-prestation:hover
+        background-color: rgba(209,143,145,0.3)
+        transition: .3s
+      .btn-present-giftcard
+        border-color: $cGray3
+        margin-bottom: 80px
+        a
+          color: $cGray3
+          span
+            .elementor-button-text
+              &:before
+                margin-right: 12%
+                background-image: url("../img/carte-cadeau-gray.svg")
+      .btn-present-giftcard:hover
+        background-color: rgba(112,112,112,0.3)
+      .message-warning
+        background-color: $cThird
+        padding: 10px 25px
+        border-radius: 30px
+        .elementor-icon-list-icon
+          svg
+            height: 28px!important
+            width: 28px!important
+            margin-right: 10px
+        .elementor-icon-list-text
+          .warning-txt
+            font-weight: bold

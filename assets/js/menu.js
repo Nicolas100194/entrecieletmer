@@ -79,3 +79,24 @@ window.addEventListener('resize', () =>{
     largeur = window.innerWidth
     animationMenu(largeur)
 })
+
+
+let headerLogo = document.querySelector('.logo-header-desktop');
+let menuFixed = document.querySelector('.container-menus');
+let header = document.querySelector("header");
+
+window.addEventListener('scroll', function() {
+    if (screen.width > 1215) {
+        if (document.documentElement.scrollTop === 0) {
+            headerLogo.classList.remove('header-scrolled');
+            headerLogo.classList.add('logo-header-desktop');
+            menuFixed.classList.remove('header-fixed');
+            header.classList.remove('header-up');
+        } else {
+            headerLogo.classList.add('header-scrolled');
+            headerLogo.classList.remove('logo-header-desktop');
+            menuFixed.classList.add('header-fixed');
+            header.classList.add('header-up');
+        }
+    }
+});

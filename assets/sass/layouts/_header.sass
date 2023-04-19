@@ -2,60 +2,168 @@
 @import "../../../../entrecieletmer/assets/sass/utils/mixins"
 
 header
-  //box-shadow: 0 5px 6px #e1e1e1
-  padding-top: 5px
+  box-shadow: 0 5px 6px #e1e1e1
+  //padding-top: 5px
   z-index: 99
   position: relative
   background-color: $cWhite
+  height: 180px
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
   a
     cursor: auto
-  .logo-header
-    width: 150px
-    cursor: pointer
+  .logo-header-desktop
     margin: auto
-    display: block
-  .menu
+    z-index: 99
+    transform: translateY(150px)
+    .logo-mobile
+      display: none
+  .container-menus
     display: flex
-    line-height: 75px
-    margin-top: 15px
-    justify-content: center
-    opacity: 0
-    transform: translateY(-30px)
-    animation: apparition 0.4s 1.4s ease-out forwards
-    li
-      list-style-type: none
-      margin-right: 50px
-      cursor: pointer
-      a
-        text-decoration: none
-        color: $cGray
-        font-size: 16px
-        cursor: pointer
-        &:hover
-          color: $cPrinc
-          transition-duration: .3s
-      .sous-menu
-        display: none
-        position: absolute
-        background-color: $cWhite
-        transform: translateX(-29%)
-        text-align: center
-        box-shadow: $Shadow
+    justify-content: space-between
+    //background-color: rgba(209,143,145,0.24)
+    .menu-menu-principal-container
+      line-height: 70px
+      .menu
+        display: flex
+        //margin-top: 15px
+        justify-content: center
         li
-          margin-right: 0
+          display: flex
+          align-items: center
+          list-style-type: none
+          margin-right: 50px
+          font-weight: 600
           cursor: pointer
-          &:hover
-            background-color: #F1E7E5
-            transition-duration: .3s
           a
+            text-decoration: none
             color: $cGray
-            display: block
-            line-height: 65px
-            padding: 0 40px 0 40px
+            font-size: 16px
+            cursor: pointer
+            &:hover
+              color: $cPrinc
+              transition-duration: .3s
+          .sous-menu
+            display: none
+            position: absolute
+            background-color: $cWhite
+            transform: translate(-80px, 229px)
+            text-align: center
+            li
+              margin-right: 0
+              cursor: pointer
+              margin-left: 0px!important
+              &:before
+                display: none!important
+              &:after
+                display: none!important
+              &:hover
+                background-color: #F1E7E5
+                transition-duration: .3s
+              a
+                color: $cGray
+                display: block
+                line-height: 65px
+                padding: 0 40px 0 40px
+        li:nth-child(1), li:nth-child(6), li:nth-child(7)
+          &:before
+            content: ''
+            display: inline-block
+            width: 25px
+            height: 65px
+            margin-right: 10px
+          a
+            color: $cPrinc
+        li:nth-child(3)
+          &:after
+            content: ''
+            display: inline-block
+            width: 20px
+            height: 65px
+            margin-left: 10px
+        li:nth-child(1)
+          margin-left: 50px
+          a
+            display: none
+          &:before
+            background-image: url("../img/svg-menu-accueil.svg")
+            background-size: contain
+            margin-right: 0
+            background-repeat: no-repeat
+            background-position: center
+        li:nth-child(3)
+          &:after
+            background-image: url("../img/voirplus.png")
+            background-size: contain
+            background-repeat: no-repeat
+            background-position: center
+        li:nth-child(6)
+          &:before
+            background-image: url("../img/svg-menu-cadeau.svg")
+        li:nth-child(7)
+          &:before
+            background-image: url("../img/svg-menu-panier.svg")
+    .menu-menu-secondaire-container
+      line-height: 70px
+      ul
+        display: flex
+        justify-content: space-between
+        margin: auto
+        font-weight: 600
+        li
+          margin-right: 50px
+          display: flex
+          align-items: center
+          cursor: pointer
+          a
+            color: $cPrinc
+            //z-index: 99
+            cursor: pointer
+            &:hover
+              color: $cPrinc
+              opacity: .8
+        li
+          &:before
+            content: ''
+            display: inline-block
+            width: 25px
+            height: 25px
+            margin-right: 10px
+        li:nth-child(1)
+          &:before
+            background-image: url("../img/svg-menu-cadeau.svg")
+        li:nth-child(2)
+          &:before
+            background-image: url("../img/svg-menu-panier.svg")
+
+.header-scrolled
+  transform: translateY(-150px)!important
+
+.header-up
+  height: 70px
+
+.header-fixed
+  position: fixed
+  right: 0
+  left: 0
+  z-index: 999
+  background-color: $cSecond!important
+  box-shadow: $Shadow2
+
 
 // RESPONSIVE
+@include max1600
+  header
+    .container-menus
+      .menu-menu-principal-container
+        .menu
+          li:nth-child(1)
+            margin-left: 20px
+          li
+            margin-right: 20px
 
-@include max992
+@include max1215
   .site-container
     //overflow-y: hidden
     height: 100%
@@ -74,8 +182,13 @@ header
       bottom: 0
       background-color: rgba(0,0,0,0.6)
   header
+    display: block
     position: relative
     height: 178px
+    .logo-mobile
+      display: block!important
+    .logo-default
+      display: none
     .logo-header
       width: 115px
       position: absolute
@@ -101,29 +214,86 @@ header
       width: 50px
       height: 0px
       box-shadow: 0 10px 0 1px $cPrinc, 0 20px 0 1px $cPrinc, 0 30px 0 1px $cPrinc
-  .menu-menu-principal-container
-    position: absolute
-    left: 0
-    top: 0
-    bottom: 0
-    z-index: 99
-    width: 250px
-    transform: translateX(-250px)
-    .menu
-      display: block
-      text-align: center
-      li
-        margin-right: 0
-        .sous-menu
-          position: relative
-          transform: translateX(0)
-          box-shadow: none
-          background-color: $cSecond
-          .menu-item
-
+  header
+    .logo-header
+      margin: auto
+    .container-menus
+      .menu-menu-principal-container
+        position: absolute
+        left: 0
+        top: 0
+        bottom: 0
+        z-index: 99
+        width: 250px
+        transform: translateX(-250px)
+        .menu
+          display: block!important
+          text-align: center
+          li
+            margin-right: 0!important
+            flex-direction: column
+            .sous-menu
+              width: 100%
+              position: relative
+              transform: translateX(0)
+              box-shadow: none
+              background-color: $cSecond
             a
-              line-height: 45px
-              padding: 0
+              margin: auto!important
+              line-height: 65px
+              padding: 0px!important
+          li:nth-child(1)
+            margin-left: 0px
+            &:before
+              position: absolute
+              left: 20%
+            a
+              display: block
+          li:nth-child(3)
+            margin-right: 0px
+            &:after
+              position: absolute
+              right: 20%
+      .menu-menu-secondaire-container
+        transform: translateY(178px)
+        background-color: $cSecond
+        position: absolute
+        left: 0
+        right: 0
+        ul
+          flex-direction: row-reverse
+          li
+            margin-right: 20px
+          li:nth-child(1)
+            position: absolute
+            margin: auto
+            transform: translateX(-50%)
+            left: 50%
+
+@include max768
+  #header
+    .content-header
+      width: 100%
+@include max767
+  header
+    .container-menus
+      .menu-menu-secondaire-container
+        padding: 0 20px 0 20px
+        ul
+          flex-direction: row
+          li
+            margin-right: 0px
+          li:nth-child(1)
+            position: relative
+            margin: 0
+            transform: translateX(0)
+            left: 0
 
 
-
+@include max480
+  header
+    .container-menus
+      #menu-menu-secondaire
+        flex-direction: column
+        li
+          justify-content: center
