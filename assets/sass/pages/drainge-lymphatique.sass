@@ -1,414 +1,555 @@
 @import "../../../../entrecieletmer/assets/sass/utils/variables"
 @import "../../../../entrecieletmer/assets/sass/utils/mixins"
 
-span, p
-  font-family: "Raleway"
+//a déplacer
+.title-h2
+  font-family: 'NewYork'
+  text-transform: uppercase
+  font-size: 50px
+  margin-bottom: 10px!important
 
-.section-firsttitle
-  background-color: rgba(241, 231, 229, 0.15)
-  .firsttitle-prestation
-    h2
-      line-height: 160px
-      text-align: center
-      font-family: 'NewYork'
-      font-size: 45px
-      color: $cPrinc
-      text-transform: uppercase
+.subtitle-h3
+  font-family: 'Montserrat'
+  font-size: 27px
 
-.section-secondtitle
-  margin-top: 50px
-  margin-bottom: 30px
-  .secondtitle
-    text-align: center
-    margin: 70px 0 70px 0
-    font-family: 'NewYork'
-    width: auto!important
-    margin: auto
-    span
-      font-size: 32px
-      text-transform: uppercase
-      color: $cWhite
-      &:before
-        content: ''
-        position: absolute
-        background-color: $cPrinc
-        height: 150%
-        width: 107%
-        //transform: rotate(-2deg)
-        top: -27%
-        left: -4%
-        z-index: -1
-      &:after
-        content: ''
-        position: absolute
-        background-image: url("../img/deco_femmes.svg")
-        background-position: center
-        background-size: contain
-        background-repeat: no-repeat
-        width: 28%
-        height: 284%
-        top: -52%
-        left: 102.5%
+.img-shadow
+  filter: drop-shadow(0px 10px 20px $cGrayShadow)
+.bloc-shadow
+  box-shadow: 0px 3px 6px $cGray3Shadow
+.section-header-drainage
+  background-image: url("../img/bg-header-drainage.png")!important
+  .img-header-drainage-2
+    transform: translateX(150px)
 
-.section-desc-prestation
-  margin-bottom: 80px
-  padding: 0 20px 0 20px
+.section-bg-mod
+  background-color: $cThirdBg
+.section-massage
+  padding: 75px 0
   .elementor-container
+    padding-top: 75px
+    position: unset!important
     max-width: 1500px!important
-  .img-drainage
-    text-align: left
-  .elementor-element-7a7c76a
-    background-color: $BgSection
-    padding: 0 50px 0 50px
-    .section-title-desc-drainage, .section-subtitle-desc-drainage, .section-txt-desc-drainage, .section-msg-info
-      .title-desc-drainage, .subtitle-desc-drainage, .txt-desc-drainage, .txt-info
-        text-align: center
-        font-family: 'Raleway'
-    .section-title-desc-drainage
-      .title-desc-drainage
-        margin-top: 20px
-        margin-bottom: 20px
+    .col-img
+      position: unset
+      .elementor-widget-wrap
+        position: unset
+        .container-form
+          margin-bottom: 0px
+          border-radius: 0 295px 295px 0
+          background-color: rgba(224,182,168,0.55)
+          position: absolute
+          transform: translateY(-75px)
+          left: 0
+          height: 350px
+          width: 30vw
+        .img-massage
+          text-align: left
+          img
+            border-radius: 115px
+    .col-content-massage
+      font-family: 'Montserrat'
+      .title-massage
+        color: $cSecond
+      .subtitle-massage
+        color: $cSecond
+        font-size: 27px
+      .txt-massage
         color: $cGray
-        font-size: 32px
-        text-transform: none!important
-        &:after
-          content: ''
-          display: block
-          background-color: $cSecond
-          height: 1px
-          width: 70px
-          margin: 20px auto 0 auto
-    .section-subtitle-desc-drainage
-      .subtitle-desc-drainage
-        font-style: italic
-        font-size: 25px
-        margin-bottom: 20px
-    .section-txt-desc-drainage
-      .txt-desc-drainage
-        margin: 50px 0 50px 0
-        line-height: 32px
-    .section-msg-info
-      .txt-info
-        background-color: $cPrinc
-        padding: 20px 20px
-        color: $cWhite
-        font-weight: bold
-        line-height: 25px
-
-.section-title-objectif
-  .title-objectif
-    text-align: center
-    width: auto!important
-    margin: 50px auto 50px auto
-    h2
-  font-family: 'Raleway'
-  font-size: 32px
-  color: $cGray
-  .bg-element-title
-    display: inline-block
-    position: relative
-    color: $cWhite
-    font-family: 'MarketPro'
-    font-size: 32px
-    letter-spacing: 3px
-    margin-right: 15px
-    &:before
-      position: absolute
-      content: ''
-      background-color: $cPrinc
-      height: 52px
-      width: 200px
-      transform: rotate(-2deg)
-      z-index: -1
-      top: -24%
-      left: -8%
-    &:first-letter
-      text-transform: uppercase
-  .title-part
-    font-size: 35px
-
-.section-content-objectif
-  .elementor-container
-    max-width: 1500px!important
-    .list-objectif
-      color: $cPrinc
-      li
-        margin-bottom: 20px
-        svg
-          height: 59px
-          width: 59px
-        .elementor-icon-list-text
+        font-size: 17px
+        line-height: 30px
+        .txt-bold
           font-weight: 600
-          margin-left: 20px
-    .img-objectif
-      text-align: right
+      .info-txt-massage
+        padding: 10px
+        background-color: $cSecond
+        color: $cWhite
+        line-height: 30px
+        font-weight: 600
+        text-align: center
 
-.section-info-partum
-  margin: 50px 0 50px 0
-  background-color: $cPrinc
-  padding: 50px 0 50px 0
-  color: $cWhite
-  font-family: 'Raleway'
-  line-height: 25px
+.section-keywords
+  .elementor-container
+    padding: 25px 0px 75px 0
+    justify-content: space-evenly
+    .col-keyword
+      background-color: $cWhite
+      border-radius: 39px
+      height: 60px
+      width: auto!important
+      box-shadow: 0px 3px 20px $cGrayShadow
+      .elementor-widget-wrap
+        flex-direction: row
+        align-items: center
+        align-content: center
+        justify-content: center
+        .icon-keyword, .txt-keyword
+          width: auto
+        .icon-keyword
+          position: absolute
+          left: 15px
+          margin-bottom: 0px
+        .txt-keyword
+          margin-left: 70px
+          margin-right: 30px
+          font-family: 'Montserrat'
+          color: $cSecond
+          font-size: 20px
+          font-weight: 600
+      &:nth-child(2)
+.section-objectifs
+  padding: 75px 0 200px 0
+  .elementor-container
+    position: unset!important
+    max-width: 1500px!important
+    .col-content-objectifs
+      font-family: 'Montserrat'
+      .title-objectifs, .subtitle-objectifs
+        color: $cGreen
+      .subtitle-objectifs
+        margin-bottom: 30px
+      .inner-section-objectif
+        background-color: $cWhite
+        border-radius: 30px
+        margin-bottom: 15px
+        .inner-col-objectif
+          padding: 20px 20px
+          text-align: center
+          .icon-objectif
+            margin-bottom: 20px!important
+          .txt-objectif
+            max-width: 50%
+            margin: 0 auto
+            font-weight: 600
+            color: $cGray3
+    .col-img-objectif
+      margin: auto
+      position: unset
+      .elementor-widget-wrap
+        position: unset
+        .container-form-right
+          position: absolute
+          background-color: $cPrinc
+          border-radius: 295px 0px 0px 295px
+          right: 0
+          height: 350px
+          width: 30vw
+          transform: translateY(-75px)
+          .form-green
+      .img-objectif
+        text-align: right
+
+.section-post-partum
+  padding: 100px 0
+  font-family: 'Montserrat'
+  .elementor-container
+    position: unset!important
+    max-width: 90vw!important
+    .col-img
+      width: 70%!important
+      position: unset
+      .img-post-partum
+        text-align: left
+        img
+          width: 95%
+      .elementor-widget-wrap
+        position: unset
+        .container-form
+          position: absolute
+          background-color: $cSecond
+          border-radius: 0px 295px 295px 0px
+          left: 0
+          top: 0
+          bottom: 0
+          width: 15vw
+    .col-content-post-partum
+      .elementor-widget-wrap
+        justify-content: center
+        flex-direction: column
+        .title-post-partum, .subtitle-post-partum
+          color: $cSecond
+        .txt-post-partum
+          line-height: 30px
+          color: $cGray
+
+.section-benefices
+  font-family: 'Montserrat'
+  padding: 75px 0 100px 0
   .elementor-container
     max-width: 1500px!important
-    .section-content-info
-      h2
+    position: unset!important
+    .col-content-benefice
+      .title-benefice, .subtitle-benefice
+        color: $cPrinc
+      .subtitle-benefice
+        margin-bottom: 30px
+      .inner-section-benefice
+        color: $cGray3
         font-weight: 600
+        .inner-col-benefice, .last-col-benefice
+          background-color: $cWhite
+          border-radius: 30px
+          margin-bottom: 15px
+          margin-right: 15px
+          padding: 20px 20px
+          text-align: center
+          .icon-benefice
+          .txt-benefice
+    .col-img-benefices
+      position: unset
+      .elementor-widget-wrap
+        position: unset
+        .container-form
+          position: absolute
+          background-color: $cPrinc
+          border-radius: 295px 0px 0px 295px
+          right: 0
+          height: 350px
+          transform: translateY(-75px)
+          width: 30vw
+      .img-benefices
+        text-align: right
 
-.title-benefice
+.section-info
+  padding-bottom: 100px
+  .col-info
+    .message-info
+      padding: 20px
+      background-color: $cSecond
+      border-radius: 55px
+      color: $cWhite
+      font-family: 'Montserrat'
+      font-weight: 600
+      width: auto
+      margin: auto
+      .elementor-icon-list-icon
+        svg
+          width: 40px
+          height: 40px
+      .elementor-icon-list-text
+        padding-left: 15px
+
+.section-title-tarif
+  font-family: 'Montserrat'
+  padding-top: 100px
+  padding-bottom: 100px
   text-align: center
-  margin: 50px 0 50px 0
-  font-family: 'Raleway'
-  h2
-  font-family: 'Raleway'
-  font-size: 32px
-  color: $cGray
-  .title-part
-    font-size: 32px
-    width: auto
-    margin: auto
-  .bg-element-title
-    display: inline-block
-    position: relative
-    color: $cWhite
-    font-family: 'MarketPro'
-    font-size: 32px
-    letter-spacing: 3px
-    margin-right: 15px
-    &:before
-      position: absolute
-      content: ''
-      background-color: $cPrinc
-      height: 52px
-      width: 200px
-      transform: rotate(-2deg)
-      z-index: -1
-      top: -24%
-      left: -8%
-    &:first-letter
+  color: $cSecond
+  .col-title-tarif
+    .title-tarif
+      font-weight: 600
+      font-size: 65px
+      text-transform: uppercase
+      font-family: 'NewYork'
+    .subtitle-tarif
+      font-size: 33px
       text-transform: uppercase
 
-.section-content-benefice
+.section-tarifs
+  padding-bottom: 200px
   .elementor-container
     max-width: 1500px!important
-    .elementor-element-19f59c4
+    position: unset!important
+    .col-img-tarifs
+      position: unset
+      .elementor-widget-wrap
+        position: unset
+        .container-form
+          position: absolute
+          background-color: $cPrinc
+          border-radius: 0px 295px 295px 0px
+          left: 0
+          height: 350px
+          width: 30vw
+      .img-tarifs
+        transform: translateY(75px)
+        text-align: left
+    .col-tarifs
+      font-family: 'Montserrat'
+      transform: translateY(75px)
       .elementor-widget-wrap
         align-content: center
-    .list-benefice
-      color: $cPrinc
-      li
-        margin-bottom: 20px
-        svg
-          height: 59px
-          width: 59px
-        .elementor-icon-list-text
+        .title-group-tarifs
+          color: $cSecond
+          font-size: 39px
           font-weight: 600
-          margin-left: 20px
+        .inner-section-tarif
+          margin-bottom: 30px
+          .inner-col-tarif
+            background-color: $cThirdBg
+            padding: 10px 10px 10px 30px
+            border-radius: 50px
+            .elementor-widget-wrap
+              flex-direction: row
+              .title-prestation
+                color: $cGray
+                font-weight: 600
+              .btn-giftcard,.btn-price, .title-prestation, .txt-time
+                width: auto
+              .btn-giftcard, .btn-price
+                position: absolute
+                border-radius: 20px
+              .btn-price
+                right: 115px
+                min-width: 90px
+                height: 39px
+                background-color: $cSecond
+                a
+                  padding: 0px
+                  line-height: 39px
+                  width: 100%
+              .btn-giftcard
+                right: 0
+                top: 0
+                text-transform: uppercase
+                background-color: $cPrinc
+                font-weight: 600
+                &:hover
+                  opacity: .8
+              .txt-time
+                position: absolute
+                color: $cGray3
+                bottom: 0
+                left: 0
+      .btn-rdv-tarif
+        border: solid 2px $cGray3
+        border-radius: 29px
+        margin: 0 auto
+        width: auto
+        a
+          color: $cGray
+          font-weight: 600
+        &:hover
+          background-color: $cGray
+          transition: .5s
+          a
+            transition: .5s
+            color: $cWhite
 
-.section-info-massage
-  .elementor-container
-    margin: 50px 0 50px 0
-    max-width: 1500px!important
-    background-color: $cPrinc
-    color: $cWhite
-    padding: 50px
-    text-align: center
-    font-family: 'Raleway'
-    font-weight: 600
-    font-size: 20px
 
-.section-title-tarifs
-  .title-tarifs
-    width: auto!important
-    text-align: center
-    margin: 70px auto 70px auto
-    font-family: 'NewYork'
-    span
-      font-size: 32px
-      text-transform: uppercase
-      color: $cWhite
-      &:before
-        content: ''
-        position: absolute
-        background-color: $cPrinc
-        height: 50px
-        width: 107%
-        //transform: rotate(-2deg)
-        top: -27%
-        left: -4%
-        z-index: -1
-      &:after
-        content: ''
-        position: absolute
-        background-image: url("../img/deco_femmes.svg")
-        background-position: center
-        background-size: contain
-        background-repeat: no-repeat
-        width: 28%
-        height: 284%
-        top: -52%
-        left: 102.5%
 
-.section-content-tarif
-  .elementor-container:first-of-type
-    max-width: 1500px!important
-    background-color: $BgSection
-    padding: 50px
-    .img-content-tarif
-      text-align: left
-    .elementor-element-504d6de
-      flex-direction: column
-      justify-content: center
-      @include listtarifs
 
-//--RESPONSIVE
+//responsive
+@include max1600
+  .elementor-448, .elementor-454, .elementor-451, .elementor-457
+    .section-header-drainage, .section-massage, .section-objectifs, .section-benefices
+      .elementor-container
+        max-width: 90%!important
+        align-items: center
+        .col-img, .col-img-benefices, .col-img-objectif, .col-img-benefices
+          padding: 0 30px
+          width: auto
+          flex-shrink: 1
+        .col-content-massage, .col-content-benefice, col-content-objectif, .col-content-benefice
+          flex-shrink: 5
+          width: auto
+    .section-objectifs
+      padding: 40px 0
+      .inner-section-objectif
+        width: 80%
+        margin: auto
+        .inner-col-objectif
+          .txt-objectif
+            max-width: 100%!important
+    .section-post-partum
+      .elementor-container
+        .col-img
+          width: auto!important
+          flex-shrink: 1
+        .col-content-post-partum
+          width: auto!important
+          flex-shrink: 2
+    .section-benefices
+      .elementor-container
+        max-width: 90%!important
+        .col-content-benefice
+          .inner-section-benefice
+            .elementor-container
+              max-width: 100%!important
+              .inner-col-benefice
+                width: 100%!important
 
-@include max1215
-  .section-desc-prestation
-    .elementor-element-af475c5
-      display: flex
-      flex-direction: column
-      justify-content: center
-      .img-drainage
-        margin-right: 20px
+@include max1400
+  .elementor-448
+    .section-header-drainage
+      .elementor-container
+        .col-content-header
+          .elementor-widget-wrap
+            .title-page
+              font-size: 45px
+            .subtitle-page
+              font-size: 23px
+        .col-img-header
+          .img-header-drainage, .img-header-drainage-2
+            width: 70%
 
-  .section-info-partum
-    padding : 50px
-    .elementor-container
-      .elementor-element-b68a1f7
+@include max1390
+  .elementor-448
+    .title-h2
+      font-size: 40px
+    .subtitle-h3
+      font-size: 24px!important
+
+@include max1280
+  .elementor-448, .elementor-454
+    .section-massage
+      padding: 35px 0
+      .elementor-container
         flex-direction: column
-        justify-content: center
-
-  .section-content-benefice
-  .elementor-container
-    .list-benefice
-      li
-        padding-left: 20px
-        margin-bottom: 20px
+        .col-img
+          padding: 0
+          margin-bottom: 50px
+        .col-content-massage
+          max-width: 800px
+          .title-massage, .subtitle-massage
+            text-align: center
+          .subtitle-massage
+            margin-bottom: 50px
+    .section-keywords
+      .elementor-container
+        flex-direction: column
+        max-width: 550px!important
+        .col-keyword:nth-of-type(2)
+          margin: 30px 0
+    .section-objectifs, .section-benefices
+      .elementor-container
+        flex-direction: column-reverse
+        .col-content-objectifs, .col-content-benefice
+          width: auto
+          max-width: 800px
+          .title-objectifs, .subtitle-objectifs, .title-benefice, .subtitle-benefice
+            text-align: center
+          .title-objectifs, .title-benefice
+            margin-top: 50px
+          .subtitle-objectifs, .subtitle-benefice
+            margin-bottom: 50px
+          .inner-section-objectif, .inner-section-benefice
+            width: 100%
+            .elementor-container
+              width: 100%
+              max-width: 100%!important
+              .inner-col-benefice
+                width: 100%
+                max-width: 100%!important
+    .section-post-partum
+      .elementor-container
+        align-items: center
+        flex-direction: column
+        .col-img
+          .elementor-widget-wrap
+            .container-form
+              width: 30vw
+              height: 350px
+              top: 50px
+            .img-post-partum
+              img
+                width: 100%
+        .col-content-post-partum
+          width: auto
+          max-width: 800px
+          .title-post-partum, .subtitle-post-partum
+            text-align: center
+          .title-post-partum
+            margin-top: 50px
+          .subtitle-post-partum
+            margin-bottom: 50px
+    .section-info
+      .elementor-container
+        max-width: 95%!important
 
 @include max1053
-  .section-content-tarif
-    .elementor-container
-      flex-direction: column
-      .elementor-col-50
-        width: 100%
-        margin-bottom: 50px
-        .elementor-widget-wrap
-          .elementor-element
-            text-align: center
+  .elementor-448
+    .section-header-drainage
+      .elementor-container
+        .col-img-header
+          .img-header-drainage
+            transform: translateX(70px)
+
 @include max992
-  .section-desc-prestation
-    margin-bottom: 20px
-    .elementor-container
-      flex-direction: column
-      align-items: center
-      .img-drainage
-        margin-bottom: 20px
-        margin-right: 0px
-        text-align: center
-      .elementor-element-7a7c76a
-        margin-top: 20px
-        width: 100%
-  .section-title-objectif
-    .bg-element-title:before
-      left: -9%
-  .section-content-objectif
-    padding: 0 20px 0 20px
-  .elementor-container
-    .elementor-element-f621b69
-      flex-direction: column
-      justify-content: center
-      .img-objectif
-        text-align: center
-  .section-content-benefice
-    .elementor-container
-      display: flex
-      flex-direction: column
-      .elementor-element-19f59c4, .elementor-element-db5ae97
-        width: 100%
-        .list-benefice
-          margin: 30px auto 0 auto
-          width: 80%
-          li
-            width: 100%
-            padding-left: 0
+  .elementor-448
+    .section-header-drainage
+      .elementor-container
+        max-width: 90%!important
+
+@include max900
+  .elementor-448
+    .section-header-prestation
+      .elementor-container
+        max-width: 90%!important
+        .col-content-header
+          .elementor-widget-wrap
+            .title-page
+              font-size: 40px
+            .subtitle-page
+              font-size: 23px
 
 @include max800
-  .section-firsttitle
-    display: flex
-    justify-content: center
-  .section-secondtitle
-    margin: 50px auto 50px auto
-    display: flex
-    .secondtitle
-      margin: auto
-      width: auto!important
-
-  .section-desc-drainage
-    .elementor-container
-      .img-drainage
-        margin: 0
-        text-align: center
-
-
-@include max767
-  .section-info-partum
-    text-align: center
-    margin-bottom: 0px
-    img
-      margin-bottom: 20px
-
-  .title-benefice
-    margin-top: 20px
-    margin-bottom: 60px
-    .title-part
-      font-size: 32px
-
-@include max550
-  .section-secondtitle
-    .secondtitle
-      span
-        &:after
-          display: none
-  .section-title-objectif, .title-benefice
-    .bg-element-title
-      font-size: 28px
-      &:before
-        width: 186px
-    .title-part
-      font-size: 28px
-  .img-benefice
-    padding: 0 20px 0 20px
-  .section-title-tarifs
-    .title-tarifs
-      span
-        &:after
+  .elementor-448
+    .section-header-drainage
+      .elementor-container
+        .col-content-header
+          width: 100%
+          .title-page, .subtitle-page
+            text-align: center
+          .subtitle-page
+            justify-content: center
+            &:after
+              content: ""
+              background-color: $cSecond
+              height: 3px
+              width: 35px
+              margin-left: 10px
+          .btn-header-prestation
+            margin: 100px auto 0 auto!important
+        .col-img-header
           display: none
 
-  .section-content-tarif
-    .elementor-container:first-of-type
-      padding: 20px!important
-      .elementor-element-504d6de
-        .list-tarifs
-          li
-            height: 65px
-            border-radius: 0px
-            span
-              flex-direction: column
-              p
-                margin: 0
-                .container-btn-price .btn-gift-card-presta
-                  padding: 0 25px 0 25px
-                  border-radius: 0px
-
+@include max640
+  .elementor-448
+    .section-keywords
+      .elementor-container
+        flex-direction: column
+        max-width: 90% !important
+        .col-keyword
+          .elementor-widget-wrap
+            .txt-keyword
+              text-align: center
+    .section-post-partum
+      padding: 40px 0
+      .elementor-container
+        .col-img
+          .elementor-widget-wrap
+            .container-form
+              bottom: 75%
+              top: 0
+              height: auto
 
 @include max480
-  .section-desc-prestation
-    h2
-      font-size: 28px
-    .elementor-element-7a7c76a
-      padding: 0 20px 0 20px
-      .section-subtitle-desc-drainage
-        .subtitle-desc-drainage
-          font-size: 22px
+  .elementor-448
+    .title-h2
+      font-size: 30px
+    .subtitle-h3
+      font-size: 20px!important
+
+    .section-header-prestation
+      .elementor-container
+        max-width: 90%!important
+        .col-content-header
+          .elementor-widget-wrap
+            .title-page
+              font-size: 32px
+            .subtitle-page
+              font-size: 17px
+
+@include max375
+  .elementor-448
+    .section-header-prestation, .section-header-drainage
+      .elementor-container
+        max-width: 90%!important
+        .col-content-header
+          .elementor-widget-wrap
+            .title-page
+              font-size: 30px
+            .subtitle-page
+              font-size: 17px
+              &:before, &:after
+                display: none

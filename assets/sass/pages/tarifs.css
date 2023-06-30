@@ -1,0 +1,333 @@
+/*------------------------------------------
+ *  Responsive
+ * -----------------------------------------*/
+.section-header-tarifs {
+  background-image: url("../img/bg-header-prices.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "NewYork";
+  text-transform: uppercase;
+  color: #FFFF;
+  text-align: center;
+}
+.section-header-tarifs .col-header-tarifs .title-header-tarifs {
+  font-size: 65px;
+  margin: 200px auto 30px auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.section-header-tarifs .col-header-tarifs .title-header-tarifs:before, .section-header-tarifs .col-header-tarifs .title-header-tarifs:after {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  background-color: #FFFF;
+  width: 50px;
+}
+.section-header-tarifs .col-header-tarifs .title-header-tarifs:before {
+  margin-right: 30px;
+}
+.section-header-tarifs .col-header-tarifs .title-header-tarifs:after {
+  margin-left: 30px;
+}
+.section-header-tarifs .col-header-tarifs .subtitle-header-tarifs {
+  font-size: 35px;
+  margin-bottom: 200px;
+}
+
+.section-tarifs-category {
+  font-family: "Montserrat";
+  margin-bottom: 300px;
+  margin-top: 300px;
+}
+.section-tarifs-category .elementor-container {
+  justify-content: space-between;
+  max-width: 1500px !important;
+}
+.section-tarifs-category .elementor-container .col-img-tarifs {
+  width: auto;
+}
+.section-tarifs-category .elementor-container .col-img-tarifs .elementor-widget-wrap {
+  align-content: center;
+}
+.section-tarifs-category .elementor-container .col-img-tarifs .elementor-widget-wrap .btn-rdv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  border-radius: 35px;
+  background-color: #999C7F;
+  font-size: 25px;
+  width: 350px;
+  height: 70px;
+}
+.section-tarifs-category .elementor-container .col-img-tarifs .elementor-widget-wrap .btn-rdv a {
+  width: 100%;
+  padding: 0;
+  color: #FFFF;
+  line-height: 70px;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .title-tarifs {
+  font-family: "NewYork";
+  font-size: 65px;
+  color: #E0B6A8;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .icon-tarifs {
+  margin: 30px 0;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs {
+  margin-bottom: 15px;
+  height: 80px;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container {
+  height: 80px;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs {
+  background-color: rgba(244, 238, 237, 0.44);
+  padding: 10px 10px 10px 30px;
+  border-radius: 50px;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap {
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .title-prestation {
+  margin-bottom: 0px !important;
+  color: #555555;
+  font-weight: 600;
+  width: 65%;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .btn-giftcard, .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .btn-price, .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .txt-time {
+  width: auto;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .btn-giftcard, .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .btn-price {
+  position: absolute;
+  border-radius: 50px;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .btn-price {
+  right: 115px;
+  min-width: 90px;
+  height: 100%;
+  background-color: #E0B6A8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(10px);
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .btn-price a {
+  padding: 0px;
+  line-height: 100%;
+  width: 100%;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .btn-giftcard {
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: #999C7F;
+  font-weight: 600;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .btn-giftcard:hover {
+  opacity: 0.8;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .txt-time {
+  width: 63%;
+  color: #707070;
+  bottom: 0;
+  left: 0;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-btn-tarifs {
+  margin-top: 30px;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-btn-tarifs .inner-col-btn .elementor-widget-wrap .btn-more-prestation, .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-btn-tarifs .inner-col-btn .elementor-widget-wrap .btn-rdv {
+  width: 250px;
+  height: 50px;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-btn-tarifs .inner-col-btn .elementor-widget-wrap .btn-more-prestation a, .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-btn-tarifs .inner-col-btn .elementor-widget-wrap .btn-rdv a {
+  width: 100%;
+  padding: 0;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-btn-tarifs .inner-col-btn .elementor-widget-wrap .btn-more-prestation {
+  border: solid 2px #999C7F;
+  border-radius: 35px;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-btn-tarifs .inner-col-btn .elementor-widget-wrap .btn-more-prestation a {
+  color: #999C7F;
+  line-height: 46px;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-btn-tarifs .inner-col-btn .elementor-widget-wrap .btn-more-prestation:hover {
+  transition: 0.3s;
+  background-color: #999C7F;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-btn-tarifs .inner-col-btn .elementor-widget-wrap .btn-more-prestation:hover a {
+  color: #FFFF;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-btn-tarifs .inner-col-btn:first-of-type .elementor-widget-wrap {
+  justify-content: right;
+  padding-right: 30px !important;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-btn-tarifs .inner-col-btn:nth-of-type(2) .elementor-widget-wrap {
+  padding-left: 30px !important;
+}
+.section-tarifs-category .elementor-container .col-content-tarifs .inner-section-btn-tarifs .inner-col-one-btn .elementor-widget-wrap:first-of-type {
+  justify-content: center;
+  padding-right: 0px !important;
+}
+.section-tarifs-category:nth-of-type(2n+1) .col-img-tarifs .img-tarifs {
+  text-align: right;
+}
+.section-tarifs-category:nth-of-type(2n) .col-img-tarifs .img-tarifs {
+  text-align: left;
+}
+
+.section-tarifs-category:nth-of-type(2) {
+  margin-top: 100px;
+}
+
+@media (max-width: 1600px) {
+  .section-tarifs-category .elementor-container {
+    max-width: 95% !important;
+  }
+  .section-tarifs-category .elementor-container .col-img-tarifs {
+    flex-shrink: 0;
+  }
+  .section-tarifs-category .elementor-container .col-content-tarifs {
+    width: 60%;
+    padding-left: 20px;
+  }
+  .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container {
+    max-width: 100% !important;
+  }
+}
+@media (max-width: 1280px) {
+  .section-tarifs-category {
+    margin: 50px 0;
+  }
+  .section-tarifs-category .elementor-container {
+    flex-direction: column;
+    align-items: center;
+    max-width: 95% !important;
+  }
+  .section-tarifs-category .elementor-container .col-img-tarifs {
+    display: none;
+  }
+  .section-tarifs-category .elementor-container .col-img-tarifs .img-tarifs {
+    width: 70%;
+    margin: auto;
+  }
+  .section-tarifs-category .elementor-container .col-content-tarifs {
+    padding-left: 0px;
+    width: 100%;
+  }
+  .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs {
+    height: 80px;
+  }
+  .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-btn-tarifs .inner-col-btn:first-of-type .elementor-widget-wrap {
+    padding-right: 0px !important;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-btn-tarifs .inner-col-btn:nth-of-type(2) .elementor-widget-wrap {
+    justify-content: center;
+    padding-left: 0px !important;
+  }
+  .section-tarifs-category:nth-of-type(2) {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 670px) {
+  .section-header-tarifs .col-header-tarifs .title-header-tarifs {
+    font-size: 40px;
+  }
+  .section-header-tarifs .col-header-tarifs .title-header-tarifs:before, .section-header-tarifs .col-header-tarifs .title-header-tarifs:after {
+    display: none;
+  }
+  .section-header-tarifs .col-header-tarifs .subtitle-header-tarifs {
+    font-size: 25px;
+  }
+
+  .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs {
+    height: 120px;
+  }
+  .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container {
+    height: 120px;
+  }
+  .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs {
+    height: 120px;
+  }
+  .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .btn-price {
+    width: 70px;
+    min-width: unset;
+    right: 83px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .btn-giftcard {
+    top: 50%;
+    height: 70px;
+    width: 70px;
+    transform: translateY(-50%);
+  }
+  .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .txt-time {
+    width: 55%;
+  }
+}
+@media (max-width: 600px) {
+  .site-content .section-tarifs-category .elementor-container .col-content-tarifs .title-tarifs {
+    font-size: 35px;
+  }
+  .site-content .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs {
+    height: unset !important;
+  }
+  .site-content .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container {
+    height: unset !important;
+  }
+  .site-content .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs {
+    height: unset !important;
+    padding: 0 0 0 0 !important;
+  }
+  .site-content .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap {
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 10px !important;
+  }
+  .site-content .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .title-prestation {
+    width: 95% !important;
+    margin-bottom: 75px !important;
+    text-align: center !important;
+  }
+  .site-content .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .btn-price, .site-content .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .btn-giftcard {
+    right: unset !important;
+    width: 100px !important;
+    min-width: 39px !important;
+    transform: unset !important;
+    top: unset !important;
+    height: 39px !important;
+    border-radius: 50px !important;
+    position: relative !important;
+    width: 100px !important;
+  }
+  .site-content .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .txt-time {
+    top: 22%;
+    position: absolute !important;
+    width: 95% !important;
+    text-align: center !important;
+    bottom: unset !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+  .site-content .section-tarifs-category .elementor-container .col-content-tarifs .inner-section-tarifs .elementor-container .inner-col-tarifs .elementor-widget-wrap .btn-giftcard a {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=tarifs.css.map */

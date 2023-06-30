@@ -1,275 +1,419 @@
 /*------------------------------------------
  *  Responsive
  * -----------------------------------------*/
-span, p {
-  font-family: "Raleway";
-}
-
-.section-desc-prenatal {
-  margin-bottom: 80px;
-}
-.section-desc-prenatal .elementor-container {
-  max-width: 1500px !important;
-}
-.section-desc-prenatal .img-prenatal {
-  text-align: left;
-}
-.section-desc-prenatal .elementor-element-82be305 {
-  background-color: rgba(241, 231, 229, 0.15);
-  padding: 0 50px 0 50px;
-}
-.section-desc-prenatal .elementor-element-82be305 .title-desc-prenatal, .section-desc-prenatal .elementor-element-82be305 .subtitle-desc-prenatal, .section-desc-prenatal .elementor-element-82be305 .txt-desc-prenatal, .section-desc-prenatal .elementor-element-82be305 .txt-info {
-  text-align: center;
-  font-family: "Raleway";
-}
-.section-desc-prenatal .elementor-element-82be305 .title-desc-prenatal {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #555555;
-  font-size: 32px;
-  text-transform: none !important;
-}
-.section-desc-prenatal .elementor-element-82be305 .title-desc-prenatal:after {
-  content: "";
-  display: block;
-  background-color: #F1E7E5;
-  height: 1px;
-  width: 70px;
-  margin: 20px auto 0 auto;
-}
-.section-desc-prenatal .elementor-element-82be305 .subtitle-desc-prenatal {
-  font-style: italic;
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-.section-desc-prenatal .elementor-element-82be305 .txt-desc-prenatal {
-  margin: 50px 0 50px 0;
-  line-height: 32px;
-}
-.section-desc-prenatal .elementor-element-82be305 .txt-info {
-  background-color: #D18F91;
-  padding: 20px 20px;
-  color: #FFFF;
-  font-weight: bold;
-  line-height: 25px;
-}
-
-.section-title-bienfaits {
-  font-family: "Raleway";
-  font-size: 32px;
-  color: #555555;
-}
-.section-title-bienfaits .title-bienfaits {
-  text-align: center;
-  margin: 70px 0 70px 0;
-}
-.section-title-bienfaits .bg-element-title {
-  display: inline-block;
-  position: relative;
-  color: #FFFF;
-  font-family: "MarketPro";
-  font-size: 32px;
-  letter-spacing: 3px;
-  margin-right: 15px;
-}
-.section-title-bienfaits .bg-element-title:before {
-  position: absolute;
-  content: "";
-  background-color: #D18F91;
-  height: 52px;
-  width: 200px;
-  transform: rotate(-2deg);
-  z-index: -1;
-  top: -24%;
-  left: -8%;
-}
-.section-title-bienfaits .bg-element-title:first-letter {
-  text-transform: uppercase;
-}
-
-.section-content-bienfaits .elementor-container {
-  max-width: 1500px !important;
-}
-.section-content-bienfaits .elementor-container .list-benefice {
-  color: #D18F91;
-}
-.section-content-bienfaits .elementor-container .list-benefice li {
-  margin-bottom: 20px;
-}
-.section-content-bienfaits .elementor-container .list-benefice li svg {
-  height: 59px;
-  width: 59px;
-}
-.section-content-bienfaits .elementor-container .list-benefice li .elementor-icon-list-text {
-  color: #555555;
-  margin-left: 20px;
-}
-.section-content-bienfaits .elementor-container .list-benefice li .elementor-icon-list-text .txt-part {
-  font-weight: 600;
-}
-.section-content-bienfaits .elementor-widget-wrap {
-  justify-content: center;
-  flex-direction: column;
-}
-.section-content-bienfaits .elementor-widget-wrap .img-bienfaits {
-  text-align: right;
-}
-
-.section-title-seance .title-seance {
-  text-align: center;
-  margin: 70px 0 70px 0;
-  transform: translateY(100px);
-  z-index: 99;
-}
-.section-title-seance .title-seance h2 {
-  font-size: 45px;
-  font-family: "MarketPro";
-  letter-spacing: 5px;
-  color: #FFFF;
-}
-.section-title-seance .title-seance h2:before {
-  position: absolute;
-  content: "";
-  background-color: #D18F91;
-  height: 52px;
-  width: 620px;
-  transform: rotate(-1deg);
-  z-index: -1;
-  top: -12%;
-  left: 22%;
-}
-
-.section-seance {
-  background-color: rgba(241, 231, 229, 0.15);
-}
-.section-seance .elementor-container {
-  max-width: 1500px !important;
-  padding: 30px 0 30px 0;
-}
-.section-seance .elementor-container .section-content-seance:nth-child(2) {
-  margin: 30px 0 30px 0;
-}
-.section-seance .elementor-container .section-content-seance .elementor-widget-wrap {
-  flex-direction: column;
-  justify-content: center;
-}
-.section-seance .elementor-container .section-content-seance .elementor-widget-wrap .title-stage {
-  font-family: "MarketPro";
-  color: #D18F91;
+.section-header-prestation {
+  background-image: url("../img/bg-header-prenatal.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  max-height: 900px;
+  font-family: "Montserrat";
   display: flex;
 }
-.section-seance .elementor-container .section-content-seance .elementor-widget-wrap .title-stage:before {
+.section-header-prestation .elementor-container {
+  max-width: 1500px !important;
+  margin: auto;
+}
+.section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap {
+  align-content: center;
+}
+.section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .title-page {
+  font-family: "NewYork";
+  font-size: 65px;
+  color: #FFFF;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .subtitle-page {
+  display: flex;
+  align-items: center;
+  color: #E0B6A8;
+  font-size: 27px;
+  font-weight: 600;
+}
+.section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .subtitle-page:before {
   content: "";
+  display: inline-block;
+  background-color: #E0B6A8;
+  height: 3px;
+  width: 35px;
+  margin-right: 10px;
+}
+.section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .btn-header-prestation {
+  border: solid 3px #E0B6A8;
+  border-radius: 27px;
+  width: 300px;
+  height: 54px;
+  background-color: rgba(224, 182, 168, 0.08);
+  margin-top: 50px;
+}
+.section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .btn-header-prestation a {
+  padding: 0px;
+  transform: translateY(-6px);
+  line-height: 60px;
+  font-weight: 600;
+  width: 100%;
+  color: #E0B6A8;
+  font-size: 19px;
+}
+.section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .btn-header-prestation:hover {
+  transition: 0.3s;
+  border: solid 3px #FFFF;
+  background-color: #FFFF;
+}
+.section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .btn-header-prestation:hover a {
+  color: #707070;
+}
+.section-header-prestation:after {
+  content: "";
+  background-image: url("../img/down-arrow.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.section-massage-small .elementor-container {
+  justify-content: space-around;
+}
+.section-massage-small .elementor-container .col-img-small {
+  width: 33%;
+}
+.section-massage-small .elementor-container .col-img-small .elementor-widget-wrap .img-massage-small img {
+  border-radius: 0px;
+}
+.section-massage-small .elementor-container .col-content-massage .subtitle-txt {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #555555;
+  font-style: italic;
+  font-weight: 500;
+}
+.section-massage-small .elementor-container .col-content-massage .btn-keywords-massage {
+  background-color: #E0B6A8;
+  margin-bottom: 0px;
+  height: 64px;
+  width: 250px;
+  margin-right: 20px;
+  border-radius: 39px;
+}
+.section-massage-small .elementor-container .col-content-massage .btn-keywords-massage a {
+  font-size: 20px;
+  padding: 0;
+  font-weight: 600;
+  width: 100%;
+  line-height: 64px;
+}
+
+.elementor-451 .section-benefices .elementor-container .col-img-benefices .elementor-widget-wrap, .elementor-457 .section-benefices .elementor-container .col-img-benefices .elementor-widget-wrap {
+  align-content: center;
+}
+.elementor-451 .section-benefices .elementor-container .col-img-benefices .elementor-widget-wrap .container-form, .elementor-457 .section-benefices .elementor-container .col-img-benefices .elementor-widget-wrap .container-form {
+  transform: translateY(0px);
+}
+
+.section-title-deroulement {
+  text-align: center;
+  padding-bottom: 75px;
+}
+.section-title-deroulement .col-title-deroulement .title-deroulement, .section-title-deroulement .col-title-deroulement .subtitle-deroulement {
+  color: #E0B6A8;
+}
+
+.section-info .col-info .message-info-green {
+  background-color: #999C7F;
+}
+
+.section-deroulement {
+  padding-bottom: 75px;
+}
+.section-deroulement .elementor-container {
+  position: unset !important;
+}
+.section-deroulement .elementor-container .col-deroulement {
+  position: unset;
+}
+.section-deroulement .elementor-container .col-deroulement .elementor-widget-wrap {
+  position: unset;
+}
+.section-deroulement .elementor-container .col-deroulement .elementor-widget-wrap .flower-right {
+  position: absolute;
+  width: auto;
+  right: 0;
+}
+.section-deroulement .elementor-container .col-deroulement .elementor-widget-wrap .flower-left {
+  position: absolute;
+  width: auto;
+  left: 0;
+  bottom: 0;
+}
+.section-deroulement .elementor-container .col-deroulement .elementor-widget-wrap .inner-section-deroulement .elementor-container {
+  justify-content: center;
+}
+.section-deroulement .elementor-container .col-deroulement .elementor-widget-wrap .inner-section-deroulement .elementor-container .inner-col-txt {
+  background-color: #F4EEED;
+  width: 351px;
+  padding: 0 10px 0 10px;
+}
+.section-deroulement .elementor-container .col-deroulement .elementor-widget-wrap .inner-section-deroulement .elementor-container .inner-col-txt .number-step {
+  color: #E0B6A8;
+  position: absolute;
+  top: 30px;
+  font-family: "NewYork";
+  font-size: 70px;
+  font-weight: 600;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+  width: auto;
+}
+.section-deroulement .elementor-container .col-deroulement .elementor-widget-wrap .inner-section-deroulement .elementor-container .inner-col-txt .number-step:before {
+  content: "";
+  display: inline-block;
+  background-color: #F1E7E5;
   position: absolute;
   z-index: -1;
-  display: block;
-  height: 140px;
-  width: 140px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-image: url("../img/ellipse.svg");
-}
-.section-seance .elementor-container .section-content-seance .elementor-widget-wrap .title-stage:after {
-  content: "";
-  display: block;
-  background-position: center;
-  background-size: contain;
   height: 70px;
   width: 70px;
-  margin-top: 70px;
-  background-repeat: no-repeat;
-  background-image: url("../img/arrow.svg");
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
 }
-.section-seance .elementor-container .section-content-seance .elementor-widget-wrap .title-stage h2 {
-  font-size: 45px;
-  padding-left: 70px;
-  letter-spacing: 5px;
-  line-height: 140px;
+.section-deroulement .elementor-container .col-deroulement .elementor-widget-wrap .inner-section-deroulement .elementor-container .inner-col-txt .title-step {
+  font-family: "NewYork";
+  font-size: 34px;
+  color: #999C7F;
+  position: relative;
+  z-index: 99;
+  width: auto;
+  margin: 45% auto;
 }
-.section-seance .elementor-container .section-content-seance .elementor-widget-wrap .txt-stage {
-  padding-left: 70px;
-  font-family: "Raleway";
-  font-size: 25px;
-}
-.section-seance .elementor-container .section-content-seance .elementor-widget-wrap .txt-stage .part-txt-seance {
-  background-color: #F1E7E5;
-  padding: 5px;
-  margin-right: 5px;
-}
-
-.section-content-tarif .elementor-container:first-of-type {
-  max-width: 1500px !important;
-  background-color: rgba(241, 231, 229, 0.15);
-  padding: 50px;
-}
-.section-content-tarif .elementor-container:first-of-type .img-content-tarif {
-  text-align: left;
-}
-.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad {
-  flex-direction: column;
-  justify-content: center;
-}
-.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li {
-  background-color: #F4EEED;
-  margin-bottom: 20px;
-  border-radius: 12px;
-}
-.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li:last-child, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li:last-child {
-  margin-bottom: 0;
-}
-.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li span, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li span {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0 5px 0 10px;
-}
-.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li span .container-btn-price, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li span .container-btn-price {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li span .container-btn-price .btn-price-presta, .section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li span .container-btn-price .btn-gift-card-presta, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li span .container-btn-price .btn-price-presta, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li span .container-btn-price .btn-gift-card-presta {
-  height: 85%;
-  padding: 0 35px 0 35px;
-  border: none;
-  border-radius: 10px;
-  font-family: "Raleway";
-  font-size: 16px;
-}
-.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li span .container-btn-price .btn-price-presta, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li span .container-btn-price .btn-price-presta {
-  background-color: #F1E7E5;
-  margin-right: 5px;
-}
-.section-content-tarif .elementor-container:first-of-type .elementor-element-d9af83a .list-tarifs li span .container-btn-price .btn-gift-card-presta, .section-content-tarif .elementor-container:first-of-type .elementor-element-88f34ad .list-tarifs li span .container-btn-price .btn-gift-card-presta {
-  background-color: #D18F91;
-  color: #FFFF;
+.section-deroulement .elementor-container .col-deroulement .elementor-widget-wrap .inner-section-deroulement .elementor-container .inner-col-txt .txt-step {
+  position: absolute;
+  bottom: 20%;
+  text-align: center;
+  color: #707070;
   font-weight: 600;
-  text-transform: uppercase;
+  transform: translateX(-10px);
+  font-family: "Montserrat";
+  font-size: 19px;
+}
+.section-deroulement .elementor-container .col-deroulement .elementor-widget-wrap .inner-section-deroulement .elementor-container .inner-col-img {
+  width: auto !important;
+}
+.section-deroulement .elementor-container .col-deroulement .elementor-widget-wrap .inner-section-deroulement:last-of-type {
+  z-index: 99;
 }
 
-@media (max-width: 992px) {
-  .section-desc-prenatal .img-prenatal {
+@media (max-width: 1600px) {
+  .section-header-prestation .elementor-container {
+    max-width: 90% !important;
+    justify-content: space-around;
+  }
+  .section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .title-page {
+    font-size: 45px;
+  }
+  .section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .subtitle-page {
+    font-size: 23px;
+  }
+
+  .section-massage .elementor-container {
+    max-width: 90% !important;
+    align-items: center;
+  }
+  .section-massage .elementor-container .col-img {
+    padding-right: 30px;
+    width: auto;
+    flex-shrink: 1;
+  }
+  .section-massage .elementor-container .col-content-massage {
+    flex-shrink: 60;
+    width: auto;
+  }
+}
+@media (max-width: 1280px) {
+  .elementor-451 .section-massage, .elementor-454 .section-massage, .elementor-457 .section-massage, .elementor-2915 .section-massage {
+    padding: 35px 0;
+  }
+  .elementor-451 .section-massage .elementor-container, .elementor-454 .section-massage .elementor-container, .elementor-457 .section-massage .elementor-container, .elementor-2915 .section-massage .elementor-container {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .elementor-451 .section-massage .elementor-container .col-content-massage, .elementor-454 .section-massage .elementor-container .col-content-massage, .elementor-457 .section-massage .elementor-container .col-content-massage, .elementor-2915 .section-massage .elementor-container .col-content-massage {
+    margin-bottom: 30px;
+    max-width: 800px;
+  }
+  .elementor-451 .section-massage .elementor-container .col-content-massage .title-massage, .elementor-454 .section-massage .elementor-container .col-content-massage .title-massage, .elementor-457 .section-massage .elementor-container .col-content-massage .title-massage, .elementor-2915 .section-massage .elementor-container .col-content-massage .title-massage {
     text-align: center;
-    margin-bottom: 20px;
+  }
+  .elementor-451 .section-massage .elementor-container .col-content-massage .subtitle-txt, .elementor-454 .section-massage .elementor-container .col-content-massage .subtitle-txt, .elementor-457 .section-massage .elementor-container .col-content-massage .subtitle-txt, .elementor-2915 .section-massage .elementor-container .col-content-massage .subtitle-txt {
+    text-align: center;
+  }
+  .elementor-451 .section-massage .elementor-container .col-content-massage .subtitle-txt:before, .elementor-454 .section-massage .elementor-container .col-content-massage .subtitle-txt:before, .elementor-457 .section-massage .elementor-container .col-content-massage .subtitle-txt:before, .elementor-2915 .section-massage .elementor-container .col-content-massage .subtitle-txt:before {
+    transform: translate(15px, -15px);
+  }
+  .elementor-451 .section-massage .elementor-container .col-content-massage .btn-keywords-massage, .elementor-454 .section-massage .elementor-container .col-content-massage .btn-keywords-massage, .elementor-457 .section-massage .elementor-container .col-content-massage .btn-keywords-massage, .elementor-2915 .section-massage .elementor-container .col-content-massage .btn-keywords-massage {
+    margin-left: auto;
+  }
+  .elementor-451 .section-massage .elementor-container .col-content-massage .btn-keywords-massage:last-of-type, .elementor-454 .section-massage .elementor-container .col-content-massage .btn-keywords-massage:last-of-type, .elementor-457 .section-massage .elementor-container .col-content-massage .btn-keywords-massage:last-of-type, .elementor-2915 .section-massage .elementor-container .col-content-massage .btn-keywords-massage:last-of-type {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .elementor-451 .section-massage .elementor-container .col-img, .elementor-454 .section-massage .elementor-container .col-img, .elementor-457 .section-massage .elementor-container .col-img, .elementor-2915 .section-massage .elementor-container .col-img {
+    margin-top: 100px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .elementor-451 .section-massage .elementor-container .col-img .elementor-widget-wrap .container-form, .elementor-454 .section-massage .elementor-container .col-img .elementor-widget-wrap .container-form, .elementor-457 .section-massage .elementor-container .col-img .elementor-widget-wrap .container-form, .elementor-2915 .section-massage .elementor-container .col-img .elementor-widget-wrap .container-form {
+    width: 50vw;
+  }
+  .elementor-451 .section-benefices, .elementor-454 .section-benefices, .elementor-457 .section-benefices, .elementor-2915 .section-benefices {
+    padding: 0px 0 75px 0;
+  }
+  .elementor-451 .section-benefices .elementor-container, .elementor-454 .section-benefices .elementor-container, .elementor-457 .section-benefices .elementor-container, .elementor-2915 .section-benefices .elementor-container {
+    max-width: 90% !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .elementor-451 .section-benefices .elementor-container .col-content-benefice, .elementor-454 .section-benefices .elementor-container .col-content-benefice, .elementor-457 .section-benefices .elementor-container .col-content-benefice, .elementor-2915 .section-benefices .elementor-container .col-content-benefice {
+    width: auto;
+    max-width: 800px;
+  }
+  .elementor-451 .section-benefices .elementor-container .col-content-benefice .title-benefice, .elementor-451 .section-benefices .elementor-container .col-content-benefice .subtitle-benefice, .elementor-454 .section-benefices .elementor-container .col-content-benefice .title-benefice, .elementor-454 .section-benefices .elementor-container .col-content-benefice .subtitle-benefice, .elementor-457 .section-benefices .elementor-container .col-content-benefice .title-benefice, .elementor-457 .section-benefices .elementor-container .col-content-benefice .subtitle-benefice, .elementor-2915 .section-benefices .elementor-container .col-content-benefice .title-benefice, .elementor-2915 .section-benefices .elementor-container .col-content-benefice .subtitle-benefice {
+    text-align: center;
+  }
+  .elementor-451 .section-benefices .elementor-container .col-content-benefice .subtitle-benefice, .elementor-454 .section-benefices .elementor-container .col-content-benefice .subtitle-benefice, .elementor-457 .section-benefices .elementor-container .col-content-benefice .subtitle-benefice, .elementor-2915 .section-benefices .elementor-container .col-content-benefice .subtitle-benefice {
+    margin-bottom: 50px;
+  }
+  .elementor-451 .section-benefices .elementor-container .col-img-benefices, .elementor-454 .section-benefices .elementor-container .col-img-benefices, .elementor-457 .section-benefices .elementor-container .col-img-benefices, .elementor-2915 .section-benefices .elementor-container .col-img-benefices {
+    margin-top: 50px;
+    padding: 0;
+  }
+  .elementor-451 .section-benefices .elementor-container .col-img-benefices .container-form, .elementor-454 .section-benefices .elementor-container .col-img-benefices .container-form, .elementor-457 .section-benefices .elementor-container .col-img-benefices .container-form, .elementor-2915 .section-benefices .elementor-container .col-img-benefices .container-form {
+    width: 50vw;
+  }
+  .elementor-451 .section-benefices .elementor-container .col-img-benefices .img-benefices, .elementor-454 .section-benefices .elementor-container .col-img-benefices .img-benefices, .elementor-457 .section-benefices .elementor-container .col-img-benefices .img-benefices, .elementor-2915 .section-benefices .elementor-container .col-img-benefices .img-benefices {
+    text-align: center;
+  }
+  .elementor-451 .section-benefices .elementor-container .col-img-benefices .img-benefices img, .elementor-454 .section-benefices .elementor-container .col-img-benefices .img-benefices img, .elementor-457 .section-benefices .elementor-container .col-img-benefices .img-benefices img, .elementor-2915 .section-benefices .elementor-container .col-img-benefices .img-benefices img {
+    width: auto;
+  }
+
+  .section-info .elementor-container {
+    max-width: 95% !important;
+  }
+}
+@media (max-width: 900px) {
+  .section-header-prestation .elementor-container .col-img-header .img-header img {
+    width: 80%;
   }
 }
 @media (max-width: 767px) {
-  .title-bienfaits .title-part {
-    font-size: 32px;
+  .section-header-prestation {
+    padding: 100px 0;
+    max-height: unset;
+    height: auto;
+  }
+  .section-header-prestation .elementor-container .col-content-header {
+    text-align: center;
+  }
+  .section-header-prestation .elementor-container .col-content-header .subtitle-page {
+    justify-content: center;
+  }
+  .section-header-prestation .elementor-container .col-content-header .subtitle-page:after {
+    content: "";
+    background-color: #E0B6A8;
+    height: 3px;
+    width: 35px;
+    margin-left: 10px;
+  }
+  .section-header-prestation .elementor-container .col-content-header .btn-header-prestation {
+    margin: 50px auto 50px auto !important;
+  }
+  .section-header-prestation .elementor-container .col-img-header .img-header img {
+    width: 50%;
+  }
+
+  .elementor-451 .section-info .col-info .message-info {
+    border-radius: 0px;
+  }
+  .elementor-451 .section-info .col-info .message-info .elementor-icon-list-item {
+    flex-direction: column;
+  }
+  .elementor-451 .section-info .col-info .message-info .elementor-icon-list-item .elementor-icon-list-icon {
+    margin-bottom: 20px;
+  }
+  .elementor-451 .section-info .col-info .message-info .elementor-icon-list-item .elementor-icon-list-text {
+    padding-left: 0px;
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  .section-deroulement .elementor-container .col-deroulement .elementor-widget-wrap .inner-section-deroulement .elementor-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-deroulement .elementor-container .col-deroulement .elementor-widget-wrap .inner-section-deroulement:nth-of-type(2n) .elementor-container {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 640px) {
+  .elementor-451 .section-massage .elementor-container .col-content-massage .elementor-widget-wrap, .elementor-457 .section-massage .elementor-container .col-content-massage .elementor-widget-wrap, .elementor-2915 .section-massage .elementor-container .col-content-massage .elementor-widget-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .elementor-451 .section-massage .elementor-container .col-content-massage .elementor-widget-wrap .btn-keywords-massage, .elementor-457 .section-massage .elementor-container .col-content-massage .elementor-widget-wrap .btn-keywords-massage, .elementor-2915 .section-massage .elementor-container .col-content-massage .elementor-widget-wrap .btn-keywords-massage {
+    margin: 10px 0;
+  }
+  .elementor-451 .section-massage .elementor-container .col-content-massage .elementor-widget-wrap .title-massage, .elementor-457 .section-massage .elementor-container .col-content-massage .elementor-widget-wrap .title-massage, .elementor-2915 .section-massage .elementor-container .col-content-massage .elementor-widget-wrap .title-massage {
+    font-size: 35px;
+  }
+  .elementor-451 .section-massage .elementor-container .col-content-massage .elementor-widget-wrap .subtitle-txt, .elementor-457 .section-massage .elementor-container .col-content-massage .elementor-widget-wrap .subtitle-txt, .elementor-2915 .section-massage .elementor-container .col-content-massage .elementor-widget-wrap .subtitle-txt {
+    font-size: 20px;
+  }
+  .elementor-451 .section-benefices .title-benefice, .elementor-457 .section-benefices .title-benefice, .elementor-2915 .section-benefices .title-benefice {
+    font-size: 35px;
+  }
+  .elementor-451 .section-benefices .subtitle-benefice, .elementor-457 .section-benefices .subtitle-benefice, .elementor-2915 .section-benefices .subtitle-benefice {
+    font-size: 20px;
+  }
+
+  .section-title-deroulement .col-title-deroulement .title-deroulement {
+    font-size: 35px;
+  }
+  .section-title-deroulement .col-title-deroulement .subtitle-deroulement {
+    font-size: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .section-header-prestation .elementor-container .col-img-header {
+    display: none;
+  }
+  .section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .title-page {
+    font-size: 30px;
+  }
+  .section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .subtitle-page {
+    font-size: 20px;
   }
 }
 @media (max-width: 480px) {
-  .section-desc-prenatal .elementor-element-82be305 .title-desc-prenatal {
-    font-size: 28px;
-  }
-  .section-desc-prenatal .elementor-element-82be305 .subtitle-desc-prenatal {
-    font-size: 22px;
+  .elementor-451 .section-title-deroulement {
+    padding-bottom: 35px;
   }
 }
 @media (max-width: 480px) {
-  .section-firsttitle .firsttitle-future-mom h2 {
-    line-height: 90px;
+  .elementor-451 .section-title-deroulement {
+    padding: 10px 10px 35px 10px;
+  }
+  .elementor-451 .section-title-deroulement .col-title-deroulement .title-deroulement {
+    font-size: 30px;
   }
 }
 

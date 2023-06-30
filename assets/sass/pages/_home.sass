@@ -2,8 +2,11 @@
 h1,h2
   margin: 0
 
+p
+  line-height: 30px
+
 .txt-presentation
-  margin: 50px 0 50px 0
+  //margin: 50px 0 50px 0
 
 //---
 #header
@@ -103,10 +106,12 @@ h1,h2
                 animation: apparition 0.8s 1.4s ease-out forwards
           .btn-content-header
             //margin: 10% auto 0 auto
+            font-family: 'Montserrat'
             margin-top: 30px
+            color: $cGray
             width: auto
             padding: 10px 0 10px 0
-            background-color: $cPrinc
+            background-color: $cSecond
             border-radius: 50px
             transition: .2s
             opacity: 0
@@ -182,266 +187,266 @@ h1,h2
                 animation-direction: alternate
 
 
-
-
-
-//----fin elementor page accueil
-
-//--partie présentation
-
-.section-title-presentation
-  margin-top: 50px
-  margin-bottom: 70px
-  font-family: 'NewYork'
-  h2
-    text-align: center
-    font-size: 43px
-    color: $cPrinc!important
-    letter-spacing: 2px
-    &:after
-      content: ''
-      position: absolute
-      background-image: url("../img/arrow-title.svg")
-      background-position: center
-      background-size: contain
-      background-repeat: no-repeat
-      width: 106px
-      height: 72px
-      transform: translateY(56px)
-      left: 50%
-  h3
-    display: none
-    color: $cWhite!important
-    text-align: center
-    width: auto
-    font-family: 'MarketPro'!important
-    font-size: 33px
-    text-transform: uppercase
-    letter-spacing: 5px
-    &:before
-      position: absolute
-      content: ''
-      background-color: $cPrinc
-      height: 160%
-      width: 250px
-      z-index: -1
-      transform: translate(-20px, -10px)
-      rotate: -1deg
-    &:after
-      content: ''
-      position: absolute
-      background-image: url("../img/deco_femmes.svg")
-      background-position: center
-      background-size: contain
-      background-repeat: no-repeat
-      width: 81px
-      height: 59px
-      transform: translate(10px, 8px)
-
 .section-presentation
-  padding-bottom: 50px
+  padding: 15% 0 15% 0
+  max-height: 1500px
   .elementor-container
-    max-width: 1500px!important
-    justify-content: space-around
-    .elementor-element-50b90c7
-      align-items: center
-      .img-home-presentation
-        img
-          filter: drop-shadow($Shadow2)
-    .elementor-element-8b1174c
-      width: 50%
-    h3
-      color: $cWhite!important
-      text-align: center
-      width: auto
-      font-family: 'MarketPro'!important
-      font-size: 33px
-      text-transform: uppercase
-      letter-spacing: 5px
-      &:before
-        position: absolute
-        content: ''
-        background-color: $cPrinc
-        height: 160%
-        width: 250px
-        z-index: -1
-        transform: translate(-20px, -10px)
-        rotate: -1deg
-      &:after
-        content: ''
-        position: absolute
-        background-image: url("../img/deco_femmes.svg")
-        background-position: center
-        background-size: contain
-        background-repeat: no-repeat
-        width: 81px
-        height: 59px
-        transform: translate(10px, 8px)
-    .subtitle-presentation
-      margin: 30px 0 0 0
+    max-width: 100%!important
+    position: unset!important
+    &:before
+      content: ''
+      position: absolute
+      display: block
+      height: 100%
+      background-repeat: no-repeat
+      background-size: contain
+      top: 0
+      left: 0
+      width: 33%
+      background-image: url("../img/bg-presentation.png")
+    .col-img-presentation
+      padding-left: 9%
+      .img-presentation
+        text-align: left
+    .col-content-presentation
+      position: unset
       font-family: 'Montserrat'
-      font-size: 18px
-      font-weight: bold
-      color: $cGray3
-      &:after
-        content: ''
-        background-color: $cGray3
-        display: block
-        height: 3px
-        width: 30px
-    .txt-presentation
-      margin-top: 0px
-      font-family: 'Montserrat'
-      p
-        line-height: 30px
-    .btn-presentation
-      a
-        span
-          .elementor-button-text
-            display: flex
-            align-items: center
-            &:after
-              content: ''
-              background-image: url("../img/arrow-call-to-action.svg")
-              background-position: center
-              display: inline-block
-              height: 17px
-              width: 17px
-              margin-left: 10px
-      a
-        border-radius: 0
-        border: solid 1px $cGray
-        color: $cGray
-        text-transform: uppercase
-        &:hover
-          background-color: $cGray
-          color: $cWhite
-          transition: .4s
-          span
-            .elementor-button-text
-              &:after
-                //background-position: center
-                background-size: contain
-                background-image: url("../img/right-arrow.png")
-                z-index: 99
-
-//-- partie cabinet
-
-.section-cabinet
-  background-color: $cSecond
-  padding: 70px 50px
-  .elementor-container
-    max-width: 1500px!important
-    .elementor-element-072859f
-      .elementor-element-populated
-        justify-content: space-evenly
+      .elementor-widget-wrap
+        position: unset
+        justify-content: center
         flex-direction: column
-        .elementor-element-c67cbf1
-          width: 80%
-          .elementor-container
-            .elementor-element-332bbe6
-              width: auto
-              //flex-basis: 54%
-              .title-cabinet
-                font-family: 'NewYork'
-                display: flex
-                font-size: 33px
-                color: $cPrinc!important
-                letter-spacing: 2px
-                margin-right: 30px
-                &:after
-                  content: ''
-                  display: inline-block
-                  background-image: url("../img/arrow-cabinet.svg")
-                  background-size: contain
-                  background-repeat: no-repeat
-                  background-position: center
-                  width: 65px
-                  height: 64.5px
-            .elementor-element-45a1f3a
-              flex-direction: column
-              justify-content: center
-              flex-basis: 30%
-              .title-second-cabinet
-                h3
-                  color: $cWhite!important
-                  text-align: center
-                  width: auto
-                  font-family: 'MarketPro'!important
-                  font-size: 33px
-                  text-transform: uppercase
-                  letter-spacing: 5px
-                  z-index: 3
-                  position: relative
-                  &:before
-                    position: absolute
-                    content: ''
-                    background-color: $cPrinc
-                    height: 160%
-                    z-index: -1
-                    width: 250px
-                    transform: translate(-15px, -10px)
-                    rotate: -1deg
-                  &:after
-                    content: ''
-                    position: absolute
-                    background-image: url("../img/deco_cabinet.svg")
-                    background-position: center
-                    background-size: contain
-                    background-repeat: no-repeat
-                    width: 49%
-                    height: 260%
-                    top: -35%
-                    left: 101%
-        .elementor-element-975cfdc
-          margin: 30px 0 0 0
-    .elementor-element-5cb33be
-      .img-cabinet
-        img
-          filter: drop-shadow($Shadow2)
-
-.section-btn-rdv
-  transform: translateY(-25px)
-  .elementor-element-36630d9
-    .elementor-widget-wrap
-      justify-content: center
-      .btn-rdv
-        width: auto!important
-        a
-          border-radius: 0
-          background-color: $cPrinc
+        padding-left: 150px!important
+        .title-presentation,.subtitle-presentation
+          position: absolute
+          left: 27%
+        .title-presentation
+          font-family: 'NewYork'
+          font-size: 65px
+          width: auto
+          //text-transform: uppercase
+          color: $cPrinc
+          top: 5%
+        .subtitle-presentation
+          color: $cPrinc
+          width: auto
+          font-size: 35px
+          top: 14%
+          display: flex
           text-transform: uppercase
-          height: 50px
-          color: $cWhite
-          &:hover
-            transition: .4s
-          span
-            line-height: 25px
+          align-items: center
+          &:before
+            content: ''
+            display: inline-block
+            background-color: $cPrinc
+            margin-right: 30px
+            height: 2px
+            width: 50px
+        .title-txt
+          color: $cSecond
+          font-size: 39px
+          font-weight: 600
+          z-index: 99
+          &:before
+            content: ''
+            position: absolute
+            width: 280px
+            height: 280px
+            z-index: -1
+            border-radius: 50%
+            background-color: $cWhite
+            transform: translate(-67px, -88px)
+          &:after
+            content: ""
+            display: inline-block
+            width: 35px
+            z-index: 99
+            height: 2px
+            background-color: $cSecond
+        .txt-presentation
+          z-index: 99
+          line-height: 30px
+          font-size: 19px
+          color: $cGray3
+          max-width: 800px
+
+.section-portrait
+  font-family: "Montserrat"
+  padding: 150px 0
+  .elementor-container
+    max-width: 80%!important
+    position: unset!important
+    .col-content-portrait
+      padding-right: 50px
+      .title-portrait
+        color: $cSecond
+        margin-top: 88px
+        font-weight: 600
+        font-size: 35px
+        z-index: 99
+        &:before
+          content: ''
+          z-index: -1
+          position: absolute
+          display: block
+          background-color: $cSecondCircle
+          border-radius: 50%
+          height: 270px
+          width: 270px
+          transform: translate(-112px,-88px)
+        &:after
+          content: ''
+          display: inline-block
+          height: 2px
+          background-color: $cSecond
+          width: 35px
+      .txt-portrait
+        font-size: 19px
+        p
+          line-height: 30px
+          color: $cGray3
+        .txt-bold
+          font-weight: bold
+      .btn-portrait
+        border-radius: 50px
+        width: auto
+        border: solid 2px $cGray3
+        margin: 85px auto 0 auto
+        font-weight: 600
+        a
+          color: $cGray3
+          font-size: 19px
+          text-transform: uppercase
+
+        &:hover
+          transition: .3s
+          background-color: $cGray3
+          a
+            color: $cWhite
+    .col-img-portrait
+      position: unset
+      flex-direction: column
+      justify-content: center
+      .elementor-widget-wrap
+        position: unset
+        .container-form
+          display: inline-block
+          position: absolute
+          right: 0
+          top: 20%
+          bottom: 20%
+          width: 47%
+          border-radius: 295px 0 0 295px
+          background-color: $cSecondForm
+        .img-portrait
+          text-align: right
+
+
+//partie cabinet
+.section-title-cabinet
+  padding: 100px 0
+
+.section-txt-cabinet
+  padding-bottom: 100px!important
+  font-size: 20px
+  line-height: 30px
+  font-weight: 500
+  text-align: center
+  color: $cGray
+  font-style: italic
+  font-family: 'Montserrat'
+  .elementor-container
+    max-width: 700px!important
+    .col-txt-cabinet
+      .txt-cabinet
+      .txt-quote
+        &:before
+          content: ''
+          display: inline-block
+          position: absolute
+          transform: translate(-350px, -15px)
+          background-image: url("../img/quote-gray.svg")
+          background-size: contain
+          height: 29px
+          width: 29px
+
+
+.section-gallery-cabinet
+  .elementor-container
+    max-width: 100vw!important
+    .col-gallery-cabinet
+      .section-inner-gallery
+        .elementor-container
+          max-width: 100vw!important
+          .col-inner-gallery
+            width: unset
+            .img-gallery-cabinet
+              height: 100%
+              .elementor-widget-container
+                height: 100%
+                img
+                  width: 100%
+                  height: 100%
+      .img-gallery-cabinet-blur
+        transition: .3s
+        filter: blur(4px)
+      .section-inner-btn
+        position: absolute
+        width: auto
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        .col-inner-btn
+          .btn-cabinet-rdv
+            background-color: $cPrinc
+            color: $cWhite
+            width: 400px
+            text-align: center
+            a
+              padding: 30px
+              font-family: 'Montserrat'
+              font-size: 25px
+              text-transform: uppercase
+          .btn-cabinet-rdv:hover
+            transition: .6s
+            background-color: $cGray
+            transform: scale(1.2)
+
+
+
+
 
 //--partie prestation
 
-.section-flower-right, .section-flower-left
+.section-title-prestations
+  background-color: $cThirdBg
+  padding-top: 200px
+  margin-bottom: 0!important
+  padding-bottom: 150px!important
   .elementor-container
-    position: absolute!important
+    position: unset!important
+    .col-title-primary
+      position: unset
+      .elementor-widget-wrap
+        position: unset
+        .flower-left, .flower-right
+          position: absolute
+          transform: translateY(-200px)
+          width: auto!important
+        .flower-left
+          left: 0
+        .flower-right
+          right: 0
 
-.section-flower-right
-  .elementor-container
-    right: 0!important
-    transform: translateY(-50px)
-
-.section-flower-left
-  .elementor-container
-    left: 0!important
-    transform: translateY(-50px)
-
-.section-title-prestation
+//.section-title-prestation
   margin: 50px 0 100px 0
   text-align: center
   font-family: "NewYork"
   font-size: 43px
   color: $cPrinc
 
+
 .section-prestations
+  background-color: $cThirdBg
   .elementor-container
     max-width: 1500px!important
     .prestation
@@ -463,30 +468,40 @@ h1,h2
             z-index: 99
             transform: translate(-50%, -50%)
         .section-inner
-          padding: 0 15px 0 15px
+          padding: 30px 15px 50px 15px
           width: 417px
-          background-color: $cSecond
+          background-color: $cWhite
           .title-prestation, .txt-prestation
             font-family: 'Montserrat'
             text-align: center
           .title-prestation
-            margin: 50px 0 20px 0
+            display: flex
+            justify-content: center
+            flex-direction: column
             letter-spacing: 2px
-            font-size: 24px
-            color: $cPrinc
+            font-size: 21px
+            color: $cSecond
+            height: 70px
+            margin-bottom: 0px
             font-weight: bold
             text-transform: uppercase
             h3
-              height: 70px
+              //height: 70px
           .txt-prestation
             height: 70px
             color: $cGray
             max-width: 80%
             margin: auto
+            display: flex
+            justify-content: center
+            flex-direction: column
           .btn-more-prestation
             background-color: $cPrinc
             width: 150px
-            margin: 0 auto 20px auto
+            border-radius: 50px
+            font-family: 'Montserrat'
+            margin: 0px auto
+            transform: translateY(30px)
             &:hover
               opacity: .8
             a
@@ -497,7 +512,7 @@ h1,h2
             span
               display: block
               margin: 50px auto 0 auto
-              border-color: $cPrinc
+              border-color: $cSecond
               width: 80%
     .prestation:hover
       transition: 0.5s
@@ -506,39 +521,59 @@ h1,h2
       filter: drop-shadow($Shadow2)
 
 .elementor-element-30f5629
-  margin-top: 50px
+  padding-top: 50px
+  padding-bottom: 100px
 
 //-- partie carte cadeau
 
 .section-giftcard
-  background-color: $cPrinc
-  color: $cWhite
-  margin-top: 100px
-  padding: 50px
-  .elementor-element-ab7110a
-    .elementor-widget-wrap
-      flex-direction: column
-      align-items: center
-      justify-content: center
-  .elementor-element-2a75d13
-    flex-direction: column
-    justify-content: center
-    .title-giftcard
-      font-family: 'NewYork'
-      font-size: 43px
-    .txt-giftcard
+  background-image: url("../img/bg-giftcard.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  padding: 150px
+  .elementor-container
+    max-width: 1500px!important
+    position: unset!important
+    .col-giftcard
+      position: unset
+      background-color: $cGreen
       font-family: 'Montserrat'
-      line-height: 30px
-      margin-top: 30px
-      margin-bottom: 30px
-    .btn-giftcard
-      margin: auto
-      border: solid 1px $cWhite
-      width: auto
-      &:hover
-        background-color: $cWhite
-        a
-          color: $cGray
+      text-align: center
+      color: $cWhite
+      padding: 50px
+      .elementor-widget-wrap
+        position: unset
+        //.bg-filter
+          background-color: rgba(112,112,112,.39)
+          position: absolute
+          top: 0
+          right: 0
+          left: 0
+          bottom: 0
+          z-index: -1
+        .title-giftcard
+          font-family: 'NewYork'
+          font-size: 40px
+          text-transform: uppercase
+          text-align: center
+          margin-bottom: 50px
+        .txt-giftcard
+          padding: 0px 250px
+          margin-bottom: 50px
+        .btn-giftcard
+          border: solid 1px $cWhite
+          border-radius: 50px
+          margin: auto
+          width: auto
+          font-weight: 600
+          a
+            padding: 15px 25px
+          &:hover
+            transition: .5s
+            background-color: $cWhite
+            a
+              color: $cGray
 
 
 //-- partie instagram
@@ -577,20 +612,125 @@ h1,h2
 
 //--RESPONSIVE
 
-@include max1390
-  .section-prestations
-    padding: 0 50px 0 50px
+//--TRES H RESOLUTION
+
+@include min2350
+  .section-presentation
     .elementor-container
-      justify-content: space-around
+      .col-content-presentation
+        .elementor-widget-wrap
+          .title-presentation, .subtitle-presentation
+            left: 24%
+
+@include min2820
+  .section-presentation
+    .elementor-container
+      .col-content-presentation
+        .elementor-widget-wrap
+          .title-presentation, .subtitle-presentation
+            left: 21%
+          .title-presentation
+            font-size: 65px
+          .subtitle-presentation
+            font-size: 45px
+            top: 13%
+
+
+// -- RESPONSIVE
+
+@include max1795
+  .section-presentation
+    .elementor-container
+      .col-content-presentation
+        .elementor-widget-wrap
+          .subtitle-presentation
+            top: 15%
+
+@include max1600
+  .section-presentation
+    .elementor-container
+      .col-content-presentation
+        .elementor-widget-wrap
+          .title-presentation
+            font-size: 45px
+          .subtitle-presentation
+            font-size: 29px
+            &:before
+              width: 25px
+              margin-right: 15px
+          .title-txt
+            font-size: 30px
+            &:before
+              width: 150px
+              height: 150px
+              transform: translate(-58px, -36px)
+          .txt-presentation
+            max-width: 80%
+  .section-portrait
+    .elementor-container
+      .col-content-portrait
+        .title-portrait
+          font-size: 30px
+          &:before
+            width: 150px
+            height: 150px
+            transform: translate(-58px, -36px)
+  .title-primary
+    font-size: 55px
+
+@include max1400
+  .section-giftcard
+    .elementor-container
+      .col-giftcard
+        .elementor-widget-wrap
+          .txt-giftcard
+            padding: 0
+
+@include max1390
+  .section-portrait
+    .elementor-container
+      .col-content-portrait
+        .btn-portrait
+          margin: 50px auto 0 auto
+  .section-prestations
+    .elementor-container
+      justify-content: space-evenly
       .prestation
-        width: 30%!important
-        .title-prestation
-          font-size: 20px
-          margin-bottom: 0px
-          h3
-            height: 70px
-        .txt-prestation
-          height: 90px
+        width: 30%
+
+
+
+
+@include max1228
+  .section-presentation
+    padding: 15% 0 10% 0
+    .elementor-container
+      .col-content-presentation
+        .elementor-widget-wrap
+          .title-presentation
+            font-size: 35px
+          .subtitle-presentation
+            top: 13%
+            font-size: 20px
+          .title-txt
+            font-size: 25px
+          .txt-presentation
+            font-size: 17px
+  .section-portrait
+    .elementor-container
+      .col-content-portrait
+        .title-portrait
+          font-size: 25px
+        .txt-portrait, .btn-portrait
+          font-size: 17px
+          a
+            font-size: 17px
+
+
+
+@include max1215
+  .section-portrait
+    padding: 9% 0
 
 @include max1124
   #header
@@ -613,45 +753,64 @@ h1,h2
                     display: none
             .btn-content-header
               margin-top: 0px
-  .section-title-presentation
-    h2:after
-      left: 45%
-  .section-cabinet
+              font-family: 'Montserrat'
+  .section-portrait
     .elementor-container
-      display: flex
+      .col-content-portrait
+        .btn-portrait
+          margin: 0 auto
+
+
+
+@include max1024
+  .section-presentation
+    .elementor-container
+      .col-content-presentation
+        .elementor-widget-wrap
+          padding-left: 100px!important
+          .subtitle-presentation
+            top: 14%
+          .title-txt
+            font-size: 21px
+          .txt-presentation
+            max-width: 90%
+  .section-portrait
+    .elementor-container
+      .col-content-portrait
+        .title-portrait
+          font-size: 21px
+  .section-txt-cabinet
+    padding-bottom: 150px!important
+  .section-gallery-cabinet
+    .elementor-container
+      .col-gallery-cabinet
+        .section-inner-gallery
+          .elementor-container
+            .col-inner-gallery
+              &:nth-of-type(1), &:nth-of-type(3)
+                display: none
+              &:nth-of-type(2)
+                width: 50%
+                margin: auto
+        .section-inner-btn
+          top: -120px
+          left: 50%
+          transform: translateX(-50%)
+  .section-title-prestations
+    padding: 50px 0!important
+    .elementor-container
+      .col-title-primary
+        .elementor-widget-wrap
+          .flower-left, .flower-right
+            display: none
+  .section-prestations
+    .elementor-container
       flex-direction: column
       align-items: center
-      .elementor-element-072859f
-        width: 100%
-        .elementor-element-populated
-          .elementor-element-c67cbf1 //bloc titre
-            width: 100%
-            .elementor-container
-              flex-direction: row
-              justify-content: center
-              .elementor-element-45a1f3a
-                .title-second-cabinet
-                  h3:after
-                    display: none
-          .elementor-element-975cfdc //bloc text
-            text-align: center
-      .elementor-element-5cb33be
+      .prestation
         width: 50%
   .section-giftcard
-    .elementor-container
-      flex-direction: column
-      align-items: center
-      .elementor-element-ab7110a, .elementor-element-2a75d13
-        width: 100%
-      .elementor-element-ab7110a
-        margin-bottom: 30px
-        .img-giftcard
-          img
-            max-width: 50%
-      .elementor-element-2a75d13
-        .title-giftcard
-          text-align: center
-
+    padding: 50px
 
 @include Hmax990
   #header
@@ -662,10 +821,39 @@ h1,h2
             left: auto
             right: 0%
 
+
+@include max950
+  .section-presentation
+    .elementor-container
+      .col-content-presentation
+        .elementor-widget-wrap
+          .subtitle-presentation
+            top: 14%
+  .section-prestations
+    .elementor-container
+      flex-direction: column
+      align-items: center
+      .prestation
+        width: 50%
+
 @include max900
-  .section-title-presentation
-    h2:after
-      left: 40%
+  .section-presentation
+    padding: 20% 0 10% 0
+    .elementor-container
+      .col-content-presentation
+        .elementor-widget-wrap
+          padding-left: 50px!important
+          .title-presentation
+            font-size: 30px
+          .title-txt:before
+            display: none
+  .section-portrait
+    .elementor-container
+      .col-content-portrait
+        .title-portrait
+          font-size: 25px
+          &:before
+            display: none
 
 @include max800
   #header
@@ -673,48 +861,10 @@ h1,h2
       height: auto
       .content-header
         .elementor-widget-wrap
-          .container-content-header
-            //top: 42%
-  .section-prestations
-    .elementor-container
-      .prestation
-        width: 80%!important
-        margin-bottom: 30px
-  .elementor-element-2d0dca2 //2eme section prestation
-    margin-top: 0px
-  .section-giftcard
-    margin-top: 0px
-
-@include max768
-  .section-title-presentation
-    .elementor-element-9380029
-      width: 100%
-
-@include max767
-  .section-title-presentation
-    margin: 30px auto 30px auto
-    .title-presentation
-      margin-bottom: 35px!important
-      h2:after
-        display: none
-    h3
-      display: block
   .section-presentation
-    h3
-      display: none
-      margin: 0
-    .elementor-container
-      .elementor-element-8b1174c
-        width: 80%
-        .subtitle-presentation
-          text-align: center
-          margin-top: 0px
-          margin-bottom: 30px
-          &:after
-            margin: auto
-        .btn-presentation
-          width: auto
-          margin: auto
+    padding: 20% 0 10% 0
+
+
 
 @include max800
   #header
@@ -738,81 +888,165 @@ h1,h2
           .container-down-arrow
             display: none
 
-@include max648
-  .section-cabinet
-    padding: 30px 50px
+
+@include max767
+  .section-presentation
     .elementor-container
-      margin-bottom: 20px
-      .elementor-element-072859f //partie texte colonne
-        .elementor-element-populated
-          .elementor-element-c67cbf1 // partie titre
-            .elementor-container
-              flex-direction: column
-              .elementor-element-332bbe6
-                margin-bottom: 20px
-                .title-cabinet
-                  margin-right: 0px
-                  &:after
-                    display: none
-          .elementor-element-975cfdc // partie texte
-            text-align: left
-      .elementor-element-5cb33be //partie image colonne
-        width: 75%
+      max-width: 80%!important
+      &:before
+        display: none
+      .col-img-presentation
+        padding-left: 0%
+        margin-bottom: 50px
+        .img-presentation
+          img
+            display: block
+            margin: auto
+            width: 50%
+      .col-content-presentation
+        .elementor-widget-wrap
+          padding-left: 0px!important
+          .title-presentation, .subtitle-presentation
+            left: 50%
+            transform: translateX(-50%)
+            text-align: center
+          .title-presentation
+            top: 3%
+            width: 100%
+          .subtitle-presentation
+            top: 9%
+            &:before
+              display: none
+          .txt-presentation
+            max-width: 100%
+  .section-portrait
+    .elementor-container
+      flex-direction: column-reverse
+      .col-content-portrait
+        padding-right: 0px
+        .title-portrait
+          margin-top: 0
+      .col-img-portrait
+        .container-form
+          display: none!important
+        .img-portrait
+          img
+            margin: 0 auto 50px auto
+            display: block
+            width: 50%
+  .section-title-cabinet
+    padding: 75px 0
+  .section-txt-cabinet
+    .elementor-container
+      max-width: 80%!important
+      .col-txt-cabinet
+        .txt-quote
+          &:before
+            display: none
+  .section-gallery-cabinet
+    .elementor-container
+      .col-gallery-cabinet
+        .section-inner-btn
+          width: 80%
+          .col-inner-btn
+            .btn-cabinet-rdv
+              margin: auto
+  .section-prestations
+    .elementor-container
+      flex-direction: column
+      align-items: center
+      .prestation
+        width: 70%
+        .elementor-widget-wrap
+          .separator
+            .elementor-divider
+              span
+                width: 90%
+
+@include max640
+  .section-giftcard
+    .elementor-container
+      .col-giftcard
+        .elementor-widget-wrap
+          .title-giftcard
+            font-size: 25px
 
 @include max550
-  .section-title-presentation
-    .title-presentation
-      margin-bottom: 20px!important
-      h2
-        font-size: 27px
-    h3
-      font-size: 27px
-      &:before
-        width: 226px
-      &:after
-        display: none
   .section-presentation
-    .img-home-presentation
-      img
-        max-width: 65%
+    padding: 25% 0% 15% 0
     .elementor-container
-      .elementor-element-8b1174c
-        width: 90%
-  .section-cabinet
-    padding: 30px 0px
+      .col-content-presentation
+        .elementor-widget-wrap
+          .title-presentation
+            font-size: 23px
+          .subtitle-presentation
+            font-size: 17px
+  .section-title-cabinet
+    .title-primary
+      font-size: 45px
+    .subtitle-primary
+      font-size: 25px
+  .section-gallery-cabinet
     .elementor-container
-      .elementor-element-072859f
-        .elementor-element-populated
-          .elementor-element-c67cbf1
-            .elementor-container
-              .elementor-element-332bbe6
-                .title-cabinet
-                  font-size: 27px
-              .elementor-element-45a1f3a
-                .title-second-cabinet
-                  h3
-                    font-size: 27px
-                    &:before
-                      width: 219px
-          .elementor-element-975cfdc
-            margin: 0 auto 0 auto
-            text-align: center
-            width: 90%
-  .section-title-prestation
-    font-size: 27px
-    margin: 10px 0 30px 0
-  .section-prestations
-    padding: 0
+      .col-gallery-cabinet
+        .section-inner-btn
+          .col-inner-btn
+            .btn-cabinet-rdv
+              a
+                font-size: 20px
+                padding: 0
+                width: 100%
+                height: 80px
+                line-height: 80px
+  .section-title-prestations
+    .col-title-primary
+      .title-primary
+        font-size: 45px
+      .subtitle-primary
+        font-size: 25px
+
+
+
+@include max480
+  .section-presentation
+    .elementor-container
+      .col-content-presentation
+        .elementor-widget-wrap
+          .title-presentation
+            font-size: 20px
+          .subtitle-presentation
+            font-size: 15px
   .section-giftcard
-    padding: 50px 0px
+    padding: 25px
     .elementor-container
-      width: 90%
-      .elementor-element-2a75d13
-        .title-giftcard
-          font-size: 27px
-          margin-bottom: 0px
-  .section-title-instagram
-    font-size: 27px
+      .col-giftcard
+        padding: 25px
+
+@include max375
+  .section-presentation
+    padding: 35% 0% 15% 0
+    .elementor-container
+      .col-content-presentation
+        .elementor-widget-wrap
+          .subtitle-presentation
+            top: 12%
+  .section-title-cabinet
+    padding: 50px 0
+    .title-primary
+      font-size: 35px
+    .subtitle-primary
+      font-size: 20px
+  .section-txt-cabinet
+    font-size: 17px
+  .section-gallery-cabinet
+    .elementor-container
+      .col-gallery-cabinet
+        .section-inner-btn
+          .col-inner-btn
+            .btn-cabinet-rdv
+              a
+                font-size: 17px
+
 
 @include Hmax850
   #header

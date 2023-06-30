@@ -34,6 +34,7 @@
 
 .section-content-present {
   transform: translateY(-50%);
+  font-family: "Montserrat";
 }
 .section-content-present .col-content-present {
   box-shadow: 0 5px 6px #e1e1e1;
@@ -47,17 +48,20 @@
   align-items: center;
 }
 .section-content-present .col-content-present .elementor-widget-wrap .title-content-present {
-  color: #D18F91;
-  font-family: "NewYork";
+  color: #E0B6A8;
   text-align: center;
-  letter-spacing: 3px;
   font-size: 30px;
-  margin-bottom: 80px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.section-content-present .col-content-present .elementor-widget-wrap .icon-flower {
+  margin: 40px auto;
 }
 .section-content-present .col-content-present .elementor-widget-wrap .btn-content-present {
-  border: solid 1px;
   width: 380px;
-  padding: 10px 20px;
+  background-color: #999C7F;
+  border-radius: 35px;
+  padding: 10px;
   text-transform: uppercase;
 }
 .section-content-present .col-content-present .elementor-widget-wrap .btn-content-present .elementor-button-wrapper {
@@ -66,6 +70,7 @@
 .section-content-present .col-content-present .elementor-widget-wrap .btn-content-present .elementor-button-wrapper a {
   width: 100%;
   padding: 0;
+  color: #FFFF;
 }
 .section-content-present .col-content-present .elementor-widget-wrap .btn-content-present .elementor-button-wrapper a span {
   font-size: 20px;
@@ -84,17 +89,17 @@
   background-repeat: no-repeat;
 }
 .section-content-present .col-content-present .elementor-widget-wrap .btn-present-prestation {
-  border-color: #D18F91;
+  border-color: #999C7F;
 }
 .section-content-present .col-content-present .elementor-widget-wrap .btn-present-prestation a {
-  color: #D18F91;
+  color: #999C7F;
 }
 .section-content-present .col-content-present .elementor-widget-wrap .btn-present-prestation a span .elementor-button-text:before {
   margin-right: 7%;
-  background-image: url("../img/carte-cadeau-rose.svg");
+  background-image: url("../img/logo-giftcard-header.svg");
 }
 .section-content-present .col-content-present .elementor-widget-wrap .btn-present-prestation:hover {
-  background-color: rgba(209, 143, 145, 0.3);
+  opacity: 0.8;
   transition: 0.3s;
 }
 .section-content-present .col-content-present .elementor-widget-wrap .btn-present-giftcard {
@@ -106,10 +111,11 @@
 }
 .section-content-present .col-content-present .elementor-widget-wrap .btn-present-giftcard a span .elementor-button-text:before {
   margin-right: 12%;
-  background-image: url("../img/carte-cadeau-gray.svg");
+  background-image: url("../img/logo-giftcard-header.svg");
 }
 .section-content-present .col-content-present .elementor-widget-wrap .btn-present-giftcard:hover {
-  background-color: rgba(112, 112, 112, 0.3);
+  transition: 0.3s;
+  opacity: 0.8;
 }
 .section-content-present .col-content-present .elementor-widget-wrap .message-warning {
   background-color: #F4EEED;
@@ -123,6 +129,77 @@
 }
 .section-content-present .col-content-present .elementor-widget-wrap .message-warning .elementor-icon-list-text .warning-txt {
   font-weight: bold;
+}
+
+@media (max-width: 700px) {
+  .section-background-header .elementor-container .title-header {
+    font-size: 35px;
+  }
+
+  .section-content-present {
+    transform: translateY(-35%);
+  }
+  .section-content-present .col-content-present .elementor-widget-wrap .title-content-present {
+    font-size: 26px;
+  }
+  .section-content-present .col-content-present .elementor-widget-wrap .btn-content-present {
+    display: flex;
+    justify-content: right;
+    width: 70%;
+  }
+  .section-content-present .col-content-present .elementor-widget-wrap .btn-content-present .elementor-widget-container {
+    width: calc(100% - 55px);
+  }
+  .section-content-present .col-content-present .elementor-widget-wrap .btn-content-present .elementor-widget-container .elementor-button-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .section-content-present .col-content-present .elementor-widget-wrap .btn-content-present .elementor-widget-container .elementor-button-wrapper a span {
+    font-size: 17px;
+  }
+  .section-content-present .col-content-present .elementor-widget-wrap .btn-content-present .elementor-widget-container .elementor-button-wrapper a span .elementor-button-text {
+    justify-content: center;
+  }
+  .section-content-present .col-content-present .elementor-widget-wrap .btn-content-present .elementor-widget-container .elementor-button-wrapper a span .elementor-button-text:before {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .section-content-present .col-content-present .elementor-widget-wrap .btn-content-present {
+    width: 90%;
+  }
+}
+@media (max-width: 550px) {
+  .section-background-header .elementor-container .title-header {
+    font-size: 26px;
+  }
+
+  .section-content-present .col-content-present {
+    width: 100% !important;
+  }
+  .section-content-present .col-content-present .elementor-widget-wrap .message-warning li {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-content-present .col-content-present .elementor-widget-wrap .message-warning li svg {
+    margin: 0 0 15px 0 !important;
+  }
+  .section-content-present .col-content-present .elementor-widget-wrap .message-warning li .elementor-icon-list-text {
+    padding: 0;
+  }
+}
+@media (max-width: 480px) {
+  .section-content-present .col-content-present {
+    padding: 30px;
+  }
+  .section-content-present .col-content-present .elementor-widget-wrap .btn-content-present {
+    width: 100%;
+  }
+  .section-content-present .col-content-present .elementor-widget-wrap .title-content-present {
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=giftcard.css.map */

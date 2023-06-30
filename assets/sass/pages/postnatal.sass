@@ -1,45 +1,76 @@
 @import "../../../../entrecieletmer/assets/sass/utils/variables"
 @import "../../../../entrecieletmer/assets/sass/utils/mixins"
 
-.section-desc-postnatal
-  margin-bottom: 80px
-  .elementor-container
-    max-width: 1500px!important
-  .img-postnatal
-    text-align: left
-  .elementor-element-2ed9f7b, .elementor-element-760a3c4
-    background-color: $BgSection
-    padding: 0 50px 0 50px
-    .title-desc-postnatal, .subtitle-desc-postnatal, .txt-desc-postnatal, .txt-info
-      text-align: center
-      font-family: 'Raleway'
-    .title-desc-postnatal
-      margin-top: 20px
-      margin-bottom: 20px
-      color: $cGray
-      font-size: 32px
-      text-transform: none!important
-      &:after
-        content: ''
-        display: block
-        background-color: $cSecond
-        height: 1px
-        width: 70px
-        margin: 20px auto 0 auto
-    .subtitle-desc-postnatal
-      font-style: italic
-      font-size: 25px
-      margin-bottom: 20px
-    .txt-desc-postnatal
-      margin: 50px 0 50px 0
-      line-height: 32px
-    .txt-info
-      background-color: $cPrinc
-      padding: 20px 20px
-      color: $cWhite
-      font-weight: bold
-      line-height: 25px
+.elementor-454
+  .section-massage-small
+    .elementor-container
+      .col-content-massage
+        .btn-keywords-massage
+          width: 300px
 
-.elementor-element-b2f4edf, .elementor-element-1099e72, .elementor-element-94b67f4
-  .img-stage
-    text-align: right
+@include max1280
+  .elementor-454
+    .section-benefices
+      .elementor-container
+        .col-img-benefices
+          padding: 0
+          .img-benefices
+            img
+              width: auto
+
+
+@include max767
+  .elementor-454
+    .section-info
+      .col-info
+        .message-info
+          border-radius: 0px
+          .elementor-icon-list-item
+            flex-direction: column
+            .elementor-icon-list-icon
+              margin-bottom: 20px
+            .elementor-icon-list-text
+              padding-left: 0px
+              text-align: center
+
+@include max700
+  .elementor-454
+    .section-massage-small
+      .elementor-container
+        .col-content-massage
+          .btn-keywords-massage
+            margin: 0 auto 20px auto!important
+
+@include max640
+  .elementor-454
+    .section-massage-small
+      padding-bottom: 0px
+      .elementor-container
+        .col-content-massage
+          .title-massage
+            font-size: 35px
+    .section-benefices
+      .elementor-container
+        .col-content-benefice
+          .title-benefice
+            font-size: 35px
+          .subtitle-benefice
+            font-size: 20px
+
+@include max480
+  .elementor-454
+    .section-title-deroulement
+      padding-bottom: 35px
+
+@include max425
+  .elementor-454
+    .section-massage-small
+      .elementor-container
+        .col-content-massage
+          .btn-keywords-massage
+            width: 100%
+    .section-title-deroulement
+      padding: 10px 10px 35px 10px
+      .col-title-deroulement
+        .title-deroulement
+          font-size: 30px

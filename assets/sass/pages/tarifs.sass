@@ -1,0 +1,297 @@
+@import "../../../../entrecieletmer/assets/sass/utils/variables"
+@import "../../../../entrecieletmer/assets/sass/utils/mixins"
+
+.section-header-tarifs
+  background-image: url("../img/bg-header-prices.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  font-family: 'NewYork'
+  text-transform: uppercase
+  color: $cWhite
+  text-align: center
+  .col-header-tarifs
+    .title-header-tarifs
+      font-size: 65px
+      margin: 200px auto 30px auto
+      width: auto
+      display: flex
+      align-items: center
+      &:before, &:after
+        content: ''
+        display: inline-block
+        height: 2px
+        background-color: $cWhite
+        width: 50px
+      &:before
+        margin-right: 30px
+      &:after
+        margin-left: 30px
+    .subtitle-header-tarifs
+      font-size: 35px
+      margin-bottom: 200px
+
+
+.section-tarifs-category
+  font-family: 'Montserrat'
+  margin-bottom: 300px
+  margin-top: 300px
+  .elementor-container
+    justify-content: space-between
+    max-width: 1500px!important
+    .col-img-tarifs
+      width: auto
+      .elementor-widget-wrap
+        align-content: center
+        .btn-rdv
+          position: absolute
+          top: 50%
+          left: 50%
+          transform: translate(-50%,-50%)
+          z-index: 99
+          border-radius: 35px
+          background-color: $cGreen
+          font-size: 25px
+          width: 350px
+          height: 70px
+          a
+            width: 100%
+            padding: 0
+            color: $cWhite
+            line-height: 70px
+
+        .img-tarifs
+    .col-content-tarifs
+      .title-tarifs
+        font-family: "NewYork"
+        font-size: 65px
+        color: $cSecond
+        text-transform: uppercase
+        text-align: center
+        margin-bottom: 0
+      .icon-tarifs
+        margin: 30px 0
+      .inner-section-tarifs
+        margin-bottom: 15px
+        height: 80px
+        .elementor-container
+          height: 80px
+          .inner-col-tarifs
+            background-color: $cThirdBg
+            padding: 10px 10px 10px 30px
+            border-radius: 50px
+            .elementor-widget-wrap
+              flex-direction: row
+              align-items: center
+              align-content: center
+
+              .title-prestation
+                margin-bottom: 0px!important
+                color: $cGray
+                font-weight: 600
+                width: 65%
+              .btn-giftcard, .btn-price, .txt-time
+                width: auto
+              .btn-giftcard, .btn-price
+                position: absolute
+                border-radius: 50px
+              .btn-price
+                right: 115px
+                min-width: 90px
+                height: 100%
+                background-color: $cSecond
+                display: flex
+                align-items: center
+                justify-content: center
+                transform: translateY(10px)
+                a
+                  padding: 0px
+                  line-height: 100%
+                  width: 100%
+              .btn-giftcard
+                right: 0
+                top: 0
+                height: 100%
+                display: flex
+                align-items: center
+                justify-content: center
+                text-transform: uppercase
+                background-color: $cPrinc
+                font-weight: 600
+                &:hover
+                  opacity: .8
+              .txt-time
+                width: 63%
+                color: $cGray3
+                bottom: 0
+                left: 0
+      .inner-section-btn-tarifs
+        margin-top: 30px
+        .inner-col-btn
+          .elementor-widget-wrap
+            .btn-more-prestation, .btn-rdv
+              width: 250px
+              height: 50px
+              a
+                width: 100%
+                padding: 0
+            .btn-more-prestation
+              border: solid 2px $cGreen
+              border-radius: 35px
+              a
+                color: $cGreen
+                line-height: 46px
+              &:hover
+                transition: .3s
+                background-color: $cGreen
+                a
+                  color: $cWhite
+          &:first-of-type
+            .elementor-widget-wrap
+              justify-content: right
+              padding-right: 30px!important
+          &:nth-of-type(2)
+            .elementor-widget-wrap
+              padding-left: 30px!important
+        .inner-col-one-btn
+          .elementor-widget-wrap:first-of-type
+            justify-content: center
+            padding-right: 0px !important
+  &:nth-of-type(2n+1)
+    .col-img-tarifs
+      .img-tarifs
+        text-align: right
+  &:nth-of-type(2n)
+    .col-img-tarifs
+      .img-tarifs
+        text-align: left
+
+.section-tarifs-category:nth-of-type(2)
+  margin-top: 100px
+
+@include max1600
+  .section-tarifs-category
+    .elementor-container
+      max-width: 95%!important
+      .col-img-tarifs
+        flex-shrink: 0
+      .col-content-tarifs
+        width: 60%
+        padding-left: 20px
+        .inner-section-tarifs
+          .elementor-container
+            max-width: 100%!important
+
+@include max1280
+  .section-tarifs-category
+    margin: 50px 0
+    .elementor-container
+      flex-direction: column
+      align-items: center
+      max-width: 95%!important
+      .col-img-tarifs
+        display: none
+      .col-img-tarifs
+        .img-tarifs
+          width: 70%
+          margin: auto
+      .col-content-tarifs
+        padding-left: 0px
+        width: 100%
+        .inner-section-tarifs
+          .elementor-container
+            .inner-col-tarifs
+              height: 80px
+        .inner-section-btn-tarifs
+          .inner-col-btn:first-of-type
+            .elementor-widget-wrap
+              padding-right: 0px!important
+              justify-content: center
+              margin-bottom: 20px
+          .inner-col-btn:nth-of-type(2)
+            .elementor-widget-wrap
+              justify-content: center
+              padding-left: 0px!important
+    &:nth-of-type(2)
+      margin-bottom: 50px
+
+
+@include max670
+  .section-header-tarifs
+    .col-header-tarifs
+      .title-header-tarifs
+        font-size: 40px
+        &:before, &:after
+          display: none
+      .subtitle-header-tarifs
+        font-size: 25px
+  .section-tarifs-category
+    .elementor-container
+      .col-content-tarifs
+        .inner-section-tarifs
+          height: 120px
+          .elementor-container
+            height: 120px
+            .inner-col-tarifs
+              height: 120px
+              .elementor-widget-wrap
+                .btn-price
+                  width: 70px
+                  min-width: unset
+                  right: 83px
+                  height: 70px
+                  border-radius: 50%
+                .btn-giftcard
+                  top: 50%
+                  height: 70px
+                  width: 70px
+                  transform: translateY(-50%)
+                .txt-time
+                  width: 55%
+
+
+@include max600
+  .site-content
+    .section-tarifs-category
+      .elementor-container
+        .col-content-tarifs
+          .title-tarifs
+            font-size: 35px
+          .inner-section-tarifs
+            height: unset!important
+            //padding: 0 15%
+            .elementor-container
+              height: unset!important
+              .inner-col-tarifs
+                height: unset!important
+                padding: 0 0 0 0!important
+                .elementor-widget-wrap
+                  flex-direction: column!important
+                  align-items: center!important
+                  padding: 10px!important
+                  .title-prestation
+                    width: 95%!important
+                    margin-bottom: 75px!important
+                    text-align: center!important
+                  .btn-price, .btn-giftcard
+                    right: unset!important
+                    width: 100px!important
+                    min-width: 39px!important
+                    transform: unset!important
+                    top: unset!important
+                    height: 39px!important
+                    border-radius: 50px!important
+                    position: relative!important
+                    width: 100px!important
+                  .txt-time
+                    //display: none!important
+                    top: 22%
+                    position: absolute!important
+                    width: 95%!important
+                    text-align: center!important
+                    bottom: unset!important
+                    left: 50%!important
+                    transform: translateX(-50%)!important
+                  .btn-giftcard
+                    a
+                      width: 100%!important

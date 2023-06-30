@@ -1,5 +1,5 @@
 .footer-container
-  background-color: $cSecond
+  background-color: $cThird
   padding-top: 30px
   padding-bottom: 30px
   .footer-bloc-content
@@ -9,11 +9,14 @@
     justify-content: space-evenly
   #menu-menu-footer
     justify-content: flex-end
+    ul
+      display: block!important
   .footer-menu
     display: flex
     .menu-item
     .item-menu
-      color: $cPrinc
+      color: $cSecond
+      font-weight: 500
       text-transform: uppercase
       font-size: 25px
     .sub-menu
@@ -38,11 +41,11 @@
           a
             line-height: 30px
         li:nth-child(1):before
-          background-image: url("../img/phone-number.svg")
+          background-image: url("../img/footer-phone.svg")
         li:nth-child(2):before
-          background-image: url("../img/email.svg")
+          background-image: url("../img/footer-mail.svg")
         li:nth-child(3):before
-          background-image: url("../img/instagram.svg")
+          background-image: url("../img/footer-insta.svg")
 
 
   .container-logo-footer

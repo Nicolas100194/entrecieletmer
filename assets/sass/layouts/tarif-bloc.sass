@@ -1,0 +1,96 @@
+
+@include max1600
+  .site-content
+    .section-tarifs
+      .elementor-container
+        max-width: 95%!important
+        .col-tarifs
+          .inner-section-tarif
+            .elementor-container
+              max-width: 100%!important
+
+@include max1400
+  .site-content
+    .section-tarifs
+      .elementor-container
+        .col-img-tarifs
+          .elementor-widget-wrap
+            .img-tarifs
+              margin-right: 30px
+
+
+@include max1280
+  .site-content
+    .section-tarifs
+      padding-bottom: 50px
+      .elementor-container
+        flex-direction: column
+        align-items: center
+        .col-img-tarifs
+          width: 80%
+          .elementor-widget-wrap
+            .container-form
+              width: 50vw
+              transform: translateY(-50px)
+            .img-tarifs
+              margin-right: 0px
+              transform: translateY(0)
+              text-align: center
+        .col-tarifs
+          width: 100%
+          transform: translateY(0px)
+          padding-top: 50px
+          .title-group-tarifs
+            text-align: center
+            padding-bottom: 35px
+
+@include max640
+  .site-content
+    .section-title-tarif
+      padding: 50px 0 75px 0
+      .col-title-tarif
+        .title-tarif
+          font-size: 35px
+        .subtitle-tarif
+          font-size: 20px
+    .section-tarifs
+      .elementor-container
+        .col-img-tarifs
+          width: 100%
+          .elementor-widget-wrap
+            .container-form
+              width: 35vw
+              height: 220px
+            .img-tarifs
+              width: 70%
+              margin: auto
+
+@include max600
+  .site-content
+    .section-tarifs
+      .elementor-container
+        .col-tarifs
+          .elementor-widget-wrap
+            .inner-section-tarif
+              padding: 0 15%
+              .inner-col-tarif
+                padding: 20px 0 0 0
+                .elementor-widget-wrap
+                  flex-direction: column
+                  align-items: center
+                  padding: 10px!important
+                  .title-prestation
+                    margin-bottom: 40px
+                    text-align: center
+                  .btn-price, .btn-giftcard
+                    right: unset
+                    position: relative
+                    width: 100px
+                  .txt-time
+                    top: 29px
+                    bottom: unset
+                    left: 50%
+                    transform: translateX(-50%)
+                  .btn-giftcard
+                    a
+                      width: 100%

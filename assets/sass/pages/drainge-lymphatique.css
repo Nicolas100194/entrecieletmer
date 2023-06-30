@@ -1,510 +1,647 @@
 /*------------------------------------------
  *  Responsive
  * -----------------------------------------*/
-span, p {
-  font-family: "Raleway";
-}
-
-.section-firsttitle {
-  background-color: rgba(241, 231, 229, 0.15);
-}
-.section-firsttitle .firsttitle-prestation h2 {
-  line-height: 160px;
-  text-align: center;
+.title-h2 {
   font-family: "NewYork";
-  font-size: 45px;
-  color: #D18F91;
   text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 10px !important;
 }
 
-.section-secondtitle {
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-.section-secondtitle .secondtitle {
-  text-align: center;
-  margin: 70px 0 70px 0;
-  font-family: "NewYork";
-  width: auto !important;
-  margin: auto;
-}
-.section-secondtitle .secondtitle span {
-  font-size: 32px;
-  text-transform: uppercase;
-  color: #FFFF;
-}
-.section-secondtitle .secondtitle span:before {
-  content: "";
-  position: absolute;
-  background-color: #D18F91;
-  height: 150%;
-  width: 107%;
-  top: -27%;
-  left: -4%;
-  z-index: -1;
-}
-.section-secondtitle .secondtitle span:after {
-  content: "";
-  position: absolute;
-  background-image: url("../img/deco_femmes.svg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 28%;
-  height: 284%;
-  top: -52%;
-  left: 102.5%;
+.subtitle-h3 {
+  font-family: "Montserrat";
+  font-size: 27px;
 }
 
-.section-desc-prestation {
-  margin-bottom: 80px;
-  padding: 0 20px 0 20px;
+.img-shadow {
+  filter: drop-shadow(0px 10px 20px rgba(85, 85, 85, 0.16));
 }
-.section-desc-prestation .elementor-container {
+
+.bloc-shadow {
+  box-shadow: 0px 3px 6px rgba(112, 112, 112, 0.9);
+}
+
+.section-header-drainage {
+  background-image: url("../img/bg-header-drainage.png") !important;
+}
+.section-header-drainage .img-header-drainage-2 {
+  transform: translateX(150px);
+}
+
+.section-bg-mod {
+  background-color: rgba(244, 238, 237, 0.44);
+}
+
+.section-massage {
+  padding: 75px 0;
+}
+.section-massage .elementor-container {
+  padding-top: 75px;
+  position: unset !important;
   max-width: 1500px !important;
 }
-.section-desc-prestation .img-drainage {
+.section-massage .elementor-container .col-img {
+  position: unset;
+}
+.section-massage .elementor-container .col-img .elementor-widget-wrap {
+  position: unset;
+}
+.section-massage .elementor-container .col-img .elementor-widget-wrap .container-form {
+  margin-bottom: 0px;
+  border-radius: 0 295px 295px 0;
+  background-color: rgba(224, 182, 168, 0.55);
+  position: absolute;
+  transform: translateY(-75px);
+  left: 0;
+  height: 350px;
+  width: 30vw;
+}
+.section-massage .elementor-container .col-img .elementor-widget-wrap .img-massage {
   text-align: left;
 }
-.section-desc-prestation .elementor-element-7a7c76a {
-  background-color: rgba(241, 231, 229, 0.15);
-  padding: 0 50px 0 50px;
+.section-massage .elementor-container .col-img .elementor-widget-wrap .img-massage img {
+  border-radius: 115px;
 }
-.section-desc-prestation .elementor-element-7a7c76a .section-title-desc-drainage .title-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-title-desc-drainage .subtitle-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-title-desc-drainage .txt-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-title-desc-drainage .txt-info, .section-desc-prestation .elementor-element-7a7c76a .section-subtitle-desc-drainage .title-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-subtitle-desc-drainage .subtitle-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-subtitle-desc-drainage .txt-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-subtitle-desc-drainage .txt-info, .section-desc-prestation .elementor-element-7a7c76a .section-txt-desc-drainage .title-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-txt-desc-drainage .subtitle-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-txt-desc-drainage .txt-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-txt-desc-drainage .txt-info, .section-desc-prestation .elementor-element-7a7c76a .section-msg-info .title-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-msg-info .subtitle-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-msg-info .txt-desc-drainage, .section-desc-prestation .elementor-element-7a7c76a .section-msg-info .txt-info {
-  text-align: center;
-  font-family: "Raleway";
+.section-massage .elementor-container .col-content-massage {
+  font-family: "Montserrat";
 }
-.section-desc-prestation .elementor-element-7a7c76a .section-title-desc-drainage .title-desc-drainage {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.section-massage .elementor-container .col-content-massage .title-massage {
+  color: #E0B6A8;
+}
+.section-massage .elementor-container .col-content-massage .subtitle-massage {
+  color: #E0B6A8;
+  font-size: 27px;
+}
+.section-massage .elementor-container .col-content-massage .txt-massage {
   color: #555555;
-  font-size: 32px;
-  text-transform: none !important;
+  font-size: 17px;
+  line-height: 30px;
 }
-.section-desc-prestation .elementor-element-7a7c76a .section-title-desc-drainage .title-desc-drainage:after {
-  content: "";
-  display: block;
-  background-color: #F1E7E5;
-  height: 1px;
-  width: 70px;
-  margin: 20px auto 0 auto;
+.section-massage .elementor-container .col-content-massage .txt-massage .txt-bold {
+  font-weight: 600;
 }
-.section-desc-prestation .elementor-element-7a7c76a .section-subtitle-desc-drainage .subtitle-desc-drainage {
-  font-style: italic;
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-.section-desc-prestation .elementor-element-7a7c76a .section-txt-desc-drainage .txt-desc-drainage {
-  margin: 50px 0 50px 0;
-  line-height: 32px;
-}
-.section-desc-prestation .elementor-element-7a7c76a .section-msg-info .txt-info {
-  background-color: #D18F91;
-  padding: 20px 20px;
+.section-massage .elementor-container .col-content-massage .info-txt-massage {
+  padding: 10px;
+  background-color: #E0B6A8;
   color: #FFFF;
-  font-weight: bold;
-  line-height: 25px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: center;
 }
 
-.section-title-objectif {
-  font-family: "Raleway";
-  font-size: 32px;
-  color: #555555;
+.section-keywords .elementor-container {
+  padding: 25px 0px 75px 0;
+  justify-content: space-evenly;
 }
-.section-title-objectif .title-objectif {
-  text-align: center;
+.section-keywords .elementor-container .col-keyword {
+  background-color: #FFFF;
+  border-radius: 39px;
+  height: 60px;
   width: auto !important;
-  margin: 50px auto 50px auto;
+  box-shadow: 0px 3px 20px rgba(85, 85, 85, 0.16);
 }
-.section-title-objectif .bg-element-title {
-  display: inline-block;
-  position: relative;
-  color: #FFFF;
-  font-family: "MarketPro";
-  font-size: 32px;
-  letter-spacing: 3px;
-  margin-right: 15px;
+.section-keywords .elementor-container .col-keyword .elementor-widget-wrap {
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
-.section-title-objectif .bg-element-title:before {
+.section-keywords .elementor-container .col-keyword .elementor-widget-wrap .icon-keyword, .section-keywords .elementor-container .col-keyword .elementor-widget-wrap .txt-keyword {
+  width: auto;
+}
+.section-keywords .elementor-container .col-keyword .elementor-widget-wrap .icon-keyword {
   position: absolute;
-  content: "";
-  background-color: #D18F91;
-  height: 52px;
-  width: 200px;
-  transform: rotate(-2deg);
-  z-index: -1;
-  top: -24%;
-  left: -8%;
+  left: 15px;
+  margin-bottom: 0px;
 }
-.section-title-objectif .bg-element-title:first-letter {
-  text-transform: uppercase;
+.section-keywords .elementor-container .col-keyword .elementor-widget-wrap .txt-keyword {
+  margin-left: 70px;
+  margin-right: 30px;
+  font-family: "Montserrat";
+  color: #E0B6A8;
+  font-size: 20px;
+  font-weight: 600;
 }
-.section-title-objectif .title-part {
-  font-size: 35px;
+.section-objectifs {
+  padding: 75px 0 200px 0;
 }
-
-.section-content-objectif .elementor-container {
+.section-objectifs .elementor-container {
+  position: unset !important;
   max-width: 1500px !important;
 }
-.section-content-objectif .elementor-container .list-objectif {
-  color: #D18F91;
+.section-objectifs .elementor-container .col-content-objectifs {
+  font-family: "Montserrat";
 }
-.section-content-objectif .elementor-container .list-objectif li {
-  margin-bottom: 20px;
+.section-objectifs .elementor-container .col-content-objectifs .title-objectifs, .section-objectifs .elementor-container .col-content-objectifs .subtitle-objectifs {
+  color: #999C7F;
 }
-.section-content-objectif .elementor-container .list-objectif li svg {
-  height: 59px;
-  width: 59px;
+.section-objectifs .elementor-container .col-content-objectifs .subtitle-objectifs {
+  margin-bottom: 30px;
 }
-.section-content-objectif .elementor-container .list-objectif li .elementor-icon-list-text {
+.section-objectifs .elementor-container .col-content-objectifs .inner-section-objectif {
+  background-color: #FFFF;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+.section-objectifs .elementor-container .col-content-objectifs .inner-section-objectif .inner-col-objectif {
+  padding: 20px 20px;
+  text-align: center;
+}
+.section-objectifs .elementor-container .col-content-objectifs .inner-section-objectif .inner-col-objectif .icon-objectif {
+  margin-bottom: 20px !important;
+}
+.section-objectifs .elementor-container .col-content-objectifs .inner-section-objectif .inner-col-objectif .txt-objectif {
+  max-width: 50%;
+  margin: 0 auto;
   font-weight: 600;
-  margin-left: 20px;
+  color: #707070;
 }
-.section-content-objectif .elementor-container .img-objectif {
+.section-objectifs .elementor-container .col-img-objectif {
+  margin: auto;
+  position: unset;
+}
+.section-objectifs .elementor-container .col-img-objectif .elementor-widget-wrap {
+  position: unset;
+}
+.section-objectifs .elementor-container .col-img-objectif .elementor-widget-wrap .container-form-right {
+  position: absolute;
+  background-color: #999C7F;
+  border-radius: 295px 0px 0px 295px;
+  right: 0;
+  height: 350px;
+  width: 30vw;
+  transform: translateY(-75px);
+}
+.section-objectifs .elementor-container .col-img-objectif .img-objectif {
   text-align: right;
 }
 
-.section-info-partum {
-  margin: 50px 0 50px 0;
-  background-color: #D18F91;
-  padding: 50px 0 50px 0;
-  color: #FFFF;
-  font-family: "Raleway";
-  line-height: 25px;
+.section-post-partum {
+  padding: 100px 0;
+  font-family: "Montserrat";
 }
-.section-info-partum .elementor-container {
-  max-width: 1500px !important;
+.section-post-partum .elementor-container {
+  position: unset !important;
+  max-width: 90vw !important;
 }
-.section-info-partum .elementor-container .section-content-info h2 {
-  font-weight: 600;
+.section-post-partum .elementor-container .col-img {
+  width: 70% !important;
+  position: unset;
 }
-
-.title-benefice {
-  text-align: center;
-  margin: 50px 0 50px 0;
-  font-family: "Raleway";
-  font-family: "Raleway";
-  font-size: 32px;
+.section-post-partum .elementor-container .col-img .img-post-partum {
+  text-align: left;
+}
+.section-post-partum .elementor-container .col-img .img-post-partum img {
+  width: 95%;
+}
+.section-post-partum .elementor-container .col-img .elementor-widget-wrap {
+  position: unset;
+}
+.section-post-partum .elementor-container .col-img .elementor-widget-wrap .container-form {
+  position: absolute;
+  background-color: #E0B6A8;
+  border-radius: 0px 295px 295px 0px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 15vw;
+}
+.section-post-partum .elementor-container .col-content-post-partum .elementor-widget-wrap {
+  justify-content: center;
+  flex-direction: column;
+}
+.section-post-partum .elementor-container .col-content-post-partum .elementor-widget-wrap .title-post-partum, .section-post-partum .elementor-container .col-content-post-partum .elementor-widget-wrap .subtitle-post-partum {
+  color: #E0B6A8;
+}
+.section-post-partum .elementor-container .col-content-post-partum .elementor-widget-wrap .txt-post-partum {
+  line-height: 30px;
   color: #555555;
 }
-.title-benefice .title-part {
-  font-size: 32px;
+
+.section-benefices {
+  font-family: "Montserrat";
+  padding: 75px 0 100px 0;
+}
+.section-benefices .elementor-container {
+  max-width: 1500px !important;
+  position: unset !important;
+}
+.section-benefices .elementor-container .col-content-benefice .title-benefice, .section-benefices .elementor-container .col-content-benefice .subtitle-benefice {
+  color: #999C7F;
+}
+.section-benefices .elementor-container .col-content-benefice .subtitle-benefice {
+  margin-bottom: 30px;
+}
+.section-benefices .elementor-container .col-content-benefice .inner-section-benefice {
+  color: #707070;
+  font-weight: 600;
+}
+.section-benefices .elementor-container .col-content-benefice .inner-section-benefice .inner-col-benefice, .section-benefices .elementor-container .col-content-benefice .inner-section-benefice .last-col-benefice {
+  background-color: #FFFF;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  padding: 20px 20px;
+  text-align: center;
+}
+.section-benefices .elementor-container .col-img-benefices {
+  position: unset;
+}
+.section-benefices .elementor-container .col-img-benefices .elementor-widget-wrap {
+  position: unset;
+}
+.section-benefices .elementor-container .col-img-benefices .elementor-widget-wrap .container-form {
+  position: absolute;
+  background-color: #999C7F;
+  border-radius: 295px 0px 0px 295px;
+  right: 0;
+  height: 350px;
+  transform: translateY(-75px);
+  width: 30vw;
+}
+.section-benefices .elementor-container .col-img-benefices .img-benefices {
+  text-align: right;
+}
+
+.section-info {
+  padding-bottom: 100px;
+}
+.section-info .col-info .message-info {
+  padding: 20px;
+  background-color: #E0B6A8;
+  border-radius: 55px;
+  color: #FFFF;
+  font-family: "Montserrat";
+  font-weight: 600;
   width: auto;
   margin: auto;
 }
-.title-benefice .bg-element-title {
-  display: inline-block;
-  position: relative;
-  color: #FFFF;
-  font-family: "MarketPro";
-  font-size: 32px;
-  letter-spacing: 3px;
-  margin-right: 15px;
+.section-info .col-info .message-info .elementor-icon-list-icon svg {
+  width: 40px;
+  height: 40px;
 }
-.title-benefice .bg-element-title:before {
-  position: absolute;
-  content: "";
-  background-color: #D18F91;
-  height: 52px;
-  width: 200px;
-  transform: rotate(-2deg);
-  z-index: -1;
-  top: -24%;
-  left: -8%;
+.section-info .col-info .message-info .elementor-icon-list-text {
+  padding-left: 15px;
 }
-.title-benefice .bg-element-title:first-letter {
+
+.section-title-tarif {
+  font-family: "Montserrat";
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  color: #E0B6A8;
+}
+.section-title-tarif .col-title-tarif .title-tarif {
+  font-weight: 600;
+  font-size: 65px;
   text-transform: uppercase;
-}
-
-.section-content-benefice .elementor-container {
-  max-width: 1500px !important;
-}
-.section-content-benefice .elementor-container .elementor-element-19f59c4 .elementor-widget-wrap {
-  align-content: center;
-}
-.section-content-benefice .elementor-container .list-benefice {
-  color: #D18F91;
-}
-.section-content-benefice .elementor-container .list-benefice li {
-  margin-bottom: 20px;
-}
-.section-content-benefice .elementor-container .list-benefice li svg {
-  height: 59px;
-  width: 59px;
-}
-.section-content-benefice .elementor-container .list-benefice li .elementor-icon-list-text {
-  font-weight: 600;
-  margin-left: 20px;
-}
-
-.section-info-massage .elementor-container {
-  margin: 50px 0 50px 0;
-  max-width: 1500px !important;
-  background-color: #D18F91;
-  color: #FFFF;
-  padding: 50px;
-  text-align: center;
-  font-family: "Raleway";
-  font-weight: 600;
-  font-size: 20px;
-}
-
-.section-title-tarifs .title-tarifs {
-  width: auto !important;
-  text-align: center;
-  margin: 70px auto 70px auto;
   font-family: "NewYork";
 }
-.section-title-tarifs .title-tarifs span {
-  font-size: 32px;
+.section-title-tarif .col-title-tarif .subtitle-tarif {
+  font-size: 33px;
   text-transform: uppercase;
-  color: #FFFF;
-}
-.section-title-tarifs .title-tarifs span:before {
-  content: "";
-  position: absolute;
-  background-color: #D18F91;
-  height: 50px;
-  width: 107%;
-  top: -27%;
-  left: -4%;
-  z-index: -1;
-}
-.section-title-tarifs .title-tarifs span:after {
-  content: "";
-  position: absolute;
-  background-image: url("../img/deco_femmes.svg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 28%;
-  height: 284%;
-  top: -52%;
-  left: 102.5%;
 }
 
-.section-content-tarif .elementor-container:first-of-type {
-  max-width: 1500px !important;
-  background-color: rgba(241, 231, 229, 0.15);
-  padding: 50px;
+.section-tarifs {
+  padding-bottom: 200px;
 }
-.section-content-tarif .elementor-container:first-of-type .img-content-tarif {
+.section-tarifs .elementor-container {
+  max-width: 1500px !important;
+  position: unset !important;
+}
+.section-tarifs .elementor-container .col-img-tarifs {
+  position: unset;
+}
+.section-tarifs .elementor-container .col-img-tarifs .elementor-widget-wrap {
+  position: unset;
+}
+.section-tarifs .elementor-container .col-img-tarifs .elementor-widget-wrap .container-form {
+  position: absolute;
+  background-color: #999C7F;
+  border-radius: 0px 295px 295px 0px;
+  left: 0;
+  height: 350px;
+  width: 30vw;
+}
+.section-tarifs .elementor-container .col-img-tarifs .img-tarifs {
+  transform: translateY(75px);
   text-align: left;
 }
-.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de {
-  flex-direction: column;
-  justify-content: center;
+.section-tarifs .elementor-container .col-tarifs {
+  font-family: "Montserrat";
+  transform: translateY(75px);
 }
-.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li {
-  background-color: #F4EEED;
-  margin-bottom: 20px;
-  border-radius: 12px;
+.section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap {
+  align-content: center;
 }
-.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li:last-child {
-  margin-bottom: 0;
-}
-.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0 5px 0 10px;
-}
-.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span .container-btn-price {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span .container-btn-price .btn-price-presta, .section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span .container-btn-price .btn-gift-card-presta {
-  height: 85%;
-  padding: 0 35px 0 35px;
-  border: none;
-  border-radius: 10px;
-  font-family: "Raleway";
-  font-size: 16px;
-}
-.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span .container-btn-price .btn-price-presta {
-  background-color: #F1E7E5;
-  margin-right: 5px;
-}
-.section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span .container-btn-price .btn-gift-card-presta {
-  background-color: #D18F91;
-  color: #FFFF;
+.section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .title-group-tarifs {
+  color: #E0B6A8;
+  font-size: 39px;
   font-weight: 600;
+}
+.section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif {
+  margin-bottom: 30px;
+}
+.section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif .inner-col-tarif {
+  background-color: rgba(244, 238, 237, 0.44);
+  padding: 10px 10px 10px 30px;
+  border-radius: 50px;
+}
+.section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif .inner-col-tarif .elementor-widget-wrap {
+  flex-direction: row;
+}
+.section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif .inner-col-tarif .elementor-widget-wrap .title-prestation {
+  color: #555555;
+  font-weight: 600;
+}
+.section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif .inner-col-tarif .elementor-widget-wrap .btn-giftcard, .section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif .inner-col-tarif .elementor-widget-wrap .btn-price, .section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif .inner-col-tarif .elementor-widget-wrap .title-prestation, .section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif .inner-col-tarif .elementor-widget-wrap .txt-time {
+  width: auto;
+}
+.section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif .inner-col-tarif .elementor-widget-wrap .btn-giftcard, .section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif .inner-col-tarif .elementor-widget-wrap .btn-price {
+  position: absolute;
+  border-radius: 20px;
+}
+.section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif .inner-col-tarif .elementor-widget-wrap .btn-price {
+  right: 115px;
+  min-width: 90px;
+  height: 39px;
+  background-color: #E0B6A8;
+}
+.section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif .inner-col-tarif .elementor-widget-wrap .btn-price a {
+  padding: 0px;
+  line-height: 39px;
+  width: 100%;
+}
+.section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif .inner-col-tarif .elementor-widget-wrap .btn-giftcard {
+  right: 0;
+  top: 0;
   text-transform: uppercase;
+  background-color: #999C7F;
+  font-weight: 600;
+}
+.section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif .inner-col-tarif .elementor-widget-wrap .btn-giftcard:hover {
+  opacity: 0.8;
+}
+.section-tarifs .elementor-container .col-tarifs .elementor-widget-wrap .inner-section-tarif .inner-col-tarif .elementor-widget-wrap .txt-time {
+  position: absolute;
+  color: #707070;
+  bottom: 0;
+  left: 0;
+}
+.section-tarifs .elementor-container .col-tarifs .btn-rdv-tarif {
+  border: solid 2px #707070;
+  border-radius: 29px;
+  margin: 0 auto;
+  width: auto;
+}
+.section-tarifs .elementor-container .col-tarifs .btn-rdv-tarif a {
+  color: #555555;
+  font-weight: 600;
+}
+.section-tarifs .elementor-container .col-tarifs .btn-rdv-tarif:hover {
+  background-color: #555555;
+  transition: 0.5s;
+}
+.section-tarifs .elementor-container .col-tarifs .btn-rdv-tarif:hover a {
+  transition: 0.5s;
+  color: #FFFF;
 }
 
-@media (max-width: 1215px) {
-  .section-desc-prestation .elementor-element-af475c5 {
-    display: flex;
+@media (max-width: 1600px) {
+  .elementor-448 .section-header-drainage .elementor-container, .elementor-448 .section-massage .elementor-container, .elementor-448 .section-objectifs .elementor-container, .elementor-448 .section-benefices .elementor-container, .elementor-454 .section-header-drainage .elementor-container, .elementor-454 .section-massage .elementor-container, .elementor-454 .section-objectifs .elementor-container, .elementor-454 .section-benefices .elementor-container, .elementor-451 .section-header-drainage .elementor-container, .elementor-451 .section-massage .elementor-container, .elementor-451 .section-objectifs .elementor-container, .elementor-451 .section-benefices .elementor-container, .elementor-457 .section-header-drainage .elementor-container, .elementor-457 .section-massage .elementor-container, .elementor-457 .section-objectifs .elementor-container, .elementor-457 .section-benefices .elementor-container {
+    max-width: 90% !important;
+    align-items: center;
+  }
+  .elementor-448 .section-header-drainage .elementor-container .col-img, .elementor-448 .section-header-drainage .elementor-container .col-img-benefices, .elementor-448 .section-header-drainage .elementor-container .col-img-objectif, .elementor-448 .section-header-drainage .elementor-container .col-img-benefices, .elementor-448 .section-massage .elementor-container .col-img, .elementor-448 .section-massage .elementor-container .col-img-benefices, .elementor-448 .section-massage .elementor-container .col-img-objectif, .elementor-448 .section-massage .elementor-container .col-img-benefices, .elementor-448 .section-objectifs .elementor-container .col-img, .elementor-448 .section-objectifs .elementor-container .col-img-benefices, .elementor-448 .section-objectifs .elementor-container .col-img-objectif, .elementor-448 .section-objectifs .elementor-container .col-img-benefices, .elementor-448 .section-benefices .elementor-container .col-img, .elementor-448 .section-benefices .elementor-container .col-img-benefices, .elementor-448 .section-benefices .elementor-container .col-img-objectif, .elementor-448 .section-benefices .elementor-container .col-img-benefices, .elementor-454 .section-header-drainage .elementor-container .col-img, .elementor-454 .section-header-drainage .elementor-container .col-img-benefices, .elementor-454 .section-header-drainage .elementor-container .col-img-objectif, .elementor-454 .section-header-drainage .elementor-container .col-img-benefices, .elementor-454 .section-massage .elementor-container .col-img, .elementor-454 .section-massage .elementor-container .col-img-benefices, .elementor-454 .section-massage .elementor-container .col-img-objectif, .elementor-454 .section-massage .elementor-container .col-img-benefices, .elementor-454 .section-objectifs .elementor-container .col-img, .elementor-454 .section-objectifs .elementor-container .col-img-benefices, .elementor-454 .section-objectifs .elementor-container .col-img-objectif, .elementor-454 .section-objectifs .elementor-container .col-img-benefices, .elementor-454 .section-benefices .elementor-container .col-img, .elementor-454 .section-benefices .elementor-container .col-img-benefices, .elementor-454 .section-benefices .elementor-container .col-img-objectif, .elementor-454 .section-benefices .elementor-container .col-img-benefices, .elementor-451 .section-header-drainage .elementor-container .col-img, .elementor-451 .section-header-drainage .elementor-container .col-img-benefices, .elementor-451 .section-header-drainage .elementor-container .col-img-objectif, .elementor-451 .section-header-drainage .elementor-container .col-img-benefices, .elementor-451 .section-massage .elementor-container .col-img, .elementor-451 .section-massage .elementor-container .col-img-benefices, .elementor-451 .section-massage .elementor-container .col-img-objectif, .elementor-451 .section-massage .elementor-container .col-img-benefices, .elementor-451 .section-objectifs .elementor-container .col-img, .elementor-451 .section-objectifs .elementor-container .col-img-benefices, .elementor-451 .section-objectifs .elementor-container .col-img-objectif, .elementor-451 .section-objectifs .elementor-container .col-img-benefices, .elementor-451 .section-benefices .elementor-container .col-img, .elementor-451 .section-benefices .elementor-container .col-img-benefices, .elementor-451 .section-benefices .elementor-container .col-img-objectif, .elementor-451 .section-benefices .elementor-container .col-img-benefices, .elementor-457 .section-header-drainage .elementor-container .col-img, .elementor-457 .section-header-drainage .elementor-container .col-img-benefices, .elementor-457 .section-header-drainage .elementor-container .col-img-objectif, .elementor-457 .section-header-drainage .elementor-container .col-img-benefices, .elementor-457 .section-massage .elementor-container .col-img, .elementor-457 .section-massage .elementor-container .col-img-benefices, .elementor-457 .section-massage .elementor-container .col-img-objectif, .elementor-457 .section-massage .elementor-container .col-img-benefices, .elementor-457 .section-objectifs .elementor-container .col-img, .elementor-457 .section-objectifs .elementor-container .col-img-benefices, .elementor-457 .section-objectifs .elementor-container .col-img-objectif, .elementor-457 .section-objectifs .elementor-container .col-img-benefices, .elementor-457 .section-benefices .elementor-container .col-img, .elementor-457 .section-benefices .elementor-container .col-img-benefices, .elementor-457 .section-benefices .elementor-container .col-img-objectif, .elementor-457 .section-benefices .elementor-container .col-img-benefices {
+    padding: 0 30px;
+    width: auto;
+    flex-shrink: 1;
+  }
+  .elementor-448 .section-header-drainage .elementor-container .col-content-massage, .elementor-448 .section-header-drainage .elementor-container .col-content-benefice, .elementor-448 .section-header-drainage .elementor-container col-content-objectif, .elementor-448 .section-header-drainage .elementor-container .col-content-benefice, .elementor-448 .section-massage .elementor-container .col-content-massage, .elementor-448 .section-massage .elementor-container .col-content-benefice, .elementor-448 .section-massage .elementor-container col-content-objectif, .elementor-448 .section-massage .elementor-container .col-content-benefice, .elementor-448 .section-objectifs .elementor-container .col-content-massage, .elementor-448 .section-objectifs .elementor-container .col-content-benefice, .elementor-448 .section-objectifs .elementor-container col-content-objectif, .elementor-448 .section-objectifs .elementor-container .col-content-benefice, .elementor-448 .section-benefices .elementor-container .col-content-massage, .elementor-448 .section-benefices .elementor-container .col-content-benefice, .elementor-448 .section-benefices .elementor-container col-content-objectif, .elementor-448 .section-benefices .elementor-container .col-content-benefice, .elementor-454 .section-header-drainage .elementor-container .col-content-massage, .elementor-454 .section-header-drainage .elementor-container .col-content-benefice, .elementor-454 .section-header-drainage .elementor-container col-content-objectif, .elementor-454 .section-header-drainage .elementor-container .col-content-benefice, .elementor-454 .section-massage .elementor-container .col-content-massage, .elementor-454 .section-massage .elementor-container .col-content-benefice, .elementor-454 .section-massage .elementor-container col-content-objectif, .elementor-454 .section-massage .elementor-container .col-content-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-massage, .elementor-454 .section-objectifs .elementor-container .col-content-benefice, .elementor-454 .section-objectifs .elementor-container col-content-objectif, .elementor-454 .section-objectifs .elementor-container .col-content-benefice, .elementor-454 .section-benefices .elementor-container .col-content-massage, .elementor-454 .section-benefices .elementor-container .col-content-benefice, .elementor-454 .section-benefices .elementor-container col-content-objectif, .elementor-454 .section-benefices .elementor-container .col-content-benefice, .elementor-451 .section-header-drainage .elementor-container .col-content-massage, .elementor-451 .section-header-drainage .elementor-container .col-content-benefice, .elementor-451 .section-header-drainage .elementor-container col-content-objectif, .elementor-451 .section-header-drainage .elementor-container .col-content-benefice, .elementor-451 .section-massage .elementor-container .col-content-massage, .elementor-451 .section-massage .elementor-container .col-content-benefice, .elementor-451 .section-massage .elementor-container col-content-objectif, .elementor-451 .section-massage .elementor-container .col-content-benefice, .elementor-451 .section-objectifs .elementor-container .col-content-massage, .elementor-451 .section-objectifs .elementor-container .col-content-benefice, .elementor-451 .section-objectifs .elementor-container col-content-objectif, .elementor-451 .section-objectifs .elementor-container .col-content-benefice, .elementor-451 .section-benefices .elementor-container .col-content-massage, .elementor-451 .section-benefices .elementor-container .col-content-benefice, .elementor-451 .section-benefices .elementor-container col-content-objectif, .elementor-451 .section-benefices .elementor-container .col-content-benefice, .elementor-457 .section-header-drainage .elementor-container .col-content-massage, .elementor-457 .section-header-drainage .elementor-container .col-content-benefice, .elementor-457 .section-header-drainage .elementor-container col-content-objectif, .elementor-457 .section-header-drainage .elementor-container .col-content-benefice, .elementor-457 .section-massage .elementor-container .col-content-massage, .elementor-457 .section-massage .elementor-container .col-content-benefice, .elementor-457 .section-massage .elementor-container col-content-objectif, .elementor-457 .section-massage .elementor-container .col-content-benefice, .elementor-457 .section-objectifs .elementor-container .col-content-massage, .elementor-457 .section-objectifs .elementor-container .col-content-benefice, .elementor-457 .section-objectifs .elementor-container col-content-objectif, .elementor-457 .section-objectifs .elementor-container .col-content-benefice, .elementor-457 .section-benefices .elementor-container .col-content-massage, .elementor-457 .section-benefices .elementor-container .col-content-benefice, .elementor-457 .section-benefices .elementor-container col-content-objectif, .elementor-457 .section-benefices .elementor-container .col-content-benefice {
+    flex-shrink: 5;
+    width: auto;
+  }
+  .elementor-448 .section-objectifs, .elementor-454 .section-objectifs, .elementor-451 .section-objectifs, .elementor-457 .section-objectifs {
+    padding: 40px 0;
+  }
+  .elementor-448 .section-objectifs .inner-section-objectif, .elementor-454 .section-objectifs .inner-section-objectif, .elementor-451 .section-objectifs .inner-section-objectif, .elementor-457 .section-objectifs .inner-section-objectif {
+    width: 80%;
+    margin: auto;
+  }
+  .elementor-448 .section-objectifs .inner-section-objectif .inner-col-objectif .txt-objectif, .elementor-454 .section-objectifs .inner-section-objectif .inner-col-objectif .txt-objectif, .elementor-451 .section-objectifs .inner-section-objectif .inner-col-objectif .txt-objectif, .elementor-457 .section-objectifs .inner-section-objectif .inner-col-objectif .txt-objectif {
+    max-width: 100% !important;
+  }
+  .elementor-448 .section-post-partum .elementor-container .col-img, .elementor-454 .section-post-partum .elementor-container .col-img, .elementor-451 .section-post-partum .elementor-container .col-img, .elementor-457 .section-post-partum .elementor-container .col-img {
+    width: auto !important;
+    flex-shrink: 1;
+  }
+  .elementor-448 .section-post-partum .elementor-container .col-content-post-partum, .elementor-454 .section-post-partum .elementor-container .col-content-post-partum, .elementor-451 .section-post-partum .elementor-container .col-content-post-partum, .elementor-457 .section-post-partum .elementor-container .col-content-post-partum {
+    width: auto !important;
+    flex-shrink: 2;
+  }
+  .elementor-448 .section-benefices .elementor-container, .elementor-454 .section-benefices .elementor-container, .elementor-451 .section-benefices .elementor-container, .elementor-457 .section-benefices .elementor-container {
+    max-width: 90% !important;
+  }
+  .elementor-448 .section-benefices .elementor-container .col-content-benefice .inner-section-benefice .elementor-container, .elementor-454 .section-benefices .elementor-container .col-content-benefice .inner-section-benefice .elementor-container, .elementor-451 .section-benefices .elementor-container .col-content-benefice .inner-section-benefice .elementor-container, .elementor-457 .section-benefices .elementor-container .col-content-benefice .inner-section-benefice .elementor-container {
+    max-width: 100% !important;
+  }
+  .elementor-448 .section-benefices .elementor-container .col-content-benefice .inner-section-benefice .elementor-container .inner-col-benefice, .elementor-454 .section-benefices .elementor-container .col-content-benefice .inner-section-benefice .elementor-container .inner-col-benefice, .elementor-451 .section-benefices .elementor-container .col-content-benefice .inner-section-benefice .elementor-container .inner-col-benefice, .elementor-457 .section-benefices .elementor-container .col-content-benefice .inner-section-benefice .elementor-container .inner-col-benefice {
+    width: 100% !important;
+  }
+}
+@media (max-width: 1400px) {
+  .elementor-448 .section-header-drainage .elementor-container .col-content-header .elementor-widget-wrap .title-page {
+    font-size: 45px;
+  }
+  .elementor-448 .section-header-drainage .elementor-container .col-content-header .elementor-widget-wrap .subtitle-page {
+    font-size: 23px;
+  }
+  .elementor-448 .section-header-drainage .elementor-container .col-img-header .img-header-drainage, .elementor-448 .section-header-drainage .elementor-container .col-img-header .img-header-drainage-2 {
+    width: 70%;
+  }
+}
+@media (max-width: 1390px) {
+  .elementor-448 .title-h2 {
+    font-size: 40px;
+  }
+  .elementor-448 .subtitle-h3 {
+    font-size: 24px !important;
+  }
+}
+@media (max-width: 1280px) {
+  .elementor-448 .section-massage, .elementor-454 .section-massage {
+    padding: 35px 0;
+  }
+  .elementor-448 .section-massage .elementor-container, .elementor-454 .section-massage .elementor-container {
     flex-direction: column;
-    justify-content: center;
   }
-  .section-desc-prestation .elementor-element-af475c5 .img-drainage {
-    margin-right: 20px;
+  .elementor-448 .section-massage .elementor-container .col-img, .elementor-454 .section-massage .elementor-container .col-img {
+    padding: 0;
+    margin-bottom: 50px;
   }
-
-  .section-info-partum {
-    padding: 50px;
+  .elementor-448 .section-massage .elementor-container .col-content-massage, .elementor-454 .section-massage .elementor-container .col-content-massage {
+    max-width: 800px;
   }
-  .section-info-partum .elementor-container .elementor-element-b68a1f7 {
+  .elementor-448 .section-massage .elementor-container .col-content-massage .title-massage, .elementor-448 .section-massage .elementor-container .col-content-massage .subtitle-massage, .elementor-454 .section-massage .elementor-container .col-content-massage .title-massage, .elementor-454 .section-massage .elementor-container .col-content-massage .subtitle-massage {
+    text-align: center;
+  }
+  .elementor-448 .section-massage .elementor-container .col-content-massage .subtitle-massage, .elementor-454 .section-massage .elementor-container .col-content-massage .subtitle-massage {
+    margin-bottom: 50px;
+  }
+  .elementor-448 .section-keywords .elementor-container, .elementor-454 .section-keywords .elementor-container {
     flex-direction: column;
-    justify-content: center;
+    max-width: 550px !important;
   }
-
-  .elementor-container .list-benefice li {
-    padding-left: 20px;
-    margin-bottom: 20px;
+  .elementor-448 .section-keywords .elementor-container .col-keyword:nth-of-type(2), .elementor-454 .section-keywords .elementor-container .col-keyword:nth-of-type(2) {
+    margin: 30px 0;
+  }
+  .elementor-448 .section-objectifs .elementor-container, .elementor-448 .section-benefices .elementor-container, .elementor-454 .section-objectifs .elementor-container, .elementor-454 .section-benefices .elementor-container {
+    flex-direction: column-reverse;
+  }
+  .elementor-448 .section-objectifs .elementor-container .col-content-objectifs, .elementor-448 .section-objectifs .elementor-container .col-content-benefice, .elementor-448 .section-benefices .elementor-container .col-content-objectifs, .elementor-448 .section-benefices .elementor-container .col-content-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs, .elementor-454 .section-objectifs .elementor-container .col-content-benefice, .elementor-454 .section-benefices .elementor-container .col-content-objectifs, .elementor-454 .section-benefices .elementor-container .col-content-benefice {
+    width: auto;
+    max-width: 800px;
+  }
+  .elementor-448 .section-objectifs .elementor-container .col-content-objectifs .title-objectifs, .elementor-448 .section-objectifs .elementor-container .col-content-objectifs .subtitle-objectifs, .elementor-448 .section-objectifs .elementor-container .col-content-objectifs .title-benefice, .elementor-448 .section-objectifs .elementor-container .col-content-objectifs .subtitle-benefice, .elementor-448 .section-objectifs .elementor-container .col-content-benefice .title-objectifs, .elementor-448 .section-objectifs .elementor-container .col-content-benefice .subtitle-objectifs, .elementor-448 .section-objectifs .elementor-container .col-content-benefice .title-benefice, .elementor-448 .section-objectifs .elementor-container .col-content-benefice .subtitle-benefice, .elementor-448 .section-benefices .elementor-container .col-content-objectifs .title-objectifs, .elementor-448 .section-benefices .elementor-container .col-content-objectifs .subtitle-objectifs, .elementor-448 .section-benefices .elementor-container .col-content-objectifs .title-benefice, .elementor-448 .section-benefices .elementor-container .col-content-objectifs .subtitle-benefice, .elementor-448 .section-benefices .elementor-container .col-content-benefice .title-objectifs, .elementor-448 .section-benefices .elementor-container .col-content-benefice .subtitle-objectifs, .elementor-448 .section-benefices .elementor-container .col-content-benefice .title-benefice, .elementor-448 .section-benefices .elementor-container .col-content-benefice .subtitle-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs .title-objectifs, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs .subtitle-objectifs, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs .title-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs .subtitle-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-benefice .title-objectifs, .elementor-454 .section-objectifs .elementor-container .col-content-benefice .subtitle-objectifs, .elementor-454 .section-objectifs .elementor-container .col-content-benefice .title-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-benefice .subtitle-benefice, .elementor-454 .section-benefices .elementor-container .col-content-objectifs .title-objectifs, .elementor-454 .section-benefices .elementor-container .col-content-objectifs .subtitle-objectifs, .elementor-454 .section-benefices .elementor-container .col-content-objectifs .title-benefice, .elementor-454 .section-benefices .elementor-container .col-content-objectifs .subtitle-benefice, .elementor-454 .section-benefices .elementor-container .col-content-benefice .title-objectifs, .elementor-454 .section-benefices .elementor-container .col-content-benefice .subtitle-objectifs, .elementor-454 .section-benefices .elementor-container .col-content-benefice .title-benefice, .elementor-454 .section-benefices .elementor-container .col-content-benefice .subtitle-benefice {
+    text-align: center;
+  }
+  .elementor-448 .section-objectifs .elementor-container .col-content-objectifs .title-objectifs, .elementor-448 .section-objectifs .elementor-container .col-content-objectifs .title-benefice, .elementor-448 .section-objectifs .elementor-container .col-content-benefice .title-objectifs, .elementor-448 .section-objectifs .elementor-container .col-content-benefice .title-benefice, .elementor-448 .section-benefices .elementor-container .col-content-objectifs .title-objectifs, .elementor-448 .section-benefices .elementor-container .col-content-objectifs .title-benefice, .elementor-448 .section-benefices .elementor-container .col-content-benefice .title-objectifs, .elementor-448 .section-benefices .elementor-container .col-content-benefice .title-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs .title-objectifs, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs .title-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-benefice .title-objectifs, .elementor-454 .section-objectifs .elementor-container .col-content-benefice .title-benefice, .elementor-454 .section-benefices .elementor-container .col-content-objectifs .title-objectifs, .elementor-454 .section-benefices .elementor-container .col-content-objectifs .title-benefice, .elementor-454 .section-benefices .elementor-container .col-content-benefice .title-objectifs, .elementor-454 .section-benefices .elementor-container .col-content-benefice .title-benefice {
+    margin-top: 50px;
+  }
+  .elementor-448 .section-objectifs .elementor-container .col-content-objectifs .subtitle-objectifs, .elementor-448 .section-objectifs .elementor-container .col-content-objectifs .subtitle-benefice, .elementor-448 .section-objectifs .elementor-container .col-content-benefice .subtitle-objectifs, .elementor-448 .section-objectifs .elementor-container .col-content-benefice .subtitle-benefice, .elementor-448 .section-benefices .elementor-container .col-content-objectifs .subtitle-objectifs, .elementor-448 .section-benefices .elementor-container .col-content-objectifs .subtitle-benefice, .elementor-448 .section-benefices .elementor-container .col-content-benefice .subtitle-objectifs, .elementor-448 .section-benefices .elementor-container .col-content-benefice .subtitle-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs .subtitle-objectifs, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs .subtitle-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-benefice .subtitle-objectifs, .elementor-454 .section-objectifs .elementor-container .col-content-benefice .subtitle-benefice, .elementor-454 .section-benefices .elementor-container .col-content-objectifs .subtitle-objectifs, .elementor-454 .section-benefices .elementor-container .col-content-objectifs .subtitle-benefice, .elementor-454 .section-benefices .elementor-container .col-content-benefice .subtitle-objectifs, .elementor-454 .section-benefices .elementor-container .col-content-benefice .subtitle-benefice {
+    margin-bottom: 50px;
+  }
+  .elementor-448 .section-objectifs .elementor-container .col-content-objectifs .inner-section-objectif, .elementor-448 .section-objectifs .elementor-container .col-content-objectifs .inner-section-benefice, .elementor-448 .section-objectifs .elementor-container .col-content-benefice .inner-section-objectif, .elementor-448 .section-objectifs .elementor-container .col-content-benefice .inner-section-benefice, .elementor-448 .section-benefices .elementor-container .col-content-objectifs .inner-section-objectif, .elementor-448 .section-benefices .elementor-container .col-content-objectifs .inner-section-benefice, .elementor-448 .section-benefices .elementor-container .col-content-benefice .inner-section-objectif, .elementor-448 .section-benefices .elementor-container .col-content-benefice .inner-section-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs .inner-section-objectif, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs .inner-section-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-benefice .inner-section-objectif, .elementor-454 .section-objectifs .elementor-container .col-content-benefice .inner-section-benefice, .elementor-454 .section-benefices .elementor-container .col-content-objectifs .inner-section-objectif, .elementor-454 .section-benefices .elementor-container .col-content-objectifs .inner-section-benefice, .elementor-454 .section-benefices .elementor-container .col-content-benefice .inner-section-objectif, .elementor-454 .section-benefices .elementor-container .col-content-benefice .inner-section-benefice {
+    width: 100%;
+  }
+  .elementor-448 .section-objectifs .elementor-container .col-content-objectifs .inner-section-objectif .elementor-container, .elementor-448 .section-objectifs .elementor-container .col-content-objectifs .inner-section-benefice .elementor-container, .elementor-448 .section-objectifs .elementor-container .col-content-benefice .inner-section-objectif .elementor-container, .elementor-448 .section-objectifs .elementor-container .col-content-benefice .inner-section-benefice .elementor-container, .elementor-448 .section-benefices .elementor-container .col-content-objectifs .inner-section-objectif .elementor-container, .elementor-448 .section-benefices .elementor-container .col-content-objectifs .inner-section-benefice .elementor-container, .elementor-448 .section-benefices .elementor-container .col-content-benefice .inner-section-objectif .elementor-container, .elementor-448 .section-benefices .elementor-container .col-content-benefice .inner-section-benefice .elementor-container, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs .inner-section-objectif .elementor-container, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs .inner-section-benefice .elementor-container, .elementor-454 .section-objectifs .elementor-container .col-content-benefice .inner-section-objectif .elementor-container, .elementor-454 .section-objectifs .elementor-container .col-content-benefice .inner-section-benefice .elementor-container, .elementor-454 .section-benefices .elementor-container .col-content-objectifs .inner-section-objectif .elementor-container, .elementor-454 .section-benefices .elementor-container .col-content-objectifs .inner-section-benefice .elementor-container, .elementor-454 .section-benefices .elementor-container .col-content-benefice .inner-section-objectif .elementor-container, .elementor-454 .section-benefices .elementor-container .col-content-benefice .inner-section-benefice .elementor-container {
+    width: 100%;
+    max-width: 100% !important;
+  }
+  .elementor-448 .section-objectifs .elementor-container .col-content-objectifs .inner-section-objectif .elementor-container .inner-col-benefice, .elementor-448 .section-objectifs .elementor-container .col-content-objectifs .inner-section-benefice .elementor-container .inner-col-benefice, .elementor-448 .section-objectifs .elementor-container .col-content-benefice .inner-section-objectif .elementor-container .inner-col-benefice, .elementor-448 .section-objectifs .elementor-container .col-content-benefice .inner-section-benefice .elementor-container .inner-col-benefice, .elementor-448 .section-benefices .elementor-container .col-content-objectifs .inner-section-objectif .elementor-container .inner-col-benefice, .elementor-448 .section-benefices .elementor-container .col-content-objectifs .inner-section-benefice .elementor-container .inner-col-benefice, .elementor-448 .section-benefices .elementor-container .col-content-benefice .inner-section-objectif .elementor-container .inner-col-benefice, .elementor-448 .section-benefices .elementor-container .col-content-benefice .inner-section-benefice .elementor-container .inner-col-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs .inner-section-objectif .elementor-container .inner-col-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-objectifs .inner-section-benefice .elementor-container .inner-col-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-benefice .inner-section-objectif .elementor-container .inner-col-benefice, .elementor-454 .section-objectifs .elementor-container .col-content-benefice .inner-section-benefice .elementor-container .inner-col-benefice, .elementor-454 .section-benefices .elementor-container .col-content-objectifs .inner-section-objectif .elementor-container .inner-col-benefice, .elementor-454 .section-benefices .elementor-container .col-content-objectifs .inner-section-benefice .elementor-container .inner-col-benefice, .elementor-454 .section-benefices .elementor-container .col-content-benefice .inner-section-objectif .elementor-container .inner-col-benefice, .elementor-454 .section-benefices .elementor-container .col-content-benefice .inner-section-benefice .elementor-container .inner-col-benefice {
+    width: 100%;
+    max-width: 100% !important;
+  }
+  .elementor-448 .section-post-partum .elementor-container, .elementor-454 .section-post-partum .elementor-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .elementor-448 .section-post-partum .elementor-container .col-img .elementor-widget-wrap .container-form, .elementor-454 .section-post-partum .elementor-container .col-img .elementor-widget-wrap .container-form {
+    width: 30vw;
+    height: 350px;
+    top: 50px;
+  }
+  .elementor-448 .section-post-partum .elementor-container .col-img .elementor-widget-wrap .img-post-partum img, .elementor-454 .section-post-partum .elementor-container .col-img .elementor-widget-wrap .img-post-partum img {
+    width: 100%;
+  }
+  .elementor-448 .section-post-partum .elementor-container .col-content-post-partum, .elementor-454 .section-post-partum .elementor-container .col-content-post-partum {
+    width: auto;
+    max-width: 800px;
+  }
+  .elementor-448 .section-post-partum .elementor-container .col-content-post-partum .title-post-partum, .elementor-448 .section-post-partum .elementor-container .col-content-post-partum .subtitle-post-partum, .elementor-454 .section-post-partum .elementor-container .col-content-post-partum .title-post-partum, .elementor-454 .section-post-partum .elementor-container .col-content-post-partum .subtitle-post-partum {
+    text-align: center;
+  }
+  .elementor-448 .section-post-partum .elementor-container .col-content-post-partum .title-post-partum, .elementor-454 .section-post-partum .elementor-container .col-content-post-partum .title-post-partum {
+    margin-top: 50px;
+  }
+  .elementor-448 .section-post-partum .elementor-container .col-content-post-partum .subtitle-post-partum, .elementor-454 .section-post-partum .elementor-container .col-content-post-partum .subtitle-post-partum {
+    margin-bottom: 50px;
+  }
+  .elementor-448 .section-info .elementor-container, .elementor-454 .section-info .elementor-container {
+    max-width: 95% !important;
   }
 }
 @media (max-width: 1053px) {
-  .section-content-tarif .elementor-container {
-    flex-direction: column;
-  }
-  .section-content-tarif .elementor-container .elementor-col-50 {
-    width: 100%;
-    margin-bottom: 50px;
-  }
-  .section-content-tarif .elementor-container .elementor-col-50 .elementor-widget-wrap .elementor-element {
-    text-align: center;
+  .elementor-448 .section-header-drainage .elementor-container .col-img-header .img-header-drainage {
+    transform: translateX(70px);
   }
 }
 @media (max-width: 992px) {
-  .section-desc-prestation {
-    margin-bottom: 20px;
+  .elementor-448 .section-header-drainage .elementor-container {
+    max-width: 90% !important;
   }
-  .section-desc-prestation .elementor-container {
-    flex-direction: column;
-    align-items: center;
+}
+@media (max-width: 900px) {
+  .elementor-448 .section-header-prestation .elementor-container {
+    max-width: 90% !important;
   }
-  .section-desc-prestation .elementor-container .img-drainage {
-    margin-bottom: 20px;
-    margin-right: 0px;
-    text-align: center;
+  .elementor-448 .section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .title-page {
+    font-size: 40px;
   }
-  .section-desc-prestation .elementor-container .elementor-element-7a7c76a {
-    margin-top: 20px;
-    width: 100%;
-  }
-
-  .section-title-objectif .bg-element-title:before {
-    left: -9%;
-  }
-
-  .section-content-objectif {
-    padding: 0 20px 0 20px;
-  }
-
-  .elementor-container .elementor-element-f621b69 {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .elementor-container .elementor-element-f621b69 .img-objectif {
-    text-align: center;
-  }
-
-  .section-content-benefice .elementor-container {
-    display: flex;
-    flex-direction: column;
-  }
-  .section-content-benefice .elementor-container .elementor-element-19f59c4, .section-content-benefice .elementor-container .elementor-element-db5ae97 {
-    width: 100%;
-  }
-  .section-content-benefice .elementor-container .elementor-element-19f59c4 .list-benefice, .section-content-benefice .elementor-container .elementor-element-db5ae97 .list-benefice {
-    margin: 30px auto 0 auto;
-    width: 80%;
-  }
-  .section-content-benefice .elementor-container .elementor-element-19f59c4 .list-benefice li, .section-content-benefice .elementor-container .elementor-element-db5ae97 .list-benefice li {
-    width: 100%;
-    padding-left: 0;
+  .elementor-448 .section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .subtitle-page {
+    font-size: 23px;
   }
 }
 @media (max-width: 800px) {
-  .section-firsttitle {
-    display: flex;
+  .elementor-448 .section-header-drainage .elementor-container .col-content-header {
+    width: 100%;
+  }
+  .elementor-448 .section-header-drainage .elementor-container .col-content-header .title-page, .elementor-448 .section-header-drainage .elementor-container .col-content-header .subtitle-page {
+    text-align: center;
+  }
+  .elementor-448 .section-header-drainage .elementor-container .col-content-header .subtitle-page {
     justify-content: center;
   }
-
-  .section-secondtitle {
-    margin: 50px auto 50px auto;
-    display: flex;
+  .elementor-448 .section-header-drainage .elementor-container .col-content-header .subtitle-page:after {
+    content: "";
+    background-color: #E0B6A8;
+    height: 3px;
+    width: 35px;
+    margin-left: 10px;
   }
-  .section-secondtitle .secondtitle {
-    margin: auto;
-    width: auto !important;
+  .elementor-448 .section-header-drainage .elementor-container .col-content-header .btn-header-prestation {
+    margin: 100px auto 0 auto !important;
   }
-
-  .section-desc-drainage .elementor-container .img-drainage {
-    margin: 0;
-    text-align: center;
-  }
-}
-@media (max-width: 767px) {
-  .section-info-partum {
-    text-align: center;
-    margin-bottom: 0px;
-  }
-  .section-info-partum img {
-    margin-bottom: 20px;
-  }
-
-  .title-benefice {
-    margin-top: 20px;
-    margin-bottom: 60px;
-  }
-  .title-benefice .title-part {
-    font-size: 32px;
-  }
-}
-@media (max-width: 550px) {
-  .section-secondtitle .secondtitle span:after {
+  .elementor-448 .section-header-drainage .elementor-container .col-img-header {
     display: none;
   }
-
-  .section-title-objectif .bg-element-title, .title-benefice .bg-element-title {
-    font-size: 28px;
-  }
-  .section-title-objectif .bg-element-title:before, .title-benefice .bg-element-title:before {
-    width: 186px;
-  }
-  .section-title-objectif .title-part, .title-benefice .title-part {
-    font-size: 28px;
-  }
-
-  .img-benefice {
-    padding: 0 20px 0 20px;
-  }
-
-  .section-title-tarifs .title-tarifs span:after {
-    display: none;
-  }
-
-  .section-content-tarif .elementor-container:first-of-type {
-    padding: 20px !important;
-  }
-  .section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li {
-    height: 65px;
-    border-radius: 0px;
-  }
-  .section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span {
+}
+@media (max-width: 640px) {
+  .elementor-448 .section-keywords .elementor-container {
     flex-direction: column;
+    max-width: 90% !important;
   }
-  .section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span p {
-    margin: 0;
+  .elementor-448 .section-keywords .elementor-container .col-keyword .elementor-widget-wrap .txt-keyword {
+    text-align: center;
   }
-  .section-content-tarif .elementor-container:first-of-type .elementor-element-504d6de .list-tarifs li span p .container-btn-price .btn-gift-card-presta {
-    padding: 0 25px 0 25px;
-    border-radius: 0px;
+  .elementor-448 .section-post-partum {
+    padding: 40px 0;
+  }
+  .elementor-448 .section-post-partum .elementor-container .col-img .elementor-widget-wrap .container-form {
+    bottom: 75%;
+    top: 0;
+    height: auto;
   }
 }
 @media (max-width: 480px) {
-  .section-desc-prestation h2 {
-    font-size: 28px;
+  .elementor-448 .title-h2 {
+    font-size: 30px;
   }
-  .section-desc-prestation .elementor-element-7a7c76a {
-    padding: 0 20px 0 20px;
+  .elementor-448 .subtitle-h3 {
+    font-size: 20px !important;
   }
-  .section-desc-prestation .elementor-element-7a7c76a .section-subtitle-desc-drainage .subtitle-desc-drainage {
-    font-size: 22px;
+  .elementor-448 .section-header-prestation .elementor-container {
+    max-width: 90% !important;
+  }
+  .elementor-448 .section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .title-page {
+    font-size: 32px;
+  }
+  .elementor-448 .section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .subtitle-page {
+    font-size: 17px;
+  }
+}
+@media (max-width: 375px) {
+  .elementor-448 .section-header-prestation .elementor-container, .elementor-448 .section-header-drainage .elementor-container {
+    max-width: 90% !important;
+  }
+  .elementor-448 .section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .title-page, .elementor-448 .section-header-drainage .elementor-container .col-content-header .elementor-widget-wrap .title-page {
+    font-size: 30px;
+  }
+  .elementor-448 .section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .subtitle-page, .elementor-448 .section-header-drainage .elementor-container .col-content-header .elementor-widget-wrap .subtitle-page {
+    font-size: 17px;
+  }
+  .elementor-448 .section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .subtitle-page:before, .elementor-448 .section-header-prestation .elementor-container .col-content-header .elementor-widget-wrap .subtitle-page:after, .elementor-448 .section-header-drainage .elementor-container .col-content-header .elementor-widget-wrap .subtitle-page:before, .elementor-448 .section-header-drainage .elementor-container .col-content-header .elementor-widget-wrap .subtitle-page:after {
+    display: none;
   }
 }
 

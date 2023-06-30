@@ -1,57 +1,67 @@
 /*------------------------------------------
  *  Responsive
  * -----------------------------------------*/
-.section-desc-postnatal {
-  margin-bottom: 80px;
-}
-.section-desc-postnatal .elementor-container {
-  max-width: 1500px !important;
-}
-.section-desc-postnatal .img-postnatal {
-  text-align: left;
-}
-.section-desc-postnatal .elementor-element-2ed9f7b, .section-desc-postnatal .elementor-element-760a3c4 {
-  background-color: rgba(241, 231, 229, 0.15);
-  padding: 0 50px 0 50px;
-}
-.section-desc-postnatal .elementor-element-2ed9f7b .title-desc-postnatal, .section-desc-postnatal .elementor-element-2ed9f7b .subtitle-desc-postnatal, .section-desc-postnatal .elementor-element-2ed9f7b .txt-desc-postnatal, .section-desc-postnatal .elementor-element-2ed9f7b .txt-info, .section-desc-postnatal .elementor-element-760a3c4 .title-desc-postnatal, .section-desc-postnatal .elementor-element-760a3c4 .subtitle-desc-postnatal, .section-desc-postnatal .elementor-element-760a3c4 .txt-desc-postnatal, .section-desc-postnatal .elementor-element-760a3c4 .txt-info {
-  text-align: center;
-  font-family: "Raleway";
-}
-.section-desc-postnatal .elementor-element-2ed9f7b .title-desc-postnatal, .section-desc-postnatal .elementor-element-760a3c4 .title-desc-postnatal {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #555555;
-  font-size: 32px;
-  text-transform: none !important;
-}
-.section-desc-postnatal .elementor-element-2ed9f7b .title-desc-postnatal:after, .section-desc-postnatal .elementor-element-760a3c4 .title-desc-postnatal:after {
-  content: "";
-  display: block;
-  background-color: #F1E7E5;
-  height: 1px;
-  width: 70px;
-  margin: 20px auto 0 auto;
-}
-.section-desc-postnatal .elementor-element-2ed9f7b .subtitle-desc-postnatal, .section-desc-postnatal .elementor-element-760a3c4 .subtitle-desc-postnatal {
-  font-style: italic;
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-.section-desc-postnatal .elementor-element-2ed9f7b .txt-desc-postnatal, .section-desc-postnatal .elementor-element-760a3c4 .txt-desc-postnatal {
-  margin: 50px 0 50px 0;
-  line-height: 32px;
-}
-.section-desc-postnatal .elementor-element-2ed9f7b .txt-info, .section-desc-postnatal .elementor-element-760a3c4 .txt-info {
-  background-color: #D18F91;
-  padding: 20px 20px;
-  color: #FFFF;
-  font-weight: bold;
-  line-height: 25px;
+.elementor-454 .section-massage-small .elementor-container .col-content-massage .btn-keywords-massage {
+  width: 300px;
 }
 
-.elementor-element-b2f4edf .img-stage, .elementor-element-1099e72 .img-stage, .elementor-element-94b67f4 .img-stage {
-  text-align: right;
+@media (max-width: 1280px) {
+  .elementor-454 .section-benefices .elementor-container .col-img-benefices {
+    padding: 0;
+  }
+  .elementor-454 .section-benefices .elementor-container .col-img-benefices .img-benefices img {
+    width: auto;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-454 .section-info .col-info .message-info {
+    border-radius: 0px;
+  }
+  .elementor-454 .section-info .col-info .message-info .elementor-icon-list-item {
+    flex-direction: column;
+  }
+  .elementor-454 .section-info .col-info .message-info .elementor-icon-list-item .elementor-icon-list-icon {
+    margin-bottom: 20px;
+  }
+  .elementor-454 .section-info .col-info .message-info .elementor-icon-list-item .elementor-icon-list-text {
+    padding-left: 0px;
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  .elementor-454 .section-massage-small .elementor-container .col-content-massage .btn-keywords-massage {
+    margin: 0 auto 20px auto !important;
+  }
+}
+@media (max-width: 640px) {
+  .elementor-454 .section-massage-small {
+    padding-bottom: 0px;
+  }
+  .elementor-454 .section-massage-small .elementor-container .col-content-massage .title-massage {
+    font-size: 35px;
+  }
+  .elementor-454 .section-benefices .elementor-container .col-content-benefice .title-benefice {
+    font-size: 35px;
+  }
+  .elementor-454 .section-benefices .elementor-container .col-content-benefice .subtitle-benefice {
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .elementor-454 .section-title-deroulement {
+    padding-bottom: 35px;
+  }
+}
+@media (max-width: 480px) {
+  .elementor-454 .section-massage-small .elementor-container .col-content-massage .btn-keywords-massage {
+    width: 100%;
+  }
+  .elementor-454 .section-title-deroulement {
+    padding: 10px 10px 35px 10px;
+  }
+  .elementor-454 .section-title-deroulement .col-title-deroulement .title-deroulement {
+    font-size: 30px;
+  }
 }
 
 /*# sourceMappingURL=postnatal.css.map */

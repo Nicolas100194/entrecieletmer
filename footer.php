@@ -1,7 +1,3 @@
-</div>
-<div class="site-cache" id="site-cache"></div>
-</div>
-</div>
 <footer class="footer-container">
     <section class="footer-bloc-content">
         <div class="container-logo-footer">
@@ -33,6 +29,11 @@
         </div>
     </section>
 </footer>
+</div>
+<div class="site-cache" id="site-cache"></div>
+</div>
+</div>
+<!--<script>ScrollReveal().reveal('.site-content');</script>-->
 </body>
 <?php wp_footer() ?>
 </html>

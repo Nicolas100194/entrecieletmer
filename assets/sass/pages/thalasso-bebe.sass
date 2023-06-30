@@ -1,62 +1,193 @@
 @import "../../../../entrecieletmer/assets/sass/utils/variables"
 @import "../../../../entrecieletmer/assets/sass/utils/mixins"
 
-.elementor-element-62ec47d, .elementor-element-0806d16, .elementor-element-af64dd1, .elementor-element-bccc0b6
-  .img-stage
-    text-align: right
+.elementor-457, .elementor-2915
+  .section-massage-small
+    .elementor-container
+      justify-content: space-between
+      .col-content-massage
+        flex-shrink: unset
+        width: 66%
+        .elementor-widget-wrap
+          align-content: center
+          .btn-keywords-massage:last-child
+            width: 450px
+      .col-img
+        padding: 0
+        flex-shrink: unset
+        width: 33%
+
+  .section-petit-plus
+    padding-top: 100px
+    .elementor-container
+      max-width: 1500px!important
+      .col-content-p-plus
+        margin-left: 50px
+        .elementor-widget-wrap
+          align-content: center
+          .title-h2, .subtitle-h3
+            color: $cPrinc
+            text-transform: uppercase
+      .col-petit-plus
+        .img-p-plus
+          text-align: left
+  .section-photos
+    padding: 100px 0
+    .elementor-container
+      max-width: 1500px!important
+      .col-content-photos
+        margin-right: 50px
+        .title-photos
+          color: $cSecond
+          font-family: 'NewYork'
+          font-size: 40px
+        .subtitle-txt
+          font-size: 20px
+          color: $cGray
+          font-style: italic
+          font-weight: 500
+          &:before
+            content: ''
+            position: absolute
+            display: block
+            transform: translateY(10px)
+            height: 30px
+            width: 30px
+            background-image: url("../img/quote-gray.svg")
+            background-size: contain
+            background-repeat: no-repeat
+      .col-img-photos
+        .img-photos
+          text-align: right
+
+@include max1600
+  .elementor-457, .elementor-2915
+    .section-petit-plus, .section-photos
+      .elementor-container
+        max-width: 90% !important
 
 
-.section-info-plus
-  background-color: $cSecond
-  margin: 50px 0 50px 0
-  .title-info-plus
-    text-align: center
-    font-family: 'MarketPro'
-    letter-spacing: 5px
-    color: $cPrinc
-    font-size: 45px
-  .txt-info-plus
-    font-family: 'Raleway'
-    font-size: 21px
-    max-width: 50%
-    margin: auto
-    text-align: center
+@include max1400
+  .elementor-457, .elementor-2915
+    .section-massage-small
+      .elementor-container
+        .col-img
+          margin-right: 30px
 
-.section-picture-moment
-  background-color: $cPrinc
-  padding: 20px 0 20px 0
-  color: $cWhite
-  .elementor-container
-    max-width: 1500px!important
-    .img-picture-moment
-      text-align: left
-    .content-picture-moment
+
+@include max1280
+ .elementor-457, .elementor-2915
+   .section-massage
+     padding: 35px 0
+     .elementor-container
+       flex-direction: column
+       .col-img
+         margin: 75px 0
+         width: auto
+       .col-content-massage
+         width: auto
+         .elementor-widget-wrap
+           flex-direction: column
+           .txt-massage
+             margin-bottom: 30px
+           .btn-keywords-massage
+             margin: 0 auto 20px auto
+   .section-benefices
+    .elementor-container
+      .col-img-benefices
+        padding: 0
+        .img-benefices
+          img
+            width: auto
+
+@include max1024
+ .elementor-457, .elementor-2915
+   .section-petit-plus, .section-photos
+     .elementor-container
+       h2, h3
+         text-align: center
+       .col-content-p-plus, .col-content-photos
+         margin-left: 0px
+         margin-right: 0px
+         width: auto
+         max-width: 800px
+       .col-petit-plus, .col-img-photos
+         width: auto
+   .section-petit-plus
+     .elementor-container
+       flex-direction: column-reverse
+       align-items: center
+   .section-photos
+     .elementor-container
+       flex-direction: column
+       align-items: center
+
+
+@include max767
+  .elementor-457, .elementor-2915
+    .section-info
+      .col-info
+        .message-info
+          border-radius: 0px
+          .elementor-icon-list-item
+
+            flex-direction: column
+            .elementor-icon-list-icon
+              margin-bottom: 20px
+            .elementor-icon-list-text
+              padding-left: 0px
+              text-align: center
+
+@include max640
+  .elementor-457
+    .section-petit-plus, .section-photos
       .elementor-widget-wrap
-        height: 100%
-        justify-content: center
-        flex-direction: column
-      .title-picture-moment
-        font-family: 'NewYork'
-        font-size: 35px
-        text-align: center
-      .txt-picture-moment
-        font-size: 17px
-        font-family: 'Raleway'
-        margin: 50px 0 50px 0
-      .btn-picture-moment
-        width: 300px
-        background: none
-        border: solid 1px $cWhite
-        margin: 0 auto 0 auto
-        font-size: 16px
-        &:hover
-          background-color: $cWhite
-          opacity: .8
-          transition-duration: .3s
-        a
-          display: block
-          margin: auto
-          padding: 25px 35px
-          &:hover
-            color: $cGray
-            transition-duration: .3s
+        .title-h2, .title-photos
+          font-size: 35px
+        .subtitle-h3
+          font-size: 20px
+
+
+@include max600
+  .elementor-457, .elementor-2915
+    .section-title-deroulement
+      padding: 0 10px
+      padding-bottom: 50px
+
+
+@include max550
+  .elementor-457, .elementor-2915
+    .section-massage
+      .elementor-container
+        .col-content-massage
+          .elementor-widget-wrap
+            .btn-keywords-massage
+              width: 100%!important
+              height: auto
+              margin: 0 0 30px 0
+              a
+                font-size: 17px
+              &:last-child
+                padding: 5px 10px
+@include max480
+.elementor-457, .elementor-2915
+  .section-title-deroulement
+    padding-bottom: 35px
+
+@include max425
+  .elementor-457, .elementor-2915
+    .section-title-deroulement
+      padding: 10px 10px 35px 10px
+      .col-title-deroulement
+        .title-deroulement
+          font-size: 30px
+
+@include max375
+  .elementor-457, .elementor-2915
+    .section-massage
+      .elementor-container
+        .col-content-massage
+          .elementor-widget-wrap
+            .btn-keywords-massage:last-child
+              a
+                line-height: 30px

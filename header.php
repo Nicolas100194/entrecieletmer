@@ -11,15 +11,14 @@
     <div class="site-container">
         <div class="site-pusher">
             <header>
-                <a href="#" class="header-icon" id="header-icon"></a>
+                <a href="#" class="header-icon" id="header-icon">
+                    <img class="logo-menu" src="/entrecieletmere/wp-content/themes/entrecieletmer/assets/img/icon-menu.png">
+                </a>
                 <a class="logo-header-desktop" href="http://localhost/entrecieletmere">
-                    <img class="logo-header logo-mobile" src="/entrecieletmere/wp-content/themes/entrecieletmer/assets/img/entrecieletmere_logo.png">
                     <img class="logo-header logo-default" src="/entrecieletmere/wp-content/themes/entrecieletmer/assets/img/logo.svg">
                 </a>
-                <div class="container-menus">
-                    <?php wp_nav_menu(['theme_location' => 'primary' ])?>
-                    <?php wp_nav_menu(['theme_location' => 'header'])?>
-                </div>
+                <?php wp_nav_menu(['theme_location' => 'primary' ])?>
+                <?php wp_nav_menu(['theme_location' => 'header'])?>
 
             </header>
             <div class="site-content">

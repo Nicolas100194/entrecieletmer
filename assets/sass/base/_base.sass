@@ -5,9 +5,18 @@
 html
   position: relative
   min-height: 100vh
+  height: 100%
 body
   margin: 0
   padding: 0
+  height: 100%
+
+.elementor-editor-active
+  .load-hidden
+    visibility: visible!important
+html.sr
+  .load-hidden
+    visibility: hidden
 
 .elementor-element-populated
   padding: 0!important
@@ -27,6 +36,25 @@ ul, li
   padding: 0
   margin: 0
 
+//.reveal-from-left
+  opacity: 0
+  transform: translateX(-150px)
+
+//.reveal-from-right
+  opacity: 0
+  transform: translateX(150px)
+
+//.reveal-from-bottom
+  opacity: 0
+  transform: translateY(150px)
+
+//.reveal-from-invisible
+  opacity: 0
+
+.reveal-visible
+  opacity: 1
+  transform: translate(0px, 0px)
+  transition: 1s
 
 @include max1390
   .site-container

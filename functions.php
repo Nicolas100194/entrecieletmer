@@ -14,13 +14,19 @@ function themeentrecieletmere_supports(){
 
 
 function themeentrecieletmere_register_assets(){
+    wp_enqueue_script('scrollreveal', 'https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js');
+
     wp_deregister_script('jquery');
     wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js');
     wp_enqueue_script('swiper', get_stylesheet_directory_uri().'/assets/js/swiper.js');
     wp_enqueue_script('swiperjs-js', 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js');
     wp_enqueue_script('menu', get_stylesheet_directory_uri().'/assets/js/menu.js', array(), null, true);
+    wp_enqueue_script('reveal', get_stylesheet_directory_uri()."/assets/js/reveal.js", array(), null, true);
     wp_enqueue_style('themeentrecieletmere', get_stylesheet_directory_uri().'/assets/sass/main.css');
     wp_enqueue_style('swiperjs', 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css');
+
+
+
 }
 
 function themeentrecieletmere_menu_link_class($attrs){

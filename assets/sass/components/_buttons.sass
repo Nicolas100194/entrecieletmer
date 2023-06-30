@@ -1,6 +1,31 @@
 @import "../../../../entrecieletmer/assets/sass/utils/variables"
 @import "../../../../entrecieletmer/assets/sass/utils/mixins"
 
+.form-rdv
+  background-color: $cGreen
+  display: block
+  width: 300px
+  height: 60px
+  z-index: 9999
+  bottom: 2%
+  right: 1%
+  border-radius: 50px
+  position: fixed
+  a
+    height: 100%
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    color: $cWhite
+    font-size: 22px
+    span
+      text-align: center
+
+@include max1280
+  .form-rdv
+    display: none
+
 button
   cursor: pointer
 

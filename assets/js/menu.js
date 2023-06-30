@@ -18,7 +18,7 @@ var largeur = window.innerWidth
 
 
 
-function menuAuSurvol(){
+/*function menuAuSurvol(){
     Array.from(menuItem).forEach(item => {
         item.addEventListener('mouseenter', (e)=>{
             ssMenuAffiche = e.target.childNodes[2]
@@ -40,7 +40,7 @@ function menuAuSurvol(){
 
         })
     })
-}
+}*/
 
 function menuAuClique(){
     Array.from(menuItem).forEach(item =>{
@@ -65,20 +65,10 @@ function menuAuClique(){
 
 
 
-function animationMenu(largeur){
-    if (largeur > 992){
-        menuAuSurvol()
-    } else if(largeur < 992){
-        menuAuClique()
-    }
-}
+menuAuClique()
 
-animationMenu(largeur)
+//animationMenu(largeur)
 
-window.addEventListener('resize', () =>{
-    largeur = window.innerWidth
-    animationMenu(largeur)
-})
 
 
 let headerLogo = document.querySelector('.logo-header-desktop');
@@ -100,3 +90,53 @@ window.addEventListener('scroll', function() {
         }
     }
 });
+
+let btnGallery = document.getElementsByClassName('section-inner-btn')
+let sectionGallery = document.getElementsByClassName('section-inner-gallery')
+
+Array.from(btnGallery).forEach(item =>{
+    item.addEventListener('mouseenter', (e)=>{
+        sectionGallery[0].classList.add('img-gallery-cabinet-blur')
+    })
+    item.addEventListener('mouseleave', (e)=>{
+        sectionGallery[0].classList.remove('img-gallery-cabinet-blur')
+    })
+})
+
+
+let WScreen;
+let itemMenuPanier = document.getElementById('menu-item-2720');
+WScreen = window.innerWidth;
+itemMenuPanier.querySelector('a').textContent = '';
+
+
+let site = document.getElementsByClassName('site-content')
+let headerIcon = document.getElementById('header-icon')
+let headerLogo2 = document.getElementsByClassName('logo-header')
+let menuSecondaire = document.getElementsByClassName('menu-menu-secondaire-container')
+
+
+
+site[0].addEventListener('scroll', (e) =>{
+    if (site[0].scrollTop !== 0){
+        header.classList.add('header-small')
+        site[0].classList.add('site-content-scroll')
+        headerIcon.classList.add('header-icon-small')
+        menuSecondaire[0].classList.add('menu-menu-secondaire-container-small')
+        headerLogo2[0].classList.add('logo-header-small')
+    }
+    else{
+        header.classList.remove('header-small')
+        site[0].classList.remove('site-content-scroll')
+        headerIcon.classList.remove('header-icon-small')
+        menuSecondaire[0].classList.remove('menu-menu-secondaire-container-small')
+        headerLogo2[0].classList.remove('logo-header-small')
+    }
+
+})
+
+
+
+
+
+
